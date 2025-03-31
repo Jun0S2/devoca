@@ -200,23 +200,52 @@ function AutocompleteInput({
   options: string[];
   onSelect: (value: string) => void;
 }) {
+  const [showOptions, setShowOptions] = useState(false);
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      setShowOptions(false);
+    }
+  };
+
   return (
-    <div className="relative">
-      <input
-        name={name}
-        value={value}
-        onChange={onChange}
-        placeholder={label}
-        className="w-full border px-3 py-2 rounded"
-        autoComplete="off"
-      />
-      {options.length > 0 && (
+    <div className="relative w-full">
+      {/* 입력창 + 버튼을 같은 줄에 */}
+      <div className="flex gap-2">
+        <input
+          name={name}
+          value={value}
+          onChange={(e) => {
+            onChange(e);
+            setShowOptions(true);
+          }}
+          onKeyDown={handleKeyDown}
+          placeholder={label}
+          className="flex-1 border px-3 py-2 rounded"
+          autoComplete="off"
+        />
+        <button
+          type="button"
+          onClick={() => setShowOptions(false)}
+          className="px-3 py-2 rounded bg-green-500 text-white hover:bg-green-600"
+          title="입력 확정"
+        >
+          확인
+        </button>
+      </div>
+
+      {/* 자동완성 목록 */}
+      {showOptions && options.length > 0 && (
         <ul className="absolute z-10 mt-1 w-full bg-white border rounded shadow max-h-40 overflow-y-auto">
           {options.map((opt) => (
             <li
               key={opt}
               className="cursor-pointer px-3 py-2 hover:bg-blue-100"
-              onClick={() => onSelect(opt)}
+              onClick={() => {
+                onSelect(opt);
+                setShowOptions(false);
+              }}
             >
               {opt}
             </li>
