@@ -30,8 +30,8 @@ export default function TopicDetailPage() {
           <Card
             title="📝 Test PDF"
             buttons={[
-              { label: "DE", href: `/${level}/${topic}/test?mode=de` },
-              { label: "KR", href: `/${level}/${topic}/test?mode=kr` },
+              { label: "Answers", href: `/${level}/${topic}/answers` },
+              { label: "Problems", href: `/${level}/${topic}/problems` },
             ]}
           />
         </div>
