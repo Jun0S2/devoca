@@ -1,9 +1,15 @@
 // app/routes/$level/$topic/$lang.tsx
+/**
+ * @abstract 단어 학습 페이지
+ * DE 선택 시 : 한글 뜻이 나온다. ANSWER 버튼을 누르면 reveal
+ * KR 선택 시 : 독일어 단어가 나온다. ANSWER 버튼을 누르면 reveal
+ * 독일어 TTS 지원
+ */
 import { useLoaderData, useNavigate, useParams } from "@remix-run/react";
 import { json, type LoaderFunctionArgs } from "@remix-run/node";
 import { supabase } from "~/lib/supabase";
 import { useEffect, useState } from "react";
-import { Howl } from "howler";
+import { speak } from "~/utils/speak";
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const { level, topic, lang } = params;
@@ -53,18 +59,6 @@ export default function PracticePage() {
       .eq("word", currentWord.word);
   };
 
-  const speak = (text: string) => {
-    const sound = new Howl({
-      src: [
-        `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(
-          text
-        )}&tl=de&client=tw-ob`,
-      ],
-      html5: true,
-    });
-    sound.play();
-  };
-
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-10 flex flex-col items-center gap-8">
       {/* Navigation */}
@@ -104,18 +98,18 @@ export default function PracticePage() {
               {currentWord.meaning}
             </p>
             {showAnswer && (
-              <div className="mt-6 space-y-2">
+              <div className="mt-6 space-y-4">
                 <div className="flex justify-center items-center gap-2">
                   <p className="text-3xl font-bold text-gray-800">
                     {currentWord.word}
                   </p>
-                  <button onClick={() => speak(currentWord.word)}>🎧</button>
+                  <button onClick={() => speak(currentWord.word, "de-DE")}>🎧</button>
                 </div>
                 <div className="flex justify-center items-center gap-2">
                   <p className="text-lg italic text-gray-600">
                     {currentWord.example}
                   </p>
-                  <button onClick={() => speak(currentWord.example)}>🎧</button>
+                  <button onClick={() => speak(currentWord.example, "de-DE")}>🎧</button>
                 </div>
               </div>
             )}
@@ -126,13 +120,13 @@ export default function PracticePage() {
               <p className="text-3xl font-bold text-gray-800">
                 {currentWord.word}
               </p>
-              <button onClick={() => speak(currentWord.word)}>🎧</button>
+              <button onClick={() => speak(currentWord.word, "de-DE")}>🎧</button>
             </div>
             <div className="flex justify-center items-center gap-2">
               <p className="text-lg italic text-gray-600">
                 {currentWord.example}
               </p>
-              <button onClick={() => speak(currentWord.example)}>🎧</button>
+              <button onClick={() => speak(currentWord.example, "de-DE")}>🎧</button>
             </div>
             {showAnswer && (
               <p className="mt-4 text-xl text-gray-700 font-semibold">
