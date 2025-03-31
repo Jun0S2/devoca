@@ -1,8 +1,9 @@
-// 준비중
 // app/routes/$level/$topic/answers.tsx
 import { json, type LoaderFunctionArgs } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { supabase } from "~/lib/supabase";
+import { useRef } from "react";
+import { PdfDownloader } from "~/utils/pdf-downloader";
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const { level, topic } = params;
@@ -22,18 +23,24 @@ export async function loader({ params }: LoaderFunctionArgs) {
 
 export default function AnswersPage() {
   const { level, topic, words } = useLoaderData<typeof loader>();
+  const pdfRef = useRef<HTMLDivElement>(null);
 
   return (
     <div className="min-h-screen bg-white p-8">
-      <div className="max-w-5xl mx-auto">
+      <div ref={pdfRef} className="max-w-5xl mx-auto">
+      <div className="flex justify-between items-center mb-6">
+
         <h1 className="text-2xl font-bold mb-4">
           📘 {level?.toUpperCase()} / {topic} - Word List
         </h1>
 
-        <button className="mb-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
-          📄 Download PDF
-        </button>
-
+        <PdfDownloader
+          contentRef={pdfRef}
+          filename={`${level}-${topic}-answers.pdf`}
+          buttonText="Download PDF"
+          className="mb-4"
+        />
+</div>
         <table className="w-full table-auto border border-gray-300">
           <thead className="bg-gray-100">
             <tr>

@@ -1,11 +1,32 @@
-// app/routes/$level/$topic/practice.tsx
-/**
- * @abstract 연습 문제 유형 선택 페이지
- */
 import { Link, useParams } from "@remix-run/react";
+import { useRef } from "react";
+import { useLoaderData, useSearchParams } from "@remix-run/react";
+import { json, type LoaderFunctionArgs } from "@remix-run/node";
+import { supabase } from "~/lib/supabase";
+import { PdfDownloader } from "~/utils/pdf-downloader";
+
+export async function loader({ params }: LoaderFunctionArgs) {
+  const { level, topic } = params;
+
+  const { data, error } = await supabase
+    .from("vocab")
+    .select("word, meaning")
+    .eq("level", level?.toUpperCase())
+    .eq("topic", topic);
+
+  if (error || !data) {
+    throw new Response("Failed to load vocab", { status: 500 });
+  }
+
+  return json({ words: data, level, topic });
+}
 
 export default function PracticeModeSelector() {
   const { level, topic } = useParams();
+  const { words } = useLoaderData<typeof loader>();
+  const [searchParams] = useSearchParams();
+  const mode = searchParams.get("mode") ?? "fill-word";
+  const pdfRef = useRef<HTMLDivElement>(null);
 
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-12 flex flex-col items-center gap-12">
@@ -29,6 +50,45 @@ export default function PracticeModeSelector() {
           <p className="text-2xl font-semibold text-gray-700 mb-4">📝 Fill in the Meaning</p>
           <p className="text-gray-500 text-center">단어를 보고 뜻을 빈칸에 채워보세요</p>
         </Link>
+      </div>
+
+      <div className="mt-12 w-full max-w-3xl">
+    {/* Flex container for title and button */}
+    <div className="flex justify-between items-center mb-6">
+        <h2 className="text-2xl font-bold">
+        {mode === "fill-word" ? "❓ Fill in the Word" : "📝 Fill in the Meaning"}
+        </h2>
+        <PdfDownloader
+        contentRef={pdfRef}
+        filename={`${topic}-${mode}.pdf`}
+        buttonText="Download PDF"
+        />
+    </div>
+
+        <div ref={pdfRef} className="bg-white p-6 rounded shadow">
+          <table className="w-full table-auto border border-gray-300">
+            <thead>
+              <tr className="bg-gray-100">
+                <th className="border px-4 py-2">#</th>
+                <th className="border px-4 py-2">{mode === "fill-word" ? "Meaning" : "Word"}</th>
+                <th className="border px-4 py-2">
+                  {mode === "fill-word" ? "Word" : "Meaning"}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {words.map((w, i) => (
+                <tr key={i}>
+                  <td className="border px-4 py-2 text-center">{i + 1}</td>
+                  <td className="border px-4 py-2">
+                    {mode === "fill-word" ? w.meaning : w.word}
+                  </td>
+                  <td className="border px-4 py-2"></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
