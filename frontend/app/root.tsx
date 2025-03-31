@@ -10,7 +10,8 @@ import type { LoaderFunctionArgs } from "@remix-run/node";
 import { json } from "@remix-run/node";
 import "./tailwind.css";
 import { useLoaderData } from "@remix-run/react"; // 추가
-
+import {Navbar} from "~/utils/navbar";
+import { LayoutWrapper } from "./utils/layout-wrapper";
 export async function loader({ request }: LoaderFunctionArgs) {
   return json({
     SUPABASE_URL: process.env.SUPABASE_URL,
@@ -43,7 +44,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <Navbar />
+        <LayoutWrapper>
         {children}
+        </LayoutWrapper>
+   
         <ScrollRestoration />
         <Scripts />
         {/* 👇 브라우저에 환경변수 전달 */}

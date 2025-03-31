@@ -3,19 +3,19 @@
  * @abstract 주제별 단어 공부 언어 선택 또는 시험지 선택 페이지
  */
 import { useParams, Link } from "@remix-run/react";
-
+import { BackButton } from "~/utils/backforsameurl";
 export default function TopicDetailPage() {
   const { level, topic } = useParams();
 
   return (
     <div className="min-h-screen bg-[#f5f6fa] flex items-center justify-center px-4 py-10">
       <div className="max-w-6xl w-full flex flex-col items-center gap-10">
+      {/* 제목 */}
         <h1 className="text-3xl font-extrabold text-gray-800 text-center">
           📂 Topic:{" "}
           <span className="text-purple-600">{topic}</span>{" "}
           <span className="text-gray-400 text-xl">({level?.toUpperCase()})</span>
         </h1>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
           {/* Practice Card */}
           <Card
@@ -35,6 +35,7 @@ export default function TopicDetailPage() {
             ]}
           />
         </div>
+        <BackButton />
       </div>
     </div>
   );

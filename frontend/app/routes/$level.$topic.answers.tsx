@@ -4,6 +4,7 @@ import { useLoaderData } from "@remix-run/react";
 import { supabase } from "~/lib/supabase";
 import { useRef } from "react";
 import { PdfDownloader } from "~/utils/pdf-downloader";
+import {BackButton} from "~/utils/backforsameurl"
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const { level, topic } = params;
@@ -28,6 +29,8 @@ export default function AnswersPage() {
   return (
     <div className="min-h-screen bg-white p-8">
       <div ref={pdfRef} className="max-w-5xl mx-auto">
+     {/* URL 제거 필요 */}
+      <BackButton />
       <div className="flex justify-between items-center mb-6">
 
         <h1 className="text-2xl font-bold mb-4">
