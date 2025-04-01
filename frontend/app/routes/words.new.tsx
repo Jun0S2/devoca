@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { supabase } from "~/lib/supabase";
-import { TagAutocompleteInput } from "~/utils/TagAutocompleteInput";
+import { TagAutocompleteInput } from "~/utils/TagAutoCompleteInput"
 
 export default function AddNewWordPage() {
   const [form, setForm] = useState({
