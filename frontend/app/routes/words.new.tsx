@@ -41,13 +41,14 @@ export default function AddNewWordPage() {
     return () => clearTimeout(delay);
   }, [form.topic]);
 
-  // ✅ subtopic 자동완성
+  // ✅ subtopic 자동완성 (선택된 topic 하위에서만 검색)
   useEffect(() => {
     const delay = setTimeout(async () => {
-      if (form.subtopic.trim().length > 0) {
+      if (form.subtopic.trim().length > 0 && form.topic.trim().length > 0) {
         const { data, error } = await supabase
           .from("vocab")
           .select("subtopic")
+          .eq("topic", form.topic) // 상위 topic 필터링
           .ilike("subtopic", `%${form.subtopic}%`)
           .limit(5);
 
@@ -60,7 +61,8 @@ export default function AddNewWordPage() {
       }
     }, 300);
     return () => clearTimeout(delay);
-  }, [form.subtopic]);
+  }, [form.subtopic, form.topic]); // topic도 의존성에 추가
+
 
   // ✅ 제출
   const handleSubmit = async (e: React.FormEvent) => {
