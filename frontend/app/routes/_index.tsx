@@ -9,7 +9,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="relative min-h-screen bg-white">
+    <div className="relative min-h-screen">
       {/* Main Content */}
       <div className="flex min-h-screen items-center justify-center">
         <div className="flex flex-col gap-10">
@@ -21,7 +21,7 @@ export default function Index() {
           </header>
 
           {/* Select Level Box */}
-          <nav className="w-full max-w-md mx-auto flex flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 p-6 bg-white dark:border-gray-700">
+          <nav className="w-full max-w-md mx-auto flex flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 p-6 dark:border-gray-700">
             <p className="text-xl font-bold text-gray-700 dark:text-gray-200">
               ▶ Select Your Level
             </p>
