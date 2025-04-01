@@ -103,10 +103,10 @@ export default function AddNewWordPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-8 bg-gray-50">
+    <div className="min-h-screen flex items-center justify-center p-8">
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-md space-y-4 border p-6 rounded-lg shadow bg-white"
+        className="w-full max-w-md space-y-4 border p-6 rounded-lg shadow "
       >
         <h1 className="text-2xl font-bold text-center">Add a New Word</h1>
 
@@ -122,7 +122,7 @@ export default function AddNewWordPage() {
           <option value="B2">B2</option>
         </select>
 
-        <Input name="word" value={form.word} onChange={handleChange} placeholder="독일어 단어" />
+        <Input name="word" value={form.word} onChange={handleChange} placeholder="독일어 단어"/>
         <Input name="meaning" value={form.meaning} onChange={handleChange} placeholder="뜻 (한국어)" />
         <Input name="example" value={form.example} onChange={handleChange} placeholder="예문" />
 

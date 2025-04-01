@@ -26,12 +26,12 @@ export function TagAutocompleteInput({
 
   if (disabled) {
     return (
-      <div className="flex items-center justify-between bg-sky-100 px-3 py-2 rounded">
-        <span className="text-sky-600 font-medium">{value}</span>
+      <div className="flex items-center justify-between bg-sky-100 dark:bg-sky-900 px-3 py-2 rounded">
+        <span className="text-sky-600 dark:text-sky-200 font-medium">{value}</span>
         <button 
           type="button"
           onClick={onClear} 
-          className="text-sky-400 hover:text-sky-600 ml-2 text-lg"
+          className="text-sky-400 hover:text-sky-600 dark:hover:text-sky-300 ml-2 text-lg"
         >
           &times;
         </button>
@@ -42,12 +42,12 @@ export function TagAutocompleteInput({
   return (
     <div className="relative w-full">
       {value ? (
-        <div className="flex items-center justify-between bg-sky-100 px-3 py-2 rounded">
-          <span className="text-sky-600 font-medium">{value}</span>
+        <div className="flex items-center justify-between bg-sky-100 dark:bg-sky-900 px-3 py-2 rounded">
+          <span className="text-sky-600 dark:text-sky-200 font-medium">{value}</span>
           <button 
             type="button"
             onClick={onClear} 
-            className="text-sky-400 hover:text-sky-600 ml-2 text-lg"
+            className="text-sky-400 hover:text-sky-600 dark:hover:text-sky-300 ml-2 text-lg"
           >
             &times;
           </button>
@@ -61,7 +61,7 @@ export function TagAutocompleteInput({
               setShowOptions(true);
             }}
             placeholder={label}
-            className="flex-1 border px-3 py-2 rounded"
+            className="flex-1 border px-3 py-2 rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white"
             autoComplete="off"
           />
           <button
@@ -70,7 +70,7 @@ export function TagAutocompleteInput({
               setShowOptions(false);
               onConfirm();
             }}
-            className="px-3 py-2 rounded bg-green-500 text-white hover:bg-green-600"
+            className="px-3 py-2 rounded bg-green-500 text-white hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700"
           >
             확인
           </button>
@@ -78,11 +78,11 @@ export function TagAutocompleteInput({
       )}
 
       {showOptions && options.length > 0 && (
-        <ul className="absolute z-10 mt-1 w-full bg-white border rounded shadow max-h-40 overflow-y-auto">
+        <ul className="absolute z-10 mt-1 w-full bg-white dark:bg-gray-700 border dark:border-gray-600 rounded shadow-lg max-h-40 overflow-y-auto">
           {options.map((opt) => (
             <li
               key={opt}
-              className="cursor-pointer px-3 py-2 hover:bg-blue-100"
+              className="cursor-pointer px-3 py-2 hover:bg-blue-100 dark:hover:bg-gray-600 dark:text-white"
               onClick={() => {
                 onSelect(opt);
                 setShowOptions(false);
