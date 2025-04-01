@@ -29,17 +29,20 @@ export default function TopicsPage() {
   const { level, topics } = useLoaderData<typeof loader>();
 
   return (
-    <div className="p-8">
-      <h1 className="text-2xl font-bold mb-6">{level} 단어 주제 선택</h1>
+    <div className="p-8 dark:bg-gray-900 min-h-screen">
+      <h1 className="text-2xl font-bold mb-6 dark:text-white">{level} 단어 주제 선택</h1>
 
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {topics.map((topic: string) => (
-           <Link 
+          <Link 
             to={`/${level}/${encodeURIComponent(topic)}`}
             key={topic}
-            className="block border rounded-lg p-4 shadow hover:shadow-lg transition bg-white hover:bg-blue-50"
+            className="block border rounded-lg p-4 shadow hover:shadow-lg transition 
+                      hover:bg-blue-50 dark:hover:bg-gray-700
+                      bg-white dark:bg-gray-800
+                      border-gray-200 dark:border-gray-700"
           >
-            <h2 className="text-lg font-semibold text-gray-800">{topic}</h2>
+            <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-200">{topic}</h2>
           </Link>
         ))}
       </div>
