@@ -43,7 +43,7 @@ export default function AnswersPage() {
           buttonText="Download PDF"
           className="mb-4"
         />
-</div>
+      </div>
         <table className="w-full table-auto border border-gray-300">
           <thead className="bg-gray-100">
             <tr>
@@ -56,7 +56,7 @@ export default function AnswersPage() {
           <tbody>
             {words.map((w, idx) => (
               <tr key={w.word} className="even:bg-gray-50">
-                <td className="border px-4 py-2 text-center  text-gray-600">{idx + 1}</td>
+                <td className="border px-4 py-2 text-center text-gray-600">{idx + 1}</td>
                 <td className="border px-4 py-2  text-gray-800">{w.word}</td>
                 <td className="border px-4 py-2  text-gray-800">{w.meaning}</td>
                 <td className="border px-4 py-2 italic text-gray-600">{w.example}</td>
