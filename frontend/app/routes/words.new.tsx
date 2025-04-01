@@ -1,3 +1,4 @@
+// words.new.tsx
 import { useEffect, useState } from "react";
 import { supabase } from "~/lib/supabase";
 import { TagAutocompleteInput } from "~/utils/TagAutoCompleteInput"
@@ -18,9 +19,19 @@ export default function AddNewWordPage() {
   const [searchTopic, setSearchTopic] = useState("");
   const [searchSubtopic, setSearchSubtopic] = useState("");
 
+  const isFormValid = () => {
+    return (
+      form.word.trim() !== "" &&
+      form.meaning.trim() !== "" &&
+      form.example.trim() !== "" &&
+      form.topic.trim() !== "" &&
+      form.subtopic.trim() !== ""
+    );
+  };
+
   useEffect(() => {
     const delay = setTimeout(async () => {
-      if (searchTopic.trim()) {
+      if (searchTopic.trim() && !form.topic) {
         const { data, error } = await supabase
           .from("vocab")
           .select("topic")
@@ -35,11 +46,11 @@ export default function AddNewWordPage() {
       }
     }, 300);
     return () => clearTimeout(delay);
-  }, [searchTopic]);
+  }, [searchTopic, form.topic]);
 
   useEffect(() => {
     const delay = setTimeout(async () => {
-      if (searchSubtopic.trim() && form.topic.trim()) {
+      if (searchSubtopic.trim() && !form.subtopic && form.topic) {
         const { data, error } = await supabase
           .from("vocab")
           .select("subtopic")
@@ -55,7 +66,7 @@ export default function AddNewWordPage() {
       }
     }, 300);
     return () => clearTimeout(delay);
-  }, [searchSubtopic, form.topic]);
+  }, [searchSubtopic, form.topic, form.subtopic]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -64,6 +75,12 @@ export default function AddNewWordPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (!isFormValid()) {
+      setMessage("❌ 모든 필드를 채워주세요");
+      return;
+    }
+
     const { error } = await supabase.from("vocab").insert([
       {
         ...form,
@@ -81,6 +98,7 @@ export default function AddNewWordPage() {
         meaning: "",
         example: "",
       }));
+      // topic과 subtopic은 유지
     }
   };
 
@@ -122,25 +140,47 @@ export default function AddNewWordPage() {
             setForm((prev) => ({ ...prev, topic: "" }));
             setSearchTopic("");
           }}
+          onConfirm={() => {
+            if (searchTopic.trim()) {
+              setForm((prev) => ({ ...prev, topic: searchTopic }));
+              setSearchTopic("");
+            }
+          }}
+          disabled={!!form.topic}
         />
 
-        <TagAutocompleteInput
-          label="소주제"
-          value={form.subtopic}
-          search={searchSubtopic}
-          onSearchChange={setSearchSubtopic}
-          options={subtopicOptions}
-          onSelect={(val) => {
-            setForm((prev) => ({ ...prev, subtopic: val }));
-            setSearchSubtopic("");
-          }}
-          onClear={() => {
-            setForm((prev) => ({ ...prev, subtopic: "" }));
-            setSearchSubtopic("");
-          }}
-        />
+    <TagAutocompleteInput
+      label="소주제"
+      value={form.subtopic}
+      search={searchSubtopic}
+      onSearchChange={setSearchSubtopic}
+      options={subtopicOptions}
+      onSelect={(val) => {
+        setForm((prev) => ({ ...prev, subtopic: val }));
+        setSearchSubtopic("");
+      }}
+      onClear={() => {
+        setForm((prev) => ({ ...prev, subtopic: "" }));
+        setSearchSubtopic("");
+      }}
+      onConfirm={() => {
+        if (searchSubtopic.trim()) {
+          setForm((prev) => ({ ...prev, subtopic: searchSubtopic }));
+          setSearchSubtopic("");
+        }
+      }}
+      disabled={!!form.subtopic}
+    />
 
-        <button type="submit" className="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+        <button 
+          type="submit" 
+          disabled={!isFormValid()}
+          className={`w-full px-4 py-2 rounded ${
+            isFormValid() 
+              ? "bg-blue-600 text-white hover:bg-blue-700" 
+              : "bg-blue-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed"
+          }`}
+        >
           단어 추가
         </button>
 
