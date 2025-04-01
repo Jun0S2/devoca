@@ -32,7 +32,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50 dark:bg-gray-800">
+    <nav className="fixed top-0 left-0 right-0 h-[7vh] bg-white shadow-sm z-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
         {/* Home (로고 이미지) */}
         <Link to="/" className="flex items-center">

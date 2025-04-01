@@ -30,7 +30,7 @@ export default function TopicsPage() {
 
   return (
     <div className="p-8 dark:bg-gray-900 min-h-screen">
-      <h1 className="text-2xl font-bold mb-6 dark:text-white">{level} 단어 주제 선택</h1>
+      <h1 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">{level} 단어 주제 선택</h1>
 
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {topics.map((topic: string) => (

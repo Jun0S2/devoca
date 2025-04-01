@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <div className="relative min-h-screen">
       {/* Main Content */}
-      <div className="flex min-h-screen items-center justify-center">
+      <div className="flex min-h-[80vh] items-center justify-center">
         <div className="flex flex-col gap-10">
           {/* Heading */}
           <header className="flex flex-col items-center gap-4">
@@ -30,7 +30,7 @@ export default function Index() {
                 <li key={href}>
                 <Link
                   to={href}
-                  className="group flex items-center gap-3 p-3 leading-normal text-blue-700 hover:underline dark:text-blue-500"
+                  className="group flex items-center gap-3 p-3 leading-normal text-rose-400 hover:underline dark:text-rose-450"
                 >
                   {icon}
                   {text}
