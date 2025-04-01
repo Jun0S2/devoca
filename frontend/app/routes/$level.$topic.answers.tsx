@@ -33,8 +33,8 @@ export default function AnswersPage() {
       <BackButton />
       <div className="flex justify-between items-center mb-6">
 
-        <h1 className="text-2xl font-bold mb-4">
-          📘 {level?.toUpperCase()} / {topic} - Word List
+        <h1 className="text-2xl font-bold mb-4 text-black">
+          📘 Word List - <span className="text-purple-600"> {level?.toUpperCase()} / {topic}  </span>
         </h1>
 
         <PdfDownloader
@@ -47,18 +47,18 @@ export default function AnswersPage() {
         <table className="w-full table-auto border border-gray-300">
           <thead className="bg-gray-100">
             <tr>
-              <th className="border px-4 py-2">#</th>
-              <th className="border px-4 py-2">Word</th>
-              <th className="border px-4 py-2">Meaning</th>
-              <th className="border px-4 py-2">Example</th>
+              <th className="border px-4 py-2 text-gray-800 font-bold">#</th>
+              <th className="border px-4 py-2 text-gray-800 font-bold">Word</th>
+              <th className="border px-4 py-2 text-gray-800 font-bold">Meaning</th>
+              <th className="border px-4 py-2 text-gray-800 font-bold">Example</th>
             </tr>
           </thead>
           <tbody>
             {words.map((w, idx) => (
               <tr key={w.word} className="even:bg-gray-50">
-                <td className="border px-4 py-2 text-center">{idx + 1}</td>
-                <td className="border px-4 py-2">{w.word}</td>
-                <td className="border px-4 py-2">{w.meaning}</td>
+                <td className="border px-4 py-2 text-center  text-gray-600">{idx + 1}</td>
+                <td className="border px-4 py-2  text-gray-800">{w.word}</td>
+                <td className="border px-4 py-2  text-gray-800">{w.meaning}</td>
                 <td className="border px-4 py-2 italic text-gray-600">{w.example}</td>
               </tr>
             ))}

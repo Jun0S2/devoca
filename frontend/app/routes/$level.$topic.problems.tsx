@@ -63,7 +63,7 @@ export default function PracticeModeSelector() {
         {/* 문제 테이블 영역 */}
         <div className="bg-white p-6 rounded shadow">
           <div className="flex justify-between items-center mb-6">
-            <h2 className="text-xl font-bold">
+            <h2 className="text-xl font-bold text-gray-900">
               {mode === "fill-word" ? "❓ Fill in the Word" : "📝 Fill in the Meaning"}
             </h2>
             <PdfDownloader
@@ -76,9 +76,9 @@ export default function PracticeModeSelector() {
           <table className="w-full table-auto border border-gray-300">
             <thead>
               <tr className="bg-gray-100">
-                <th className="border px-4 py-2">#</th>
-                <th className="border px-4 py-2">{mode === "fill-word" ? "Meaning" : "Word"}</th>
-                <th className="border px-4 py-2">
+                <th className="border px-4 py-2 font-bold text-gray-800">#</th>
+                <th className="border px-4 py-2 font-bold text-gray-800">{mode === "fill-word" ? "Meaning" : "Word"}</th>
+                <th className="border px-4 py-2 font-bold text-gray-800">
                   {mode === "fill-word" ? "Word" : "Meaning"}
                 </th>
               </tr>
@@ -86,8 +86,8 @@ export default function PracticeModeSelector() {
             <tbody>
               {words.map((w, i) => (
                 <tr key={i}>
-                  <td className="border px-4 py-2 text-center">{i + 1}</td>
-                  <td className="border px-4 py-2">
+                  <td className="border px-4 py-2 text-center text-gray-600">{i + 1}</td>
+                  <td className="border px-4 py-2 text-gray-800">
                     {mode === "fill-word" ? w.meaning : w.word}
                   </td>
                   <td className="border px-4 py-2"></td>
