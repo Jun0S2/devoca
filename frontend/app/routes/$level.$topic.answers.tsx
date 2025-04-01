@@ -34,7 +34,7 @@ export default function AnswersPage() {
       <div className="flex justify-between items-center mb-6">
 
         <h1 className="text-2xl font-bold mb-4 text-black">
-          📘 Word List - <span className="text-purple-600"> {level?.toUpperCase()} / {topic}  </span>
+          📘 Word List for <span className="text-purple-600"> {level?.toUpperCase()} / {topic}  </span>
         </h1>
 
         <PdfDownloader

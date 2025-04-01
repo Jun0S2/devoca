@@ -36,7 +36,7 @@ export default function PracticeModeSelector() {
         
         {/* 메인 타이틀 영역 */}
         <div className="mb-8">
-          <h1 className="text-2xl font-bold text-center">
+          <h1 className="text-2xl font-bold text-center text-black">
             Practice Mode for <span className="text-purple-600">{topic}</span> ({level})
           </h1>
         </div>
