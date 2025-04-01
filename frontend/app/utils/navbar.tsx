@@ -1,6 +1,6 @@
 // app/components/navbar.tsx
 import { Link, useLocation } from "@remix-run/react";
-import logo from "/logo.png"
+import logo from "/public/logo.png"
 
 export function Navbar() {
   const location = useLocation();
