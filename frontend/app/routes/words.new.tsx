@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { supabase } from "~/lib/supabase";
+import { TagAutocompleteInput } from "~/utils/TagAutocompleteInput";
 
 export default function AddNewWordPage() {
   const [form, setForm] = useState({
@@ -14,24 +15,19 @@ export default function AddNewWordPage() {
   const [message, setMessage] = useState("");
   const [topicOptions, setTopicOptions] = useState<string[]>([]);
   const [subtopicOptions, setSubtopicOptions] = useState<string[]>([]);
+  const [searchTopic, setSearchTopic] = useState("");
+  const [searchSubtopic, setSearchSubtopic] = useState("");
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
-    setForm((prev) => ({ ...prev, [name]: value }));
-  };
-
-  // ✅ topic 자동완성
   useEffect(() => {
     const delay = setTimeout(async () => {
-      if (form.topic.trim().length > 0) {
+      if (searchTopic.trim()) {
         const { data, error } = await supabase
           .from("vocab")
           .select("topic")
-          .ilike("topic", `%${form.topic}%`)
+          .ilike("topic", `%${searchTopic}%`)
           .limit(5);
-
         if (!error && data) {
-          const unique = Array.from(new Set(data.map((row) => row.topic))).filter(Boolean);
+          const unique = [...new Set(data.map((row) => row.topic))].filter(Boolean);
           setTopicOptions(unique);
         }
       } else {
@@ -39,21 +35,19 @@ export default function AddNewWordPage() {
       }
     }, 300);
     return () => clearTimeout(delay);
-  }, [form.topic]);
+  }, [searchTopic]);
 
-  // ✅ subtopic 자동완성 (선택된 topic 하위에서만 검색)
   useEffect(() => {
     const delay = setTimeout(async () => {
-      if (form.subtopic.trim().length > 0 && form.topic.trim().length > 0) {
+      if (searchSubtopic.trim() && form.topic.trim()) {
         const { data, error } = await supabase
           .from("vocab")
           .select("subtopic")
-          .eq("topic", form.topic) // 상위 topic 필터링
-          .ilike("subtopic", `%${form.subtopic}%`)
+          .eq("topic", form.topic)
+          .ilike("subtopic", `%${searchSubtopic}%`)
           .limit(5);
-
         if (!error && data) {
-          const unique = Array.from(new Set(data.map((row) => row.subtopic))).filter(Boolean);
+          const unique = [...new Set(data.map((row) => row.subtopic))].filter(Boolean);
           setSubtopicOptions(unique);
         }
       } else {
@@ -61,13 +55,15 @@ export default function AddNewWordPage() {
       }
     }, 300);
     return () => clearTimeout(delay);
-  }, [form.subtopic, form.topic]); // topic도 의존성에 추가
+  }, [searchSubtopic, form.topic]);
 
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setForm((prev) => ({ ...prev, [name]: value }));
+  };
 
-  // ✅ 제출
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-
     const { error } = await supabase.from("vocab").insert([
       {
         ...form,
@@ -75,21 +71,16 @@ export default function AddNewWordPage() {
         is_favorite: false,
       },
     ]);
-
     if (error) {
       setMessage("❌ 저장 실패: " + error.message);
     } else {
       setMessage("✅ 단어 저장 완료!");
-      setForm({
-        level: "A1",
+      setForm((prev) => ({
+        ...prev,
         word: "",
         meaning: "",
         example: "",
-        topic: "",
-        subtopic: "",
-      });
-      setTopicOptions([]);
-      setSubtopicOptions([]);
+      }));
     }
   };
 
@@ -101,7 +92,6 @@ export default function AddNewWordPage() {
       >
         <h1 className="text-2xl font-bold text-center">Add a New Word</h1>
 
-        {/* Level */}
         <select
           name="level"
           value={form.level}
@@ -114,46 +104,43 @@ export default function AddNewWordPage() {
           <option value="B2">B2</option>
         </select>
 
-        {/* Word */}
         <Input name="word" value={form.word} onChange={handleChange} placeholder="독일어 단어" />
-
-        {/* Meaning */}
         <Input name="meaning" value={form.meaning} onChange={handleChange} placeholder="뜻 (한국어)" />
-
-        {/* Example */}
         <Input name="example" value={form.example} onChange={handleChange} placeholder="예문" />
 
-        {/* Topic with autocomplete */}
-        <AutocompleteInput
+        <TagAutocompleteInput
           label="주제 (예: 가족)"
-          name="topic"
           value={form.topic}
-          onChange={handleChange}
+          search={searchTopic}
+          onSearchChange={setSearchTopic}
           options={topicOptions}
           onSelect={(val) => {
             setForm((prev) => ({ ...prev, topic: val }));
-            setTopicOptions([]);
+            setSearchTopic("");
+          }}
+          onClear={() => {
+            setForm((prev) => ({ ...prev, topic: "" }));
+            setSearchTopic("");
           }}
         />
 
-        {/* Subtopic with autocomplete */}
-        <AutocompleteInput
+        <TagAutocompleteInput
           label="소주제"
-          name="subtopic"
           value={form.subtopic}
-          onChange={handleChange}
+          search={searchSubtopic}
+          onSearchChange={setSearchSubtopic}
           options={subtopicOptions}
           onSelect={(val) => {
             setForm((prev) => ({ ...prev, subtopic: val }));
-            setSubtopicOptions([]);
+            setSearchSubtopic("");
+          }}
+          onClear={() => {
+            setForm((prev) => ({ ...prev, subtopic: "" }));
+            setSearchSubtopic("");
           }}
         />
 
-        {/* Submit */}
-        <button
-          type="submit"
-          className="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-        >
+        <button type="submit" className="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
           단어 추가
         </button>
 
@@ -163,7 +150,6 @@ export default function AddNewWordPage() {
   );
 }
 
-// ✅ 일반 Input 컴포넌트
 function Input({
   name,
   value,
@@ -183,77 +169,5 @@ function Input({
       placeholder={placeholder}
       className="w-full border px-3 py-2 rounded"
     />
-  );
-}
-
-// ✅ 자동완성 Input 컴포넌트
-function AutocompleteInput({
-  label,
-  name,
-  value,
-  onChange,
-  options,
-  onSelect,
-}: {
-  label: string;
-  name: string;
-  value: string;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  options: string[];
-  onSelect: (value: string) => void;
-}) {
-  const [showOptions, setShowOptions] = useState(false);
-
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") {
-      e.preventDefault();
-      setShowOptions(false);
-    }
-  };
-
-  return (
-    <div className="relative w-full">
-      {/* 입력창 + 버튼을 같은 줄에 */}
-      <div className="flex gap-2">
-        <input
-          name={name}
-          value={value}
-          onChange={(e) => {
-            onChange(e);
-            setShowOptions(true);
-          }}
-          onKeyDown={handleKeyDown}
-          placeholder={label}
-          className="flex-1 border px-3 py-2 rounded"
-          autoComplete="off"
-        />
-        <button
-          type="button"
-          onClick={() => setShowOptions(false)}
-          className="px-3 py-2 rounded bg-green-500 text-white hover:bg-green-600"
-          title="입력 확정"
-        >
-          확인
-        </button>
-      </div>
-
-      {/* 자동완성 목록 */}
-      {showOptions && options.length > 0 && (
-        <ul className="absolute z-10 mt-1 w-full bg-white border rounded shadow max-h-40 overflow-y-auto">
-          {options.map((opt) => (
-            <li
-              key={opt}
-              className="cursor-pointer px-3 py-2 hover:bg-blue-100"
-              onClick={() => {
-                onSelect(opt);
-                setShowOptions(false);
-              }}
-            >
-              {opt}
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
   );
 }
