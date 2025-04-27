@@ -10,6 +10,11 @@ export default function AddNewWordPage() {
     example: "",
     topic: "",
     subtopic: "",
+    is_verb: false,          // 동사인 경우 추가
+    past_tense: "", 
+    past_participle: "", 
+    du_form: "", 
+    er_form: "", 
   });
 
   const [message, setMessage] = useState("");
@@ -68,10 +73,13 @@ export default function AddNewWordPage() {
   }, [searchSubtopic, form.topic, form.subtopic]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
-    setForm((prev) => ({ ...prev, [name]: value }));
+    const { name, value, type, checked } = e.target;
+    setForm((prev) => ({
+      ...prev,
+      [name]: type === "checkbox" ? checked : value,
+    }));
   };
-
+  
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
@@ -87,6 +95,7 @@ export default function AddNewWordPage() {
         is_favorite: false,
       },
     ]);
+    
     if (error) {
       setMessage("❌ 저장 실패: " + error.message);
     } else {
@@ -170,7 +179,47 @@ export default function AddNewWordPage() {
           }}
           disabled={!!form.subtopic}
         />
+        {/* checkbox - verb? */}
+        <label className="flex items-center space-x-2">
+          <input
+            type="checkbox"
+            name="is_verb"
+            checked={form.is_verb}
+            onChange={handleChange}
+            className="form-checkbox accent-blue-600 dark:accent-blue-400"
+            />
+          <span className="text-gray-800 dark:text-white">동사입니까?</span>
+        </label>
 
+      {/* Case - verb? */}
+      {form.is_verb && (
+        <div className="space-y-2">
+          <Input
+            name="du_form"
+            value={form.du_form}
+            onChange={handleChange}
+            placeholder="du 형태 (z.B. heißt)"
+          />
+          <Input
+            name="er_form"
+            value={form.er_form}
+            onChange={handleChange}
+            placeholder="er/sie/es 형태 (z.B. heißt)"
+          />
+          <Input
+            name="past_tense"
+            value={form.past_tense}
+            onChange={handleChange}
+            placeholder="과거형 (z.B. ging)"
+          />
+          <Input
+            name="past_participle"
+            value={form.past_participle}
+            onChange={handleChange}
+            placeholder="과거분사형 (z.B. gegangen)"
+          />
+        </div>
+      )}
         <button 
           type="submit" 
           disabled={!isFormValid()}

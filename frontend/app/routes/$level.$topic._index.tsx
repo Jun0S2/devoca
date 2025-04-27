@@ -25,7 +25,22 @@ export default function TopicDetailPage() {
               { label: "KR", href: `/${level}/${topic}/kr` },
             ]}
           />
-
+         {/* 오답노트 */}
+         <Card
+            title="⭐ Starred"
+            buttons={[
+              { label: "DE", href: `/${level}/${topic}/starred/de` },
+              { label: "KR", href: `/${level}/${topic}/starred/kr` },
+            ]}
+          />
+        {/* 동사 practice */}
+         <Card
+            title="🚀 Verb Practice"
+            buttons={[
+              { label: "DE", href: `/${level}/${topic}/verb/de` },
+              { label: "KR", href: `/${level}/${topic}/verb/kr` },
+            ]}
+          />
           {/* Test PDF Card */}
           <Card
             title="📝 Test PDF"
