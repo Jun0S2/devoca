@@ -38,7 +38,9 @@ export default function AddNewWordPage() {
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value, type, checked } = e.target;
+    const { name, value, type } = e.target;
+    const checked = type === "checkbox" ? (e.target as HTMLInputElement).checked : undefined;
+
     setForm((prev) => ({
       ...prev,
       [name]: type === "checkbox" ? checked : value,
@@ -70,6 +72,10 @@ export default function AddNewWordPage() {
         word: "",
         meaning: "",
         example: "",
+        du_form: "",
+        er_form: "",
+        past_tense: "",
+        past_participle: "",
       }));
     }
   };
