@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import { supabase } from "~/lib/supabase";
-import { TagAutocompleteInput } from "~/utils/TagAutoCompleteInput";
+import { TextInput } from "~/components/inputs/TextInput";
+import { CheckboxInput } from "~/components/inputs/CheckBoxInput";
+import { SelectInput } from "~/components/inputs/SelectInput";
+import { TagAutocompleteInput } from "~/components/inputs/TagAutoCompleteInput";
+
 
 export default function AddNewWordPage() {
   const [form, setForm] = useState({
@@ -10,11 +14,11 @@ export default function AddNewWordPage() {
     example: "",
     topic: "",
     subtopic: "",
-    is_verb: false,          // 동사인 경우 추가
-    past_tense: "", 
-    past_participle: "", 
-    du_form: "", 
-    er_form: "", 
+    is_verb: false,
+    past_tense: "",
+    past_participle: "",
+    du_form: "",
+    er_form: "",
   });
 
   const [message, setMessage] = useState("");
@@ -25,12 +29,49 @@ export default function AddNewWordPage() {
 
   const isFormValid = () => {
     return (
-      form.word.trim() !== "" &&
-      form.meaning.trim() !== "" &&
-      form.example.trim() !== "" &&
-      form.topic.trim() !== "" &&
-      form.subtopic.trim() !== ""
+      form.word.trim() &&
+      form.meaning.trim() &&
+      form.example.trim() &&
+      form.topic.trim() &&
+      form.subtopic.trim()
     );
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    const { name, value, type, checked } = e.target;
+    setForm((prev) => ({
+      ...prev,
+      [name]: type === "checkbox" ? checked : value,
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!isFormValid()) {
+      setMessage("❌ 모든 필드를 채워주세요");
+      return;
+    }
+
+    const { error } = await supabase.from("vocab").insert([
+      {
+        ...form,
+        is_wrong: false,
+        is_favorite: false,
+      },
+    ]);
+
+    if (error) {
+      setMessage("❌ 저장 실패: " + error.message);
+    } else {
+      setMessage("✅ 단어 저장 완료!");
+      setForm((prev) => ({
+        ...prev,
+        word: "",
+        meaning: "",
+        example: "",
+      }));
+    }
   };
 
   useEffect(() => {
@@ -72,43 +113,6 @@ export default function AddNewWordPage() {
     return () => clearTimeout(delay);
   }, [searchSubtopic, form.topic, form.subtopic]);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value, type, checked } = e.target;
-    setForm((prev) => ({
-      ...prev,
-      [name]: type === "checkbox" ? checked : value,
-    }));
-  };
-  
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!isFormValid()) {
-      setMessage("❌ 모든 필드를 채워주세요");
-      return;
-    }
-
-    const { error } = await supabase.from("vocab").insert([
-      {
-        ...form,
-        is_wrong: false,
-        is_favorite: false,
-      },
-    ]);
-    
-    if (error) {
-      setMessage("❌ 저장 실패: " + error.message);
-    } else {
-      setMessage("✅ 단어 저장 완료!");
-      setForm((prev) => ({
-        ...prev,
-        word: "",
-        meaning: "",
-        example: "",
-      }));
-    }
-  };
-
   return (
     <div className="min-h-screen flex items-center justify-center p-8 bg-white dark:bg-gray-900">
       <form
@@ -119,20 +123,21 @@ export default function AddNewWordPage() {
           Add a New Word
         </h1>
 
-        <select
+        <SelectInput
           name="level"
           value={form.level}
           onChange={handleChange}
-          className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white px-3 py-2 rounded"        >
-          <option value="A1">A1</option>
-          <option value="A2">A2</option>
-          <option value="B1">B1</option>
-          <option value="B2">B2</option>
-        </select>
+          options={[
+            { value: "A1", label: "A1" },
+            { value: "A2", label: "A2" },
+            { value: "B1", label: "B1" },
+            { value: "B2", label: "B2" },
+          ]}
+        />
 
-        <Input name="word" value={form.word} onChange={handleChange} placeholder="독일어 단어"/>
-        <Input name="meaning" value={form.meaning} onChange={handleChange} placeholder="뜻 (한국어)" />
-        <Input name="example" value={form.example} onChange={handleChange} placeholder="예문" />
+        <TextInput name="word" value={form.word} onChange={handleChange} placeholder="독일어 단어" />
+        <TextInput name="meaning" value={form.meaning} onChange={handleChange} placeholder="뜻 (한국어)" />
+        <TextInput name="example" value={form.example} onChange={handleChange} placeholder="예문" />
 
         <TagAutocompleteInput
           label="주제 (예: 가족)"
@@ -179,53 +184,29 @@ export default function AddNewWordPage() {
           }}
           disabled={!!form.subtopic}
         />
-        {/* checkbox - verb? */}
-        <label className="flex items-center space-x-2">
-          <input
-            type="checkbox"
-            name="is_verb"
-            checked={form.is_verb}
-            onChange={handleChange}
-            className="form-checkbox accent-blue-600 dark:accent-blue-400"
-            />
-          <span className="text-gray-800 dark:text-white">동사입니까?</span>
-        </label>
 
-      {/* Case - verb? */}
-      {form.is_verb && (
-        <div className="space-y-2">
-          <Input
-            name="du_form"
-            value={form.du_form}
-            onChange={handleChange}
-            placeholder="du 형태 (z.B. heißt)"
-          />
-          <Input
-            name="er_form"
-            value={form.er_form}
-            onChange={handleChange}
-            placeholder="er/sie/es 형태 (z.B. heißt)"
-          />
-          <Input
-            name="past_tense"
-            value={form.past_tense}
-            onChange={handleChange}
-            placeholder="과거형 (z.B. ging)"
-          />
-          <Input
-            name="past_participle"
-            value={form.past_participle}
-            onChange={handleChange}
-            placeholder="과거분사형 (z.B. gegangen)"
-          />
-        </div>
-      )}
-        <button 
-          type="submit" 
+        <CheckboxInput
+          name="is_verb"
+          checked={form.is_verb}
+          onChange={handleChange}
+          label="동사입니까?"
+        />
+
+        {form.is_verb && (
+          <div className="space-y-2">
+            <TextInput name="du_form" value={form.du_form} onChange={handleChange} placeholder="du 형태 (z.B. heißt)" />
+            <TextInput name="er_form" value={form.er_form} onChange={handleChange} placeholder="er/sie/es 형태 (z.B. heißt)" />
+            <TextInput name="past_tense" value={form.past_tense} onChange={handleChange} placeholder="과거형 (z.B. ging)" />
+            <TextInput name="past_participle" value={form.past_participle} onChange={handleChange} placeholder="과거분사형 (z.B. gegangen)" />
+          </div>
+        )}
+
+        <button
+          type="submit"
           disabled={!isFormValid()}
           className={`w-full px-4 py-2 rounded ${
-            isFormValid() 
-              ? "bg-blue-600 text-white hover:bg-blue-700" 
+            isFormValid()
+              ? "bg-blue-600 text-white hover:bg-blue-700"
               : "bg-blue-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed"
           }`}
         >
@@ -235,26 +216,5 @@ export default function AddNewWordPage() {
         {message && <p className="text-center mt-2 text-gray-800">{message}</p>}
       </form>
     </div>
-  );
-}
-
-function Input({
-  name,
-  value,
-  onChange,
-  placeholder,
-}: {
-  name: string;
-  value: string;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  placeholder: string;
-}) {
-  return (
-    <input
-      name={name}
-      value={value}
-      onChange={onChange}
-      placeholder={placeholder}
-      className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white px-3 py-2 rounded"    />
   );
 }
