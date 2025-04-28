@@ -12,13 +12,15 @@ import { useEffect, useState } from "react";
 import { WordNavigation } from "~/components/WordNavigation";
 import { ProgressBar } from "~/components/ProgressBar";
 import { WordCard } from "~/components/WordCard";
+import { SubtopicsDropdown } from "~/components/SubtopicsDropdown"; // ✅ 추가
+import { useSubtopicFilter } from "~/hooks/useSubtopicFilter"; // ✅ Subtopic Hook import
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const { level, topic, lang } = params;
 
   const { data, error } = await supabase
     .from("vocab")
-    .select("word, meaning, example, is_favorite")
+    .select("word, meaning, example, is_favorite, subtopic")
     .eq("level", level?.toUpperCase())
     .eq("topic", topic)
     .order("created_at", { ascending: true });
@@ -26,20 +28,27 @@ export async function loader({ params }: LoaderFunctionArgs) {
   if (error || !data) {
     throw new Response("Failed to load words", { status: 500 });
   }
-
-  return json({ words: data, lang });
+  // subtopics 추가
+  const subtopics = Array.from(new Set(data.map((w) => w.subtopic))).filter(Boolean);
+  return json({ words: data, lang, subtopics });
 }
 
 export default function PracticePage() {
-  const { words, lang } = useLoaderData<typeof loader>();
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [showAnswer, setShowAnswer] = useState(false);
-  const [shuffledWords, setShuffledWords] = useState<typeof words>([]);
+  const { words, lang, subtopics } = useLoaderData<typeof loader>();
+  const {
+    selectedSubtopic,
+    setSelectedSubtopic,
+    currentWord,
+    currentIndex,
+    total,
+    handleNext,
+    showAnswer,
+    setShowAnswer,
+  } = useSubtopicFilter(words);
+  
   const [favorites, setFavorites] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
-    const shuffled = [...words].sort(() => Math.random() - 0.5);
-    setShuffledWords(shuffled);
     const favMap: Record<string, boolean> = {};
     words.forEach((w) => {
       favMap[w.word] = w.is_favorite;
@@ -47,15 +56,8 @@ export default function PracticePage() {
     setFavorites(favMap);
   }, [words]);
 
-  const currentWord = shuffledWords[currentIndex];
-  if (!currentWord) return <p className="text-center">No words available.</p>;
-
-  const handleNext = () => {
-    setShowAnswer(false);
-    setCurrentIndex((prev) => (prev + 1) % shuffledWords.length);
-  };
-
   const toggleFavorite = async () => {
+    if (!currentWord) return;
     const newVal = !favorites[currentWord.word];
     setFavorites((prev) => ({ ...prev, [currentWord.word]: newVal }));
     await supabase
@@ -64,20 +66,34 @@ export default function PracticePage() {
       .eq("word", currentWord.word);
   };
 
+
+  if (!currentWord) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex justify-center items-center">
+        <p className="text-center text-gray-500">No words available.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-10 flex flex-col items-center gap-8">
+      {/* Subtopic Select UI */}
+      <SubtopicsDropdown
+        subtopics={subtopics}
+        selectedSubtopic={selectedSubtopic}
+        onSelectSubtopic={setSelectedSubtopic}
+      />
       {/* Navigation */}
       <WordNavigation
         currentIndex={currentIndex}
-        total={shuffledWords.length}
+        total={total}
       />
 
       {/* Progress */}
       <ProgressBar
-        currentIndex={currentIndex}
-        total={shuffledWords.length}
-      />
-
+      currentIndex={currentIndex}
+      total={total}
+    />
       {/* Word Card */}
       <WordCard
         word={currentWord}

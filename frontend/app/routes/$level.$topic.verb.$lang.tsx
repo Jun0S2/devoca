@@ -21,17 +21,20 @@ import { useLoaderData } from "@remix-run/react";
 import { json, type LoaderFunctionArgs } from "@remix-run/node";
 import { supabase } from "~/lib/supabase";
 import { useEffect, useState } from "react";
+import { useSubtopicFilter } from "~/hooks/useSubtopicFilter";
+/** Components */
+import { SubtopicsDropdown } from "~/components/SubtopicsDropdown";
 import { WordNavigation } from "~/components/WordNavigation";
 import { ProgressBar } from "~/components/ProgressBar";
 import { WordCard } from "~/components/WordCard";
-import { Eye, EyeOff } from "lucide-react";
 import { VerbDetailCard } from "~/components/VerbDetailCard";
+
 export async function loader({ params }: LoaderFunctionArgs) {
   const { level, topic, lang } = params;
 
   const { data, error } = await supabase
     .from("vocab")
-    .select("word, meaning, example, is_favorite, du_form, er_form, past_tense, past_participle")
+    .select("word, meaning, example, is_favorite, subtopic, du_form, er_form, past_tense, past_participle") // ✅ subtopic 추가!
     .eq("level", level?.toUpperCase())
     .eq("topic", topic)
     .eq("is_verb", true)
@@ -40,26 +43,31 @@ export async function loader({ params }: LoaderFunctionArgs) {
   if (error || !data) {
     throw new Response("Failed to load words", { status: 500 });
   }
+  const subtopics = Array.from(new Set(data.map((w) => w.subtopic))).filter(Boolean);
 
-  return json({ words: data, lang });
+  return json({ words: data, lang, subtopics });
 }
 
 export default function VerbPracticePage() {
-  const { words, lang } = useLoaderData<typeof loader>();
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [showAnswer, setShowAnswer] = useState(false);
+  const { words, lang, subtopics } = useLoaderData<typeof loader>();
+  const {
+    selectedSubtopic,
+    setSelectedSubtopic,
+    currentWord,
+    currentIndex,
+    total,
+    handleNext,
+    showAnswer,
+    setShowAnswer,
+  } = useSubtopicFilter(words);
+
   const [favorites, setFavorites] = useState<Record<string, boolean>>({});
-  const [shuffledWords, setShuffledWords] = useState<typeof words>([]);
-  
-  // 추가: verb 전용 상태
   const [showDu, setShowDu] = useState(false);
   const [showEr, setShowEr] = useState(false);
   const [showPast, setShowPast] = useState(false);
   const [showParticiple, setShowParticiple] = useState(false);
 
   useEffect(() => {
-    const shuffled = [...words].sort(() => Math.random() - 0.5);
-    setShuffledWords(shuffled);
     const favMap: Record<string, boolean> = {};
     words.forEach((w) => {
       favMap[w.word] = w.is_favorite;
@@ -67,10 +75,8 @@ export default function VerbPracticePage() {
     setFavorites(favMap);
   }, [words]);
 
-  const currentWord = shuffledWords[currentIndex];
-  if (!currentWord) return <p className="text-center">No words available.</p>;
-
   const toggleFavorite = async () => {
+    if (!currentWord) return;
     const newVal = !favorites[currentWord.word];
     setFavorites((prev) => ({ ...prev, [currentWord.word]: newVal }));
     await supabase
@@ -79,41 +85,55 @@ export default function VerbPracticePage() {
       .eq("word", currentWord.word);
   };
 
-  const handleNext = () => {
-    setShowAnswer(false);
-    setShowDu(false);
-    setShowEr(false);
-    setShowPast(false);
-    setShowParticiple(false);
-    setCurrentIndex((prev) => (prev + 1) % shuffledWords.length);
-  };
+  if (!currentWord) {
+    return (
+      <div className="min-h-screen flex justify-center items-center bg-gray-50">
+        <p className="text-gray-500">No words available.</p>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-10 flex flex-col items-center gap-8">
-      <WordNavigation currentIndex={currentIndex} total={shuffledWords.length} />
-      <ProgressBar currentIndex={currentIndex} total={shuffledWords.length} />
+      {/* ⭐ SubtopicsDropdown 추가 */}
+      <SubtopicsDropdown
+        subtopics={subtopics}
+        selectedSubtopic={selectedSubtopic}
+        onSelectSubtopic={setSelectedSubtopic}
+      />
 
+      {/* 기본 네비게이션 */}
+      <WordNavigation currentIndex={currentIndex} total={total} />
+      <ProgressBar currentIndex={currentIndex} total={total} />
+
+      {/* 메인 WordCard */}
       <WordCard
         word={currentWord}
-        lang={lang}
+        lang={lang ?? ""}
         showAnswer={showAnswer}
         setShowAnswer={setShowAnswer}
         toggleFavorite={toggleFavorite}
         isFavorite={favorites[currentWord.word]}
-        onNext={handleNext}
-        isVerb // <-- ⭐️ verb 모드
+        onNext={() => {
+          handleNext();
+          setShowDu(false);
+          setShowEr(false);
+          setShowPast(false);
+          setShowParticiple(false);
+        }}
+        isVerb
       />
-      {/* Verb 전용 카드들 */}
+
+      {/* Verb 전용 추가 카드 */}
       <div className="w-full max-w-3xl flex flex-col gap-4">
         <VerbDetailCard
           items={[
-            { label: "du", value: currentWord.du_form || "", hidden: !showDu, onToggle: () => setShowDu(prev => !prev) },
-            { label: "er/sie/es", value: currentWord.er_form || "", hidden: !showEr, onToggle: () => setShowEr(prev => !prev) },
-            { label: "Past Tense", value: currentWord.past_tense || "", hidden: !showPast, onToggle: () => setShowPast(prev => !prev) },
-            { label: "Past Participle", value: currentWord.past_participle || "", hidden: !showParticiple, onToggle: () => setShowParticiple(prev => !prev) },
+            { label: "du", value: currentWord.du_form ?? "", hidden: !showDu, onToggle: () => setShowDu((p) => !p) },
+            { label: "er/sie/es", value: currentWord.er_form ?? "", hidden: !showEr, onToggle: () => setShowEr((p) => !p) },
+            { label: "Past Tense", value: currentWord.past_tense ?? "", hidden: !showPast, onToggle: () => setShowPast((p) => !p) },
+            { label: "Past Participle", value: currentWord.past_participle ?? "", hidden: !showParticiple, onToggle: () => setShowParticiple((p) => !p) },
           ]}
         />
-
       </div>
     </div>
   );
