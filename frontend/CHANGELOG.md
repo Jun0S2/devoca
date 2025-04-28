@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/Jun0S2/devoca/compare/v0.0.4...v0.0.5) (2025-04-28)
+
+
+### Features
+
+* **Filter Subtopics:** Apply common hooks+UI to filter out subtopics ([08bbff8](https://github.com/Jun0S2/devoca/commit/08bbff83694e591c7639ebd31ffe2df98951f3ac))
+* **Subtopic Selection:** Add common component for Subtopic picker ([e4fd917](https://github.com/Jun0S2/devoca/commit/e4fd91793e744069e5ae96d7a08371c94bae2e07))
+
 ### [0.0.4](https://github.com/Jun0S2/devoca/compare/v0.0.3...v0.0.4) (2025-04-27)
 
 
