@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/Jun0S2/devoca/compare/v0.0.6...v0.0.7) (2025-04-30)
+
+
+### Features
+
+* **db:** Add Backup DB for A1 ([fed10dc](https://github.com/Jun0S2/devoca/commit/fed10dc1e9beb9ca5e0bf2007317ea21fdbb537f))
+
 ### [0.0.6](https://github.com/Jun0S2/devoca/compare/v0.0.5...v0.0.6) (2025-04-28)
 
 ### [0.0.5](https://github.com/Jun0S2/devoca/compare/v0.0.4...v0.0.5) (2025-04-28)
