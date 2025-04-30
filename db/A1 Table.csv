@@ -1,0 +1,442 @@
+id,level,word,meaning,example,topic,subtopic,is_wrong,is_favorite,created_at,is_verb,past_tense,past_participle,du_form,er_form
+8c240cca-9106-48ba-a7ce-cd8de869feaa,A1,sich vorstellen,"소개하다, 상상하다",Ich stelle mich vor,일단 합격,인적 사항,false,true,2025-04-27 18:22:47.335008+00,true,stellte,vorgestellt,stellst vor,stellt vor
+10f0aad0-3ad8-4017-9d4e-6170bba27476,A1,die Straße,거리,Meine Straße heißt Blumenweg.,일단 합격,인적 사항,false,false,2025-04-27 18:03:57.700573+00,false,,,,
+9944fa81-fd24-4deb-9217-baa3e9fb985a,A1,heißen,~라고 불리다,Wie heißen Sie?,일단 합격,인적 사항,false,false,2025-04-27 16:33:38.199352+00,true,heiß,geheißen,heißt,heißt
+17f3ab3b-044c-45b8-be31-18793c0adfce,A1,der Ort,장소,Der Ort ist sehr schön.,일단 합격,인적 사항,false,false,2025-04-27 18:04:25.062343+00,false,,,,
+90d12136-e0bf-435d-b741-58e930878185,A1,wohnen (in),~에 거주하다,Wo wohnen Sie?,일단 합격,인적 사항,false,true,2025-04-27 16:58:59.821184+00,true,wohnte,gewohnt,wohnst,wohnt
+07e97ea9-34f7-440a-9958-9afbeec518a1,A1,das Geschelht,성별,Was ist das Geschlecht dieses Wortes?,일단 합격,인적 사항,false,true,2025-04-27 16:12:25.136839+00,false,null,null,null,null
+687cda1b-9f30-4081-b3f0-0979dffbf94d,A1,die Postleitzahl,우편번호,Wie ist Ihre Postleitzahl?,일단 합격,인적 사항,false,false,2025-04-27 18:04:14.347088+00,false,,,,
+34eec2dd-6c02-4c56-97ea-e2d5ab013277,A1,das Alter,나,Mein Alter ist 25 Jahre.,일단 합격,인적 사항,false,false,2025-04-27 18:04:39.864623+00,false,,,,
+222b25b9-d2b6-4191-af50-8f96e094b5a5,A1,die Email-Adresse,이메일주소,Meine Email-Adresse ist anna@mail.de.,일단 합격,인적 사항,false,false,2025-04-27 18:05:25.170554+00,false,,,,
+b96dd928-6484-461a-b02a-2b5f4f2f6d05,A1,die Musikschule,음악 학교,Ich lerne Klavier in der Musikschule.,일단 합격,인적 사항,false,false,2025-04-27 18:05:41.360673+00,false,,,,
+485817f8-ab9c-4e84-a5db-69dbb9adb322,A1,die Anmeldung,신청,Die Anmeldung ist hier.,일단 합격,인적 사항,false,false,2025-04-27 18:05:52.037113+00,false,,,,
+17387a0d-e4bc-4406-9ebe-d9fa47be1d08,A1,die Kursart,강좌종류,Welche Kursart möchten Sie?,일단 합격,인적 사항,false,false,2025-04-27 18:06:07.335776+00,false,,,,
+d13a843f-00ad-4aa5-8da6-570f736b74cd,A1,die Violine,바이올린,Ich spiele Violine.,일단 합격,인적 사항,false,false,2025-04-27 18:06:18.83118+00,false,,,,
+a625a82e-b298-4c75-b826-4f7b31cc5d0b,A1,die Flöte,플루트,Spielst du Flöte?,일단 합격,인적 사항,false,false,2025-04-27 18:06:34.694359+00,false,,,,
+11064553-0729-4ddb-955a-81f3296182b0,A1,das Klavier,피아노,Sie spielt sehr gut Klavier.,일단 합격,인적 사항,false,false,2025-04-27 18:06:42.755774+00,false,,,,
+c6b3da58-fbd1-47f9-9625-29e6f9d848e0,A1,der Gesang,성악,Gesang macht mir Spaß.,일단 합격,인적 사항,false,false,2025-04-27 18:06:59.776099+00,false,,,,
+7ba6ce93-ba95-4d02-b1d9-31ebe579d8ea,A1,der Spaß,"재미, 즐거움",Das macht Spaß,일단 합격,인적 사항,false,false,2025-04-27 18:08:06.043734+00,false,,,,
+a317af79-f51e-48f1-bfa2-35d5115f9b88,A1,die Telefonnummer,전화번호,Kannst du mir deine Telefonnummer geben?,일단 합격,인적 사항,false,false,2025-04-27 18:05:12.332769+00,false,,,,
+c5ca440a-6c03-40e4-a996-dcb0e02645d4,A1,kommen (aus),~ 출신이다,Ich komme aus Südkorea,일단 합격,인적 사항,false,false,2025-04-27 18:28:25.666134+00,true,kam,gekommen,kommst,kommt
+8303195a-1a03-479b-869b-33e06ad548cd,A1,buchstabieren,철자를 나열하다,Ich buchstabiere PARK,일단 합격,인적 사항,false,false,2025-04-27 18:30:00.296669+00,true,buchstabierte,buchstabiert,buchstabierst,buchstabiert
+0668a716-f445-487e-ab10-4026e1427d69,A1,der Name,이름,Mein Vorname ist June,일단 합격,인적 사항,false,false,2025-04-27 18:30:51.113161+00,false,buchstabierte,buchstabiert,buchstabierst,buchstabiert
+00b38d5b-55c4-4a0e-82b0-1839eee8ade0,A1,der Nachname,성,Mein Nachname ist Park,일단 합격,인적 사항,false,false,2025-04-27 18:31:07.079327+00,false,buchstabierte,buchstabiert,buchstabierst,buchstabiert
+f174fdf1-e10f-43e0-b22f-9bb60ba4a471,A1,der Familienname,성,Unser Familienname ist sehr alt.,일단 합격,인적 사항,false,false,2025-04-27 18:32:16.976905+00,false,buchstabierte,buchstabiert,buchstabierst,buchstabiert
+3983ed90-43be-4ded-9058-a22d56073710,A1,der Platz,"장소, 광장",Wir treffen uns am Platz.,일단 합격,인적 사항,false,false,2025-04-27 18:33:06.290942+00,false,buchstabierte,buchstabiert,buchstabierst,buchstabiert
+d7d64e16-ee0f-4557-bea3-ab7e54acf86c,A1,die Hausnummer,집 번호,Die Hausnummer ist 12.,일단 합격,인적 사항,false,false,2025-04-27 18:34:00.225717+00,false,,,,
+95e2d5b7-d567-4b6e-9110-9482ec6d5cb8,A1,die Stadt,도시,In welcher Stadt hast du gewohnt?,일단 합격,인적 사항,false,false,2025-04-27 18:34:27.720629+00,false,,,,
+ab5c340a-9450-483f-a93a-653ad75d519e,A1,alt,"오래된, 나이 든, 몇",Mein Auto ist alt.,일단 합격,인적 사항,false,false,2025-04-27 18:35:15.65653+00,false,,,,
+a2893c2a-1531-491c-8a97-e11a56c01a86,A1,wann,언제,Wann beginnt der Kurs?,일단 합격,인적 사항,false,false,2025-04-27 18:35:39.074763+00,false,,,,
+6a985b58-d24e-4336-883b-2ded8d6f46b8,A1,wer,누구,Wer sind Sie?,일단 합격,인적 사항,false,false,2025-04-27 18:36:32.642266+00,false,,,,
+f82b3916-79f8-4c8d-84cf-4e70185384f3,A1,"wo ","어디 ",Wo wohnst du?,일단 합격,인적 사항,false,false,2025-04-27 18:37:37.022248+00,false,,,,
+f17fde13-fa57-485a-9760-89adbbfc6a59,A1,"woher ","어디에서, 출신 ",Woher kommst du?,일단 합격,인적 사항,false,false,2025-04-27 18:38:00.818669+00,false,,,,
+bbb73dc6-815b-48f7-b5e5-227a7457c78c,A1,wenn,만일 ~라면 (if),"Wenn ich Zeit habe, gehe ich gern ins Kino.",일단 합격,인적 사항,false,false,2025-04-27 18:38:50.988623+00,false,,,,
+9ad6347f-f9f6-4655-95d1-79a8791e11f3,A1,denn,"Because, 왜냐하면(등위접속사)","Ich gehe nicht ins Kin, denn ich bin Krank.",일단 합격,인적 사항,false,false,2025-04-27 18:40:48.139479+00,false,,,,
+251287a4-4674-4dcb-9e94-c96f816a8c92,A1,weil,왜냐하면 ~이기 때문에,"Ich bleibe heute zu Hause, weil ich krank bin.",일단 합격,인적 사항,false,false,2025-04-27 18:43:33.744303+00,false,,,,
+ff0e74fa-c5d5-46b0-b61e-520b0eaf538f,A1,obwhol,비록 ~일지라도 (although),"Obwohl ich krank bin, muss ich arbeiten.",일단 합격,인적 사항,false,false,2025-04-27 18:44:40.084808+00,false,,,,
+69b969b5-6a1c-49ff-9fec-1d5e6c21f6f1,A1,bis,~까지 (until),"Du sollst warten, bis ich fertig bin",일단 합격,인적 사항,false,false,2025-04-27 18:45:04.772579+00,false,,,,
+9b2a8924-35d2-48d1-9fdb-9081674f32a5,A1,bevor,before,"Becor die Party vorbei war, war ich nach Hause gegangen",일단 합격,인적 사항,false,false,2025-04-27 18:45:30.561559+00,false,,,,
+288099ea-2bd8-4ebc-908c-f3ab0e3ecc94,A1,nachdem,after,"Nachdem du weg gegangen warst, ist es gekommen",일단 합격,인적 사항,false,false,2025-04-27 18:45:51.702638+00,false,,,,
+eb3cd8c1-b363-4902-b556-8936440ca350,A1,gehen,가다,Ich bin gegangen,일단 합격,인적 사항,false,false,2025-04-27 18:47:21.594754+00,true,ging,gegangen,gehst,geht
+3fcd974d-be29-48d6-bf44-2dad28b10fe7,A1,leiben,"사랑하다, 좋아하다",Ich liebe meine Familie,일단 합격,가족과 친구,false,false,2025-04-27 18:55:13.969812+00,true,liebte,geliebt,liebst,liebt
+d0414afd-db44-4171-9b4b-710497b366fb,A1,besuchen,방문하다,Ich besuche oft meine Tante,일단 합격,가족과 친구,false,false,2025-04-27 18:55:51.315815+00,true,besuchte,besucht,besuchst,besucht
+bf30ef12-5acc-424c-84a4-c0e818fe6b96,A1,Als,~ 했을 때 (when),"Als ich ein Kind war, war ich sehr Klein.",일단 합격,인적 사항,false,true,2025-04-27 18:39:26.468432+00,false,,,,
+c2dfa36e-213f-4559-b3cc-b4d99f1fe206,A1,vorbei,"지나다, 끝나",Das Fest ist vorbei.,일단 합격,인적 사항,false,true,2025-04-27 18:46:29.290017+00,false,,,,
+22e0b636-3e84-4ddf-b990-514ebb4ddc89,A1,dass,~라는 것 (that),"Es ist Klar, dass sie fließig arbeitet.",일단 합격,인적 사항,false,true,2025-04-27 18:40:03.045337+00,false,,,,
+88551b5f-9d0c-4788-b84c-1a7ec2dc2f0f,A1,während,~ 하는 동안에 (during),"Ich lerne Deutsch, während ich Kaffee trinke.",일단 합격,인적 사항,false,true,2025-04-27 18:42:48.92131+00,false,,,,
+7b6d54f2-a403-4337-ab92-3efd8781f9f7,A1,ob,~인지 아닌지 (whether),"Ich weiß nicht genaus, ob es richtig oder falsch ist.",일단 합격,인적 사항,false,true,2025-04-27 18:41:40.774787+00,false,,,,
+aee63ed2-369a-43c3-a695-2ae27fc5cc74,A1,die Großmutter,할머니,Meine Großmutter wohnt in Berlin.,일단 합격,가족과 친구,false,false,2025-04-28 04:34:48.444801+00,false,,,,
+155e8082-4b82-466e-b3c4-f152c726f38e,A1,der Großvater,할아버지,Ich habe keinen Großvater,일단 합격,가족과 친구,false,false,2025-04-28 04:37:09.390401+00,false,,,,
+6fcaa90e-83d5-413f-993d-1a7092125e1e,A1,die Mutter,어머니,Meine Mutter kocht sehr gut.,일단 합격,가족과 친구,false,false,2025-04-28 04:42:20.652415+00,false,,,,
+af1e0651-b42d-41b8-bd3b-e5176277df08,A1,der Vater,아버지,Mein Vater arbeitet als Ingenieur.,일단 합격,가족과 친구,false,false,2025-04-28 04:42:34.806439+00,false,,,,
+bca04a2a-8fdc-4c7b-b6b4-d5f0e467afc5,A1,die Tochter,딸,Meine Tochter geht zur Schule.,일단 합격,가족과 친구,false,false,2025-04-28 04:42:46.69424+00,false,,,,
+c7cd53ae-28ea-4630-8064-002e23c9ca4d,A1,der Sohn,아들,Mein Sohn spielt Fußball.,일단 합격,가족과 친구,false,false,2025-04-28 04:42:58.68458+00,false,,,,
+b58a54ea-087e-440d-9364-da959092fdd6,A1,die Schwester,자매,Meine Schwester ist sehr nett.,일단 합격,가족과 친구,false,false,2025-04-28 04:43:17.902768+00,false,,,,
+cce315e2-701c-4894-bc6b-59856ed7d317,A1,der Bruder,형제,Mein Bruder studiert Medizin.,일단 합격,가족과 친구,false,false,2025-04-28 04:43:29.898237+00,false,,,,
+88d2641d-468a-4807-8915-ae5424044310,A1,die Tante,이모,Meine Tante lebt in Hamburg.,일단 합격,가족과 친구,false,false,2025-04-28 04:43:43.264559+00,false,,,,
+6a354691-7bff-4197-bc25-5e768ce53d37,A1,der Onkel,삼촌,Mein Onkel ist sehr lustig.,일단 합격,가족과 친구,false,false,2025-04-28 04:43:53.554576+00,false,,,,
+88db1cc1-329b-4f5c-b52f-a010cdd81683,A1,der Enkel,손자,Ich habe einen Enkel.,일단 합격,가족과 친구,false,false,2025-04-28 04:44:01.487373+00,false,,,,
+15e7301e-f719-4386-b38a-33f99f37eb88,A1,der Neffe,조카,Mein Neffe ist fünf Jahre alt.,일단 합격,가족과 친구,false,false,2025-04-28 04:44:20.685167+00,false,,,,
+faf37c1a-2619-4a1d-afe4-fb96bb5b18b3,A1,die Adresse,주소,Meine Adresse ist Hauptstraße 5.,일단 합격,인적 사항,false,false,2025-04-27 18:33:20.938233+00,false,buchstabierte,buchstabiert,buchstabierst,buchstabiert
+db663089-d5da-4f6a-a2f2-83df3aff9d50,A1,das Land,나라,Aus welchem Land kommen Sie?,일단 합격,인적 사항,false,false,2025-04-27 18:34:49.989575+00,false,,,,
+5a218725-46bb-4d82-934a-c09f2dd6d556,A1,wie,"how, 어떻게 ",Wie geht es dir?,일단 합격,인적 사항,false,true,2025-04-27 18:37:14.712071+00,false,,,,
+a8c4b685-1691-42c8-a9b0-037c5fd2c31b,A1,der Gard,도,Im Sommer sind es circa 25 Gard.,일단 합격,날씨,false,false,2025-04-28 10:40:04.807964+00,false,,,,
+1150f5cc-6422-4986-8853-b9e2f1f0ba0f,A1,der Wetterbericht,일기예보,Was sagt der Wetterbericht?,일단 합격,날씨,false,false,2025-04-28 10:40:24.403904+00,false,,,,
+7e6f2210-81a2-4913-a4e5-52aa4a3488d9,A1,kalt,추운,Es ist kalt,일단 합격,날씨,false,false,2025-04-28 10:40:31.619285+00,false,,,,
+ef7f47e6-eade-4b10-871e-c83551de4d3d,A1,heiß,"더운 ,뜨거운",Gerstern war es so heiß,일단 합격,날씨,false,false,2025-04-28 10:40:52.460134+00,false,,,,
+924814dd-7b68-4f4c-975f-04394933e04b,A1,plus,영상,Es sind Plusgrade.,일단 합격,날씨,false,false,2025-04-28 10:41:01.310075+00,false,,,,
+913786bb-6017-4c22-88d3-6cbf1b1b46e0,A1,neblig,안개가 낀,Seit gestern ist es neblig.,일단 합격,날씨,false,false,2025-04-28 10:41:12.824421+00,false,,,,
+783aef39-ffe9-4849-9d25-1ceaca1714e1,A1,der Osten	,동쪽,Die Sonne geht im Osten auf.	,일단 합격,날씨,false,false,2025-04-28 10:41:39.627899+00,false,,,,
+ecb4b89e-0a84-4279-9161-349b31519e36,A1,die Großeltern,조부모님,Meine Großeltern wohnen auf dem Land.,일단 합격,가족과 친구,false,false,2025-04-28 05:03:37.539796+00,false,,,,
+303a8db3-cde7-4674-ad0f-0708d7650d35,A1,die Geschwister,형제자매,Ich habe zwei Geschwister.,일단 합격,가족과 친구,false,false,2025-04-28 05:03:50.163971+00,false,,,,
+90c59d8e-3e34-4029-be38-8618e4b9d8bd,A1,das Kind,아이,Das Kind spielt im Garten.,일단 합격,가족과 친구,false,false,2025-04-28 05:03:59.480793+00,false,,,,
+d5434fa0-2e41-4803-b423-ad722d986e78,A1,der Opa,할아버지,Mein Opa erzählt gern Geschichten.,일단 합격,가족과 친구,false,false,2025-04-28 05:04:14.712869+00,false,,,,
+18c4df40-a72c-4773-9397-d744ae58e365,A1,die Oma,할머니,Meine Oma bäckt Kuchen.,일단 합격,가족과 친구,false,false,2025-04-28 05:04:25.094142+00,false,,,,
+46e9e7b4-8768-4ebb-8195-9703cc1f51f5,A1,der Freund,남자친구,Mein Freund heißt Lukas.,일단 합격,가족과 친구,false,false,2025-04-28 05:04:44.174866+00,false,,,,
+3749b3ee-9601-4e0d-9330-2cb1f81c51f3,A1,die Freundin,여자친구,Meine Freundin studiert in München.,일단 합격,가족과 친구,false,false,2025-04-28 05:05:00.244995+00,false,,,,
+c8bdb3f4-b7f6-4f79-9f71-39f7e2ddc4e8,A1,die Verwandte,친척,Eine Verwandte von mir lebt in Österreich.,일단 합격,가족과 친구,false,false,2025-04-28 05:05:23.93258+00,false,,,,
+0bf3964e-09f0-4a00-bc8f-9c3e4d38a5d1,A1,der Familienstand,가족상태,Was ist Ihr Familienstand?,일단 합격,가족과 친구,false,false,2025-04-28 05:05:35.618789+00,false,,,,
+cbae4b47-a660-4599-9cca-8e5f6ad642a9,A1,nett,친절한,Mein Lehrer ist sehr nett.,일단 합격,가족과 친구,false,false,2025-04-28 05:05:57.944476+00,false,,,,
+fe457800-3cdf-450f-93a6-bce7f5969413,A1,"verheiratet ",기혼인,Sie ist verheiratet.,일단 합격,가족과 친구,false,false,2025-04-28 05:06:10.966776+00,false,,,,
+160d473a-7af3-4def-b564-cf96eceef0de,A1,"ledig ",미혼의,Ich bin noch ledig.,일단 합격,가족과 친구,false,false,2025-04-28 05:06:25.316669+00,false,,,,
+60dc4aca-3fbd-41a3-b1f1-da0fdcee717f,A1,"verwitwet ",사별한,Mein Opa ist verwitwet.,일단 합격,가족과 친구,false,false,2025-04-28 05:06:34.707279+00,false,,,,
+63f47a65-403d-4cc4-b7f5-82e6b01f5eb4,A1,"geschieden ",이혼한,Meine Eltern sind geschieden.,일단 합격,가족과 친구,false,false,2025-04-28 05:06:49.844804+00,false,,,,
+d43347f7-0d86-4f4e-8bab-542ed601b547,A1,nennen,"명명하다, ~라고 부르다",Meine Familie nennt mich Juni,일단 합격,가족과 친구,false,false,2025-04-28 05:08:06.774485+00,true,nannte,gennant,nennst,nennt
+6a3b9353-b8c9-4755-b125-3eb6f28c4c85,A1,sich freuen,기뻐하다,"Ich freue mich, dass meine Eltern kommen",일단 합격,가족과 친구,false,false,2025-04-28 05:08:52.178452+00,true,freute,gefreut,freust dich,freut sich
+25f57fef-785f-4f3e-bfd1-d94d3a8d0d74,A1,die Geschiwster,"형제, 자매, 오누이",Ich habe keine Geschwister,일단 합격,가족과 친구,false,false,2025-04-28 05:09:21.984285+00,false,,,,
+d3b8e1f3-1b15-4831-9939-a70361781fa0,A1,Wie alt...?,몇 살?,Wie alt is Ihr Kind?,일단 합격,가족과 친구,false,false,2025-04-28 05:09:57.388091+00,false,,,,
+93e773ed-cc66-4dc7-81ca-f725f0b5147f,A1,Wie geht's?,잘 지내?,Wie geht es deiner Freundin?,일단 합격,가족과 친구,false,false,2025-04-28 05:10:21.856847+00,false,,,,
+ee22fb70-d0e0-4eab-8db1-f4f3f6b185b0,A1,gut,좋아,Mir geht's gut.,일단 합격,가족과 친구,false,false,2025-04-28 05:11:09.884776+00,false,,,,
+c3f9a99c-de87-460f-8433-f491d0e4e054,A1,sehr gut	,아주 좋아,Mir geht's sehr gut.,일단 합격,가족과 친구,false,false,2025-04-28 05:11:20.961618+00,false,,,,
+cf426b5c-664d-4306-b449-dce731274b88,A1,super,최고야,"Super, danke! ",일단 합격,가족과 친구,false,false,2025-04-28 05:11:30.026055+00,false,,,,
+cd2541ff-f6d5-4f00-8498-6017c956373e,A1,es geht,	그냥 그래,"Es geht, danke. ",일단 합격,가족과 친구,false,false,2025-04-28 05:11:48.892939+00,false,,,,
+45441f8f-cbe7-42d7-b6ae-b1da66d6d9fc,A1,nicht so gut,별로 안 좋아,Mir geht's nicht so gut.,일단 합격,가족과 친구,false,false,2025-04-28 05:12:03.630208+00,false,,,,
+c58f6b00-43cd-4fb2-8453-804e50027834,A1,fantastisch,환상적이야,Mir geht’s fantastisch!,일단 합격,가족과 친구,false,false,2025-04-28 05:12:19.155441+00,false,,,,
+e7a01d26-6e9d-43a8-95a9-d09a18db347b,A1,prima,아주 좋아 (캐주얼),"Mir geht’s prima! ",일단 합격,가족과 친구,false,false,2025-04-28 05:12:35.97696+00,false,,,,
+04e45d2c-a376-4a8d-96d0-a11467d71ab7,A1,bestens,최고로 좋아,"Mir geht’s bestens! ",일단 합격,가족과 친구,false,false,2025-04-28 05:12:45.207515+00,false,,,,
+b94323fa-1b3b-4d85-9d30-46767ea015ba,A1,schlecht,나빠,Mir geht’s schlecht.,일단 합격,가족과 친구,false,false,2025-04-28 05:12:57.676204+00,false,,,,
+2b6430e3-7d92-4b1c-ace6-069bf685b5b9,A1,müde,피곤해,Ich bin müde.,일단 합격,가족과 친구,false,false,2025-04-28 05:13:08.273237+00,false,,,,
+9123f9b9-47b9-4000-99f3-de1d13917885,A1,kaputt,완전 지침	,Ich bin kaputt,일단 합격,가족과 친구,false,false,2025-04-28 05:13:16.5601+00,false,,,,
+c3ce831f-7c47-4bfd-a3bb-beb4c95ccbc9,A1,krank,아파,Ich bin krank. (나 아파.),일단 합격,가족과 친구,false,false,2025-04-28 05:13:26.410828+00,false,,,,
+52836f4d-2ced-4653-a620-5c3bd806fe2f,A1,wunderbar,멋져,Mir geht’s wunderbar!,일단 합격,가족과 친구,false,false,2025-04-28 05:13:36.413346+00,false,,,,
+f4498dfa-dd1a-4a9e-a795-41fba5de4cdd,A1,so lala	,그럭저럭 (es geht보다 더 무심한 느낌),So lala. (그냥 그래.),일단 합격,가족과 친구,false,false,2025-04-28 05:13:49.332807+00,false,,,,
+ed2a100f-216a-4d3d-a7a2-23d348a1f3b4,A1,Wie läuft’s?,How is it going?,"Wie läuft’s? ",일단 합격,가족과 친구,false,false,2025-04-28 05:14:28.066133+00,false,,,,
+4662cadf-aaaf-47fe-bc23-ed75a8f19fb5,A1,Alles gut?,All good?,Alles gut?,일단 합격,가족과 친구,false,false,2025-04-28 05:14:39.061954+00,false,,,,
+bc3ea6f9-e408-4735-ace3-d27112d0878c,A1,Was gibt’s Neues?,Anyting New?,Was gibt’s Neues?,일단 합격,가족과 친구,false,false,2025-04-28 05:14:50.38855+00,false,,,,
+6fc70486-d489-410c-b094-8da16dca1f5d,A1,der Apfel,사과,Ich esse einen Apfel.,일단 합격,음식,false,false,2025-04-28 05:24:17.261037+00,false,,,,
+202aa4c5-517f-4947-8efb-181900b9e307,A1,die Birne,배,Ich kaufe eine Birne.,일단 합격,음식,false,false,2025-04-28 05:24:28.149319+00,false,,,,
+609d9886-2440-4d24-ae7f-d8dca0d97c98,A1,die Banane	,바나나	,Die Banane ist gelb.,일단 합격,음식,false,false,2025-04-28 05:24:36.078763+00,false,,,,
+dc2c424a-a3f8-4483-b187-677066073085,A1,das Brot	,빵,Ich esse Brot zum Frühstück.,일단 합격,음식,false,false,2025-04-28 05:24:43.670136+00,false,,,,
+55162acf-0a1b-45ad-8b20-b3b1ac87fa10,A1,das Brötchen	,작은 빵 (롤)	,Ich nehme ein Brötchen.,일단 합격,음식,false,false,2025-04-28 05:24:56.133292+00,false,,,,
+6ebeaa5a-61ac-4aee-b3c5-b7d8d1454afd,A1,die Butter,버터,Ich brauche Butter für das Brot.,일단 합격,음식,false,false,2025-04-28 05:26:00.92036+00,false,,,,
+6c0e1158-0882-461b-bf3c-0a4007f4aeb4,A1,das Ei	,달걀,Ich koche ein Ei.,일단 합격,음식,false,false,2025-04-28 05:26:08.383119+00,false,,,,
+5d957c39-3527-4ece-919f-d5fa57843a2d,A1,die Tomate	,토마토	,Die Tomate ist rot.,일단 합격,음식,false,false,2025-04-28 05:26:16.782322+00,false,,,,
+dff181a6-f546-4edb-a788-73c72ae54a48,A1,das Bier,맥주,Ich trinke ein Bier.,일단 합격,음식,false,false,2025-04-28 05:26:28.339753+00,false,,,,
+9765bf78-f168-4e78-9d59-d7829a5d87e9,A1,der Käse	,치즈,Ich esse Käse mit Brot.,일단 합격,음식,false,false,2025-04-28 05:26:36.056767+00,false,,,,
+fadb4782-57d4-4275-8be2-4a5dcb5f281d,A1,der Salat	,샐러드,Ich esse Salat zum Mittagessen.,일단 합격,음식,false,false,2025-04-28 05:26:46.121717+00,false,,,,
+acd71b4a-aed4-4ff8-b7ba-52aac7f32036,A1,der Reis	,쌀,Ich koche Reis.,일단 합격,음식,false,false,2025-04-28 05:26:54.759606+00,false,,,,
+b6a0d172-c367-4a44-a677-4cb28549fa9d,A1,die Milch	,우유,Ich trinke Milch.,일단 합격,음식,false,false,2025-04-28 05:27:04.75653+00,false,,,,
+96bdc96a-3d13-46d2-8b87-7cda20c978e6,A1,der Saft,주스,Ich mag Orangensaft.,일단 합격,음식,false,false,2025-04-28 05:27:13.470063+00,false,,,,
+7e8d49e9-09b9-4164-8a33-ea2a9579a82c,A1,der Kaffee,커피,Ich brauche einen Kaffee.,일단 합격,음식,false,false,2025-04-28 05:27:26.204477+00,false,,,,
+d83c8000-1334-4d90-873a-7348366a491c,A1,der Tee,차,Ich trinke gerne Tee.,일단 합격,음식,false,false,2025-04-28 05:27:38.416549+00,false,,,,
+4065ec38-10a4-4c56-abf9-980147d2f687,A1,die Wurst	,소시지,Ich esse eine Wurst.,일단 합격,음식,false,false,2025-04-28 05:27:47.227352+00,false,,,,
+98a1503f-7523-48bf-a7c5-27779fd80dc9,A1,das Obst	,과일,Obst ist gesund.,일단 합격,음식,false,false,2025-04-28 05:27:54.564262+00,false,,,,
+2da1be59-4477-4e2a-912a-0bf33db3acd2,A1,das Essen,음식,Das Essen hat mir sehr gut geschmeckt.,일단 합격,음식,false,false,2025-04-28 05:28:25.57268+00,false,,,,
+612613e9-daba-44f2-b6c6-80fe1548d531,A1,der Wein	,와인,Ich trinke roten Wein.,일단 합격,음식,false,false,2025-04-28 05:28:56.96019+00,false,,,,
+ddea9f09-aafb-44c2-a2f1-e3834db02408,A1,der Schinken	,햄,Ich esse Schinken mit Brot.,일단 합격,음식,false,false,2025-04-28 05:29:03.516855+00,false,,,,
+2fc1faf0-35e1-4378-9f9b-605a83f06fe9,A1,der Kuchen	,케이크,Der Kuchen ist süß.,일단 합격,음식,false,false,2025-04-28 05:29:11.620531+00,false,,,,
+b9afbcda-67df-420e-b1c2-800b9d7877e9,A1,die Orange	,오렌지,Ich schäle eine Orange. (schälen : peel),일단 합격,음식,false,false,2025-04-28 05:29:41.385461+00,false,,,,
+a82e701c-d23d-46b9-8c91-ebb9f46720d2,A1,die Cola	,콜라,Ich bestelle eine Cola.,일단 합격,음식,false,false,2025-04-28 05:30:02.222391+00,false,,,,
+e5505787-0e74-4d66-837a-9d0c413cbff0,A1,die Kartoffel	,감자,Ich kaufe Kartoffeln.,일단 합격,음식,false,false,2025-04-28 05:30:10.259766+00,false,,,,
+68ea8d93-61f8-4d7e-9a36-20b506daf79c,A1,die Sahne,생크림,Sahne ist lecker im Kaffee.,일단 합격,음식,false,false,2025-04-28 05:30:20.042605+00,false,,,,
+7fb77150-a84e-41e6-940e-65a094ee26d5,A1,die Traube,포도,Ich esse grüne Trauben.,일단 합격,음식,false,false,2025-04-28 05:30:30.768165+00,false,,,,
+e6092594-e594-47df-8401-bbb3a293a5f9,A1,die Suppe,수프,Die Suppe ist heiß.,일단 합격,음식,false,false,2025-04-28 05:30:39.187555+00,false,,,,
+45798d48-a021-4047-969f-eae2e52f9cab,A1,das Fleisch	,고기,Ich grille Fleisch.,일단 합격,음식,false,false,2025-04-28 05:30:47.202545+00,false,,,,
+358b1f02-e15a-4e91-92b6-1fb8d6ab62bf,A1,der Fisch,생선	,Ich esse gern Fisch.,일단 합격,음식,false,false,2025-04-28 05:30:56.144823+00,false,,,,
+89c434cb-2522-411b-9efb-d772c7291662,A1,das Gemüse,야채,Gemüse ist gesund.,일단 합격,음식,false,false,2025-04-28 05:31:04.882907+00,false,,,,
+b9d92501-3835-4bea-a764-578b4a540240,A1,das Getränk,음료,Ich bestelle ein Getränk.,일단 합격,음식,false,false,2025-04-28 05:31:16.20185+00,false,,,,
+07a6bd46-221f-4056-9106-196b94a6a237,A1,das Wasser,물,Ich trinke Wasser.,일단 합격,음식,false,false,2025-04-28 05:31:26.362465+00,false,,,,
+ac97a297-d2b1-47b0-bd4f-40b3fbf1e14e,A1,das Öl	,기름	,Ich brauche Öl zum Kochen.,일단 합격,음식,false,false,2025-04-28 05:31:35.086641+00,false,,,,
+5d7338d8-2348-486b-8f63-0ceabc799677,A1,das Hähnchen	,닭고기,Ich brate ein Hähnchen. (braten: fry),일단 합격,음식,false,false,2025-04-28 05:31:53.878991+00,false,,,,
+cf44d937-a8a2-42b7-8617-b7e6ff2f66b4,A1,der Markt,시장,Gibt es hier einen Markt?,일단 합격,음식,false,false,2025-04-28 05:32:31.958945+00,false,,,,
+54a2fed0-fb06-4866-9457-4fe07fdd69a0,A1,das Sonderangebot	,특가 상품,Ich habe den Wein im Sonderangebot gekauft.,일단 합격,음식,false,false,2025-04-28 05:32:50.386191+00,false,,,,
+6a2e0d4b-3655-4f04-9a48-fe8e3df1152f,A1,der Euro	,유로,"100 gram Käse kosten 1,10 (1Eruo 10)",일단 합격,음식,false,false,2025-04-28 05:33:36.007715+00,false,,,,
+6f5589da-2c2e-43ff-a28d-6f72f6e16dc7,A1,das Glas	,"유리잔 (물, 주스, 맥주, 와인 등)",Kann ich ein Glas Wasser haben?,일단 합격,음식,false,false,2025-04-28 05:35:04.614289+00,false,,,,
+86629476-ccdb-4d9d-84e2-51596169edd9,A1,kaufen,사다,Ich kaufe heute einen Kuchen,일단 합격,음식,false,false,2025-04-28 05:35:33.062241+00,true,kaufte,gekauft,kaufst,kauft
+a8b33cf0-f0c2-44f3-b5ff-0f545743a954,A1,kosten,비용이 ~얼마이다,Was kostet ein Apfel?,일단 합격,음식,false,false,2025-04-28 05:36:39.756171+00,true,kostete,gekostet,kostest,kostet
+f567c760-1467-4d38-a5da-9d8e596ad312,A1,verkaufen,팔다,Ich verkaufe die Schokolade.,일단 합격,음식,false,false,2025-04-28 05:47:12.622315+00,true,verkaufte,verkauft,verkaufst,verkauft
+a2542dce-8ce1-4a57-b787-cffd4e144219,A1,helfen,돕다,Kann ich Ihnen helfen?,일단 합격,음식,false,false,2025-04-28 05:53:26.953496+00,true,half,geholfen,hilfst,hilft
+61d3e048-abe5-46b8-9c08-f5e28208b6b9,A1,brauchen,필요하다,Ich brauche etwas zu essen.,일단 합격,음식,false,false,2025-04-28 05:54:48.331143+00,true,brauchte,gebraucht,brauchst,braucht
+3e02f9ea-1682-49cb-99ab-0a0ff75fc065,A1,essen,먹다,Essen Sie gern Hähnchen?,일단 합격,음식,false,false,2025-04-28 06:00:16.45691+00,true,aß,gegessen,isst,isst
+6d6bea61-34b7-4681-86b3-d8937bebf89c,A1,trinken,마시다,Ich trinke nicht so gern Saft.,일단 합격,음식,false,false,2025-04-28 06:00:52.510759+00,true,trank,getrunken,trinkst,trinkt
+c19d9105-6f8b-431b-b2ab-bfdd6a9f380d,A1,wie viel ...?,얼마나 많이,Wie viel möchten Sie?,일단 합격,음식,false,false,2025-04-28 06:01:51.271891+00,false,,,,
+9f4ae531-6d9e-48d5-b633-f4ff9b3c56b8,A1,was,무엇,Was ist das?,일단 합격,음식,false,false,2025-04-28 06:01:57.61157+00,false,,,,
+45743728-2b24-428d-bc53-2eefb765cf48,A1,sonst,그밖에,Sonst noch etwas?,일단 합격,음식,false,false,2025-04-28 06:02:18.377479+00,false,,,,
+a5aceaa9-c21e-4b36-877b-b9d53a2f419a,A1,noch,"아직, 여전히, 추가로, 또 (yet, still)",Ich bin noch hier.(나 아직 여기있어!),일단 합격,음식,false,false,2025-04-28 06:03:09.728105+00,false,,,,
+385363fd-fad2-4806-ab5c-6f1276d619d4,A1,doch,"(반박)그런데 그렇거든, (강조)진짜야, (명령문)좀 해!",Mach doch die Tür auf! 문좀 열어죠!!,일단 합격,음식,false,false,2025-04-28 06:03:48.235819+00,false,,,,
+cf62a65f-de60-42e5-8824-4424069eccea,A1,die Tasse,컵 (머그잔),Ich möchte eine Tasse Tee.,일단 합격,레스토랑,false,false,2025-04-28 05:34:44.09335+00,false,,,,
+6baf8d23-2c23-4864-83e0-bf971cccd124,A1,der Teller,접시,Ich brauche einen Teller.,일단 합격,레스토랑,false,false,2025-04-28 06:14:03.075894+00,false,,,,
+695af210-9e9b-43cc-8dd9-5eeff99197c1,A1,das Besteck	,커틀러,Wo ist das Besteck?,일단 합격,레스토랑,false,false,2025-04-28 06:14:45.96794+00,false,,,,
+2e21881e-ea70-4d47-b964-1151d9fce10f,A1,die Gabel,포크,Ich esse mit einer Gabel.,일단 합격,레스토랑,false,false,2025-04-28 06:14:55.054088+00,false,,,,
+b633e378-174a-40ca-88e3-eecca8e0fd5b,A1,das Messer	,칼,Das Messer ist scharf.,일단 합격,레스토랑,false,false,2025-04-28 06:15:02.95166+00,false,,,,
+a6edc10d-3629-4de0-9df6-479611005694,A1,der Hamburger	,햄버거,Ich esse einen Hamburger.,일단 합격,레스토랑,false,false,2025-04-28 06:15:10.110179+00,false,,,,
+756d1168-b09c-4f38-b2c7-ba3a99a6a268,A1,die Pizza	,통닭구이	피자,Wir essen eine Pizza.,일단 합격,레스토랑,false,false,2025-04-28 06:15:29.473607+00,false,,,,
+01956bc4-99a9-4e62-a19c-e36c0964d366,A1,die Spaghetti	,스파게티	,Ich koche Spaghetti.,일단 합격,레스토랑,false,false,2025-04-28 06:15:36.076163+00,false,,,,
+91cd137b-26b7-4e04-bcd0-3652f22e405c,A1,das Hähnchen,통닭구이,Ich bestelle ein Hähnchen.,일단 합격,레스토랑,false,false,2025-04-28 06:15:51.709019+00,false,,,,
+ef9315eb-6644-4b33-86a2-eb7ece4448b8,A1,die Soße	,소스,Die Soße ist sehr lecker.,일단 합격,레스토랑,false,false,2025-04-28 06:16:00.31469+00,false,,,,
+390a3e68-8499-4563-8f10-ff9b9aa48292,A1,das Eis	,아이스크림,Ich möchte ein Eis.,일단 합격,레스토랑,false,false,2025-04-28 06:16:10.255992+00,false,,,,
+642709e4-a050-4631-bb60-a025d7ad5dc6,A1,das Restaurant,레스토랑,Das Restaurant finde ich gut,일단 합격,레스토랑,false,false,2025-04-28 06:16:32.567514+00,false,,,,
+6f6af00d-a70c-485b-a6a0-c90c7847e197,A1,das Lieblingsessen,좋아하는 음식,Mein Lieblingsessen ist Hähnchen,일단 합격,레스토랑,false,false,2025-04-28 06:16:55.997401+00,false,,,,
+0339fbc2-66c2-42ed-bc85-13cd459218cb,A1,die Entschuldigung,"변명, 구실, 용서, 이해",Entschuldigung! Das Essen ist zu kalt.,일단 합격,레스토랑,false,false,2025-04-28 06:17:29.189173+00,false,,,,
+37237d03-3422-403e-8cf0-cc6328a6b120,A1,die Rechnung,계산서,könnten Sie bitte die Rechnung bezahlen?,일단 합격,레스토랑,false,false,2025-04-28 06:25:08.858123+00,false,,,,
+7ed97928-4f98-4abd-80aa-29a1acfaaeb2,A1,der Preis,가격,Der Preis gefällt mir,일단 합격,레스토랑,false,false,2025-04-28 06:25:34.546305+00,false,,,,
+9eba6a17-f8e8-43b1-87ea-7093fe768b9e,A1,Lebensmittel,식료품 (복수),Lebensmittel sind im Supermarkt.,일단 합격,음식,false,true,2025-04-28 05:28:47.03318+00,false,,,,
+6fa2252c-7664-4d24-b5ff-ba8996da32e7,A1,die Speisekarte,메뉴판,Bringen Sie mir bitte die Speisekarte.,일단 합격,레스토랑,false,false,2025-04-28 06:25:58.333236+00,false,,,,
+d4411bc4-7ad1-4b64-8021-b3fb4c84c72d,A1,ellig,"긴급한, 서둘러야 하는",Ich habe es furchtbar eilig! Kann ich das Essen so schnell wie möglich bekommen?,일단 합격,레스토랑,false,false,2025-04-28 06:27:08.027865+00,false,,,,
+fe46c394-05e5-429b-9139-48312a487dee,A1,möglich,가능한,Kann ich das Essen so schnell wie möglich bekommen?,일단 합격,레스토랑,false,false,2025-04-28 06:27:28.396728+00,false,,,,
+9dcda017-bd53-46e8-808a-6d3e22d15cd3,A1,ein bisshen,조금,Die Suppe ist ein bisshen salzig.,일단 합격,레스토랑,false,false,2025-04-28 06:28:06.414672+00,false,,,,
+b49daaf1-01fd-47fe-884e-f317db559d7f,A1,spielen,play,Ich spiele gern Fußball.,일단 합격,취미,false,false,2025-04-28 08:24:54.541508+00,true,spielte,gespielt,spielst,spielt
+f232d569-588f-47f5-8920-c6e89c217647,A1,fotografieren,사진을 촬영하다,Sie fotografiert die Blumen.,일단 합격,취미,false,false,2025-04-28 08:26:33.47347+00,true,fotografierte,fotografiert	,fotografierst,fotografiert
+3afafc48-f18e-49cc-a805-c0cdcb90b0f1,A1,schwimmen,수영하다,Kannst du gut schwimmen?,일단 합격,취미,false,false,2025-04-28 08:26:55.221601+00,true,schwamm,geschwommen,schwimmst,schwimmt
+fbe818a8-0495-43f8-865b-67b5ea779913,A1,einkaufen gehen	,장보러 가,Am Samstag gehe ich einkaufen.,일단 합격,취미,false,false,2025-04-28 08:27:36.492577+00,true,ging einkaufen,einkaufen gegangen,gehst einkaufen,geht einkaufen
+993113c6-be15-4086-8f97-df99469de493,A1,tanzen,춤을 추,Ich tanze gern Salsa.,일단 합격,취미,false,false,2025-04-28 08:28:01.8757+00,true,tanzte,getanzt,tanzt	,tanzt
+8deb83ee-e2b6-42aa-bba5-8d4f9ddf76f1,A1,kochen,요리하다,Kocht ihr heute Abend?,일단 합격,취미,false,false,2025-04-28 08:28:35.963454+00,true,kochte,gekocht,kochst,kocht
+f8e95199-110b-4a53-b126-dded1704df04,A1,wandern,"도보 여행하다, 떠돌",Am Wochenende wandern wir im Wald.,일단 합격,취미,false,false,2025-04-28 08:29:10.273814+00,true,wanderte,gewandert,wanderst,wandert
+81fb4028-d1b3-4ec2-a228-b65b0b7c8576,A1,ins Kino gehen	,영화보러 가,Gehst du gern ins Kino?,일단 합격,취미,false,false,2025-04-28 08:29:48.691125+00,true,ging ins Kino	,ins Kino gegangen	,gehst ins Kino,geht ins Kino
+9e01d02c-edc7-4d78-b483-9b9099b04d13,A1,Ski fahren	,스키를 타,Im Winter fahre ich Ski.,일단 합격,취미,false,false,2025-04-28 08:30:19.265081+00,true,fuhr Ski	,Ski gefahren	,fährst Ski,fährt Ski
+3849e270-44d0-4705-b632-67ab913661b9,A1,der Baseball	,야구,Ich spiele Baseball.,일단 합격,취미,false,false,2025-04-28 08:30:57.284227+00,false,,,,
+b68251c7-2773-4f81-91a4-01413ce7c75a,A1,der Basketball	,농구,Er spielt Basketball in der Schule.,일단 합격,취미,false,false,2025-04-28 08:31:09.312709+00,false,,,,
+63c2f5a5-2d2b-4a28-bc34-4b0714e3e14f,A1,der Fußball	,축,Wir lieben Fußball.,일단 합격,취미,false,false,2025-04-28 08:31:17.27088+00,false,,,,
+163e0524-52a7-45b4-9cd8-1f07bf74e268,A1,das Eishockey	,아이스하키,Sie spielt Eishockey im Winter.,일단 합격,취미,false,false,2025-04-28 08:31:26.67065+00,false,,,,
+d1a268e7-5d45-4f30-b31d-a03c39f018b6,A1,das Golf	,골프를 치다,Mein Vater spielt Golf.,일단 합격,취미,false,false,2025-04-28 08:31:37.425179+00,false,,,,
+82c11b4f-7801-4a00-b6fb-3233e8b4e1a3,A1,der Handball	,핸드볼,Handball ist in Deutschland sehr beliebt.,일단 합격,취미,false,false,2025-04-28 08:31:48.856335+00,false,,,,
+62850149-d342-46cf-ab4d-d7ecdc8640b7,A1,das Tischtennis	,탁구,Ich spiele gern Tischtennis mit meinen Freunden.,일단 합격,취미,false,false,2025-04-28 08:31:58.49683+00,false,,,,
+7b1d8c64-029a-49f2-8593-1d913518f8d8,A1,das Hobby,취미,Was ist Ihr Hobby?,일단 합격,취미,false,false,2025-04-28 08:33:10.877743+00,false,,,,
+76a66636-d096-4d45-9dd1-e98cd221f292,A1,das Lied,노래,Sie hat dieses Lied gesungen,일단 합격,취미,false,false,2025-04-28 08:33:41.187116+00,false,,,,
+1052d1f5-276a-4ff9-a479-58f8330446a0,A1,der Sport,스포츠,Fußball ist die beliebteste Sportart in Deutschland,일단 합격,취미,false,false,2025-04-28 08:34:06.589043+00,false,,,,
+16d53401-fb2c-465b-bc7f-bee549aebed4,A1,das Tennis,테니스,Ich spiele gern Tennis,일단 합격,취미,false,false,2025-04-28 08:34:16.718241+00,false,,,,
+04ae1fdb-2c63-4ca5-9933-484f3e78e92b,A1,die Freizeit,여가,Was machen Sie in der Freizeit?,일단 합격,취미,false,false,2025-04-28 08:34:50.692046+00,false,,,,
+72bd28c3-1a46-416c-b871-d7e299a44650,A1,das Lieblingsbuch,좋아하는 책,Mein Lieblingsbuch ist Harry Potter.,일단 합격,취미,false,false,2025-04-28 08:35:09.364207+00,false,,,,
+eff98212-61d3-4f9c-b244-2f36bfd28b9c,A1,der Lieblingsfilm,좋아하는 영화,Mein Lieblingsfilm ist Nemo,일단 합격,취미,false,false,2025-04-28 08:35:44.254326+00,false,,,,
+6b2187ba-496c-40f9-a16f-0e6622c3fc51,A1,die Lieblingsmusik,좋아하는 음악,Was ist Ihre Lieblingsmusik?,일단 합격,취미,false,false,2025-04-28 08:37:22.317955+00,false,,,,
+49b2fe86-a212-4832-8107-03f1255c5b6d,A1,der Film,영화,Ich habe gestern einen Film geguckt.,일단 합격,취미,false,false,2025-04-28 08:37:34.861264+00,false,,,,
+6947c928-79d4-45be-8eca-7dfaf7e68a37,A1,die Musik,음악,Möchten Sie Musick hören?,일단 합격,취미,false,false,2025-04-28 08:38:11.089764+00,false,,,,
+c230270c-2b39-4c05-9780-5ce4be932dd2,A1,das Theater,"극장, 무대, 연극",Er geht einmal im Monat ins Theater.,일단 합격,취미,false,false,2025-04-28 08:38:33.429636+00,false,,,,
+10ddddd1-9341-4ccd-b98b-87bbb57c04f3,A1,Freund Treffen,친구를 만나다,Um 3 Uhr treffe ich meinen Freund.,일단 합격,취미,false,false,2025-04-28 08:39:17.981092+00,true,traf,getroffen,triffst,trifft
+62c8a097-5d35-456e-8c4c-b32664bfffb6,A1,ins Kino gehen,영화관에 가다,Morgen gehen wir ins Kino.,일단 합격,취미,false,false,2025-04-28 08:41:37.312863+00,true,ging ins Kino,ins Kino gegangen,gehst,geht
+03ec4a60-260e-4139-abba-a761bc8df83d,A1,fernsehen,TV를 보다,Sehen Sie nicht so viel fern!,일단 합격,취미,false,false,2025-04-28 08:43:54.943925+00,true,sah fern,ferngesehen,siehst fern,sieht fern
+e83023f2-3c01-472e-8556-7ca58baeba2d,A1,der Montag,월요일,Heute ist Montag.	,일단 합격,요일,false,false,2025-04-28 08:46:47.518453+00,false,,,,
+8dab0a6e-5083-42b5-8724-16a0a5cee693,A1,der Dienstag,화요일,Am Dienstag gehe ich zur Arbeit.	,일단 합격,요일,false,false,2025-04-28 08:47:02.993105+00,false,,,,
+6570ddd2-378c-494c-b9f6-dd99799ce9c7,A1,der Mittwoch,수요일,Mittwochs habe ich Deutschkurs.	,일단 합격,요일,false,false,2025-04-28 08:47:25.887673+00,false,,,,
+689617d9-9d6d-467c-9584-a0856527a4f1,A1,der Donnerstag,목요일,Der Donnerstag ist immer stressig.	,일단 합격,요일,false,false,2025-04-28 08:47:44.75667+00,false,,,,
+bb4b5940-6c5c-4d4f-a412-a5323198d8ad,A1,der Freitag,금요일,Wir treffen uns am Freitag.	,일단 합격,요일,false,false,2025-04-28 08:48:00.5384+00,false,,,,
+f6fa6421-faf5-431a-a0e8-c3c8699f1b77,A1,der Samstag,토요일,Heute ist Samstag.	,일단 합격,요일,false,false,2025-04-28 08:48:16.497566+00,false,,,,
+8381df2e-ac51-4395-b435-1f152a1e452b,A1,der Sonntag,일요일,Wir treffen uns am Sonntag.	,일단 합격,요일,false,false,2025-04-28 08:48:32.193213+00,false,,,,
+4470afc7-5366-4430-96e1-04f5c49cc213,A1,der Januar	,1월,Der Januar ist kalt.	,일단 합격,월,false,false,2025-04-28 08:49:01.057765+00,false,,,,
+17300ab2-5e1a-463f-9ee0-eda15d97b106,A1,der Februar	,2월,Im Februar ist mein Geburtstag.	,일단 합격,월,false,false,2025-04-28 08:49:11.146553+00,false,,,,
+27e98a07-3d34-47b8-bc2e-407301b282f0,A1,der März	,3월,Im März wird es warm.	,일단 합격,월,false,false,2025-04-28 08:49:24.443239+00,false,,,,
+8a56fc91-0f2a-481d-b16c-8583e47e3416,A1,der April	,4월,"Der April macht, was er will.	",일단 합격,월,false,false,2025-04-28 08:49:41.38899+00,false,,,,
+3a7f61ed-7c64-477a-a851-f39618db274d,A1,der Mai	,5월,Im Mai blühen die Blumen.	,일단 합격,월,false,false,2025-04-28 08:49:52.9887+00,false,,,,
+9b53ad45-2bea-46d9-a2b8-a63aa193e516,A1,der Juni	,6월,Juni ist der Anfang des Sommers.	,일단 합격,월,false,false,2025-04-28 08:50:01.821142+00,false,,,,
+5128ee0a-2b8e-4af5-b8f7-feb225ff1593,A1,der Juli	,7월,Wir fahren im Juli ans Meer.	,일단 합격,월,false,false,2025-04-28 08:50:15.755306+00,false,,,,
+b85a0792-d90e-42ef-a05e-af0c1594394d,A1,der August	,8월,Im August habe ich Ferien.	,일단 합격,월,false,false,2025-04-28 08:50:26.686489+00,false,,,,
+236181a0-dcc0-4aac-9065-73609252778b,A1,der September	,9월,September ist der Herbstanfang.	,일단 합격,월,false,false,2025-04-28 08:50:38.646111+00,false,,,,
+665d7e88-4f0c-48c3-8240-a0bff89f146b,A1,der Oktober	,10월,Im Oktober sind die Blätter bunt.	(10월에는 나뭇잎이 알록달록하다.),일단 합격,월,false,false,2025-04-28 08:51:00.93819+00,false,,,,
+7d354072-a0bb-4cbf-9ccb-c139fa16eb90,A1,der November	,11월,November ist oft grau und nass.	(11월은 종종 흐리고 비가 온다.),일단 합격,월,false,false,2025-04-28 08:51:16.634121+00,false,,,,
+fe8a1994-489d-4ded-aaef-6bebbad20688,A1,der Dezember	,12월,Im Dezember feiern wir Weihnachten.	(12월에 우리는 크리스마스를 축하한다.),일단 합격,월,false,false,2025-04-28 08:51:32.524828+00,false,,,,
+b24c0859-bdda-4e8a-8f82-81d1388033e4,A1,das Mittagessen,점심,Das Mittagessen war gut,일단 합격,일상,false,false,2025-04-28 08:52:05.238272+00,false,,,,
+d36ee9b5-aabc-4248-bb34-f03a5e129741,A1,der Morgen,아침,Guten Morgen!,일단 합격,일상,false,false,2025-04-28 08:52:14.64744+00,false,,,,
+c22b5871-6917-4bbe-b472-d64a00f5ff3b,A1,am Morgen,아침에,Ich trinke am Morgen Kaffee.	,일단 합격,일상,false,false,2025-04-28 08:52:52.839415+00,false,,,,
+d7405252-ed20-43ec-81fd-a1fb65a98156,A1,jeden Morgen	,매일 아침마다,Jeden Morgen fahre ich mit dem Bus.	,일단 합격,일상,false,false,2025-04-28 08:53:06.482137+00,false,,,,
+f261b2fd-265a-49a8-9887-02a03b145b4f,A1,der Tag,날,Die Woche hat 7 Tage.,일단 합격,일상,false,false,2025-04-28 08:53:39.070302+00,false,,,,
+bf045952-b08b-486e-a151-c42d503716c3,A1,der Monat,달,In diesem Monta fliege ich nach Deutschland.,일단 합격,일상,false,false,2025-04-28 08:54:03.585927+00,false,,,,
+cccd7d22-d28c-4840-aa4e-7d03c5c1137f,A1,die Stunde,시간,Ich bin in einer Stunde zurück (한시간 안에 돌아올게),일단 합격,일상,false,false,2025-04-28 08:54:43.143091+00,false,,,,
+098f7c57-710b-43fb-8c5a-992ec1506d43,A1,später,"나중에, 후에, 더 늦은",Es tut mir leid. Ich komme ein bisschen später. (미안한데 좀 늦음),일단 합격,일상,false,false,2025-04-28 08:55:17.124907+00,false,,,,
+a12b1fc7-1dea-4924-95ee-e129261b2591,A1,aufstehen,일어나다,Ich stehe um 7 Uhr auf.,일단 합격,일상,false,false,2025-04-28 08:57:30.714337+00,true,stand auf,aufgestanden,stehst auf,steht auf	
+f136b5b5-1637-4f73-ae82-03d13f8b3ad3,A1,sprechen,말하다	,Er spricht Deutsch.,일단 합격,일상,false,false,2025-04-28 08:57:52.443905+00,true,sprach,gesprochen,sprichst,spricht
+d0c44147-494d-406f-9428-d303041a7144,A1,schreiben,쓰다,Ich schreibe einen Brief.,일단 합격,일상,false,false,2025-04-28 08:58:16.023538+00,true,schrieb,geschrieben,schreibst,schreibt
+05e61739-564d-4f82-9e88-6fd347b0763f,A1,sich waschen	,"씻다, 빨래하",Du wäschst dich am Morgen.,일단 합격,일상,false,false,2025-04-28 08:58:58.089813+00,true,wusch sich	,sich gewaschen	,wäschst dich	,wäscht sich
+a7b85dcc-e2af-4de0-99d8-b9de5bb646fc,A1,sich anziehen	,옷을 입다	,Er zieht sich schnell an.,일단 합격,일상,false,false,2025-04-28 08:59:44.725961+00,true,zog sich an	,sich angezogen	,ziehst dich an	,zieht sich an	
+69d264e6-647e-4384-abeb-e3d4390706e0,A1,sich ausziehen	,옷을 벗다	,Ich ziehe mich aus.,일단 합격,일상,false,false,2025-04-28 09:00:12.128359+00,true,zog sich aus	,sich ausgezogen	,ziehst dich aus	,zieht sich aus	
+251b024a-b65e-4903-80fd-58c8734fd532,A1,warten,기다리다,Wir warten auf den Bus.,일단 합격,일상,false,false,2025-04-28 09:00:32.94108+00,true,wartete,gewartet	,wartest,wartet
+3a8f3c01-8bb5-4f8f-a674-94d1e249ba8c,A1,sich freuen	,기뻐하다,Ich freue mich auf das Wochenende.,일단 합격,일상,false,false,2025-04-28 09:01:04.46023+00,true,freute sich	,sich gefreut	,freust dich	,freut sich
+8c8e6c18-fa8f-44a0-b12a-d2d43c251f6b,A1,denken,생각하다,Ich denke an dich.,일단 합격,일상,false,false,2025-04-28 09:01:45.617119+00,true,dachte,dachte,denkst,denkt	
+b06f5949-52a5-488b-9b2a-21854b74548b,A1,kommen,오다,Kommen Sie auch ?,일단 합격,일상,false,false,2025-04-28 09:03:43.783978+00,true,kam,gekommen,kommst,kommt
+0c35184f-2e6d-4909-b9ea-cd57a114843e,A1,ins Bett gehen,자러가다,Ich gehe heute früh ins Bett.,일단 합격,일상,false,false,2025-04-28 09:05:22.667063+00,true,ging ins Bett,ins Bett gegangen,"gehst ins Bett ","geht ins Bett "
+96cdfafa-6889-4fd9-bc4f-054784bdfe02,A1,(sich) treffen,만나다,Ich treffe in der Innenstadt meine Kollegen.,일단 합격,일상,false,false,2025-04-28 09:06:08.857997+00,true,traf,getroffen,triffst,trifft
+704071ce-11e8-46ae-9731-116f759438a2,A1,mitbringen,가져오다,ich gehe einkaufen. Soll ich dir was mitbringen?,일단 합격,일상,false,false,2025-04-28 09:06:54.328767+00,true,brachte mit,mitgebracht,bringst mit,bringt mit
+c4a96c87-ee22-4161-83ab-8a78d7894129,A1,mitmachen,"join, participate",Warum machen Sie nicht mit?,일단 합격,일상,false,false,2025-04-28 09:08:57.828027+00,true,machte mit,mitgemacht,machst mit,macht mit
+f93e8328-85e4-4489-94dd-827ceac932d5,A1,putzen,청소하다,Mein Vater putzt nicht gern,일단 합격,일상,false,false,2025-04-28 09:09:26.900975+00,true,putzte,geputzt,putzt,putzt
+fe68c7ea-b3e4-48a3-8e0b-41bfa6124e0d,A1,abholen,"pick up, collect",Wir müssen meinen Bruder abholen.,일단 합격,일상,false,false,2025-04-28 09:10:57.917889+00,true,holte ab,abgeholt,holst ab,holt ab
+1c9e1a1b-4d68-465b-b19a-7af2d21b6449,A1,der Luftballon,풍선,Der Luftballon ist rot.	,일단 합격,축제,false,false,2025-04-28 09:53:47.409086+00,false,,,,
+92e7d493-47aa-4da1-bb0b-55afca4c70b0,A1,das Geschenk	,선물,Ich habe ein Geschenk für dich.	,일단 합격,축제,false,false,2025-04-28 09:53:55.309258+00,false,,,,
+d633eb8d-8db4-4a88-9db2-04fe14b46231,A1,die Schokolade	,초콜릿,Ich esse gern Schokolade.	,일단 합격,축제,false,false,2025-04-28 09:54:02.019242+00,false,,,,
+097a981f-a7cd-4712-8dfc-2d449503d550,A1,der Bonbon	,사탕,Möchtest du einen Bonbon?	,일단 합격,축제,false,false,2025-04-28 09:54:09.529474+00,false,,,,
+2f4d0334-3525-4844-a3bb-5eed92391499,A1,der Geburtstag	,생일,Mein Geburtstag ist im März.	,일단 합격,축제,false,false,2025-04-28 09:54:17.545882+00,false,,,,
+c8edcc6a-ffda-4528-a216-a71e2db9eb6e,A1,die Blume	,꽃,Ich kaufe Blumen für meine Mutter.	,일단 합격,축제,false,false,2025-04-28 09:54:27.154928+00,false,,,,
+3fa5d841-5767-4f0e-97cf-9188791a3eed,A1,die Glückwunschkarte	,축하 카드	,Ich schreibe eine Glückwunschkarte.	,일단 합격,축제,false,false,2025-04-28 09:54:44.408913+00,false,,,,
+5f98e3f7-b025-4218-8213-d2ff42308b27,A1,die Party	,파티,Die Party beginnt um 18 Uhr.	,일단 합격,축제,false,false,2025-04-28 09:54:54.680256+00,false,,,,
+bbf32189-b5f9-412d-bfc2-bc485f2ad66d,A1,das Weihnachten	,크리스마스,An Weihnachten bekomme ich Geschenke.	,일단 합격,축제,false,false,2025-04-28 09:55:07.027582+00,false,,,,
+09832ac3-87ee-49d1-adf4-73381ad8ba5e,A1,das Fest	,축제,Das Fest ist im Sommer.	,일단 합격,축제,false,false,2025-04-28 09:55:14.930124+00,false,,,,
+ec1472ee-68ea-4f87-a67e-13a9d0b4ad4c,A1,die Hochzeit	,결혼식,Die Hochzeit ist sehr schön.	,일단 합격,축제,false,false,2025-04-28 09:55:23.365657+00,false,,,,
+ccc9296c-f71d-46f6-9f39-e930443d1f6f,A1,die Briefmarke,우표,Ich habe eine Briefmarke aus Korea geschenkt,일단 합격,축제,false,false,2025-04-28 09:56:16.104267+00,false,,,,
+41ace6c5-e7fa-4a13-b3ac-21cd2e201b70,A1,die Postkarte,엽서,Ich brauche eine Postkarte,일단 합격,축제,false,false,2025-04-28 09:56:31.862159+00,false,,,,
+d7d2caf0-fea5-4914-b1d8-1cfe26df71a4,A1,die Sendung,소포,Die Sendung ist noch nicht da.,일단 합격,축제,false,false,2025-04-28 09:56:43.714712+00,false,,,,
+f2143df8-9707-4050-b441-ba5d1ab23f31,A1,das Paket,소포,Haben Sie mein Paket bekommen?,일단 합격,축제,false,false,2025-04-28 09:57:05.378383+00,false,,,,
+27eacc8a-79fb-4b58-8bbe-370c13f84793,A1,die Feier,축제,Wir möchten eine große Feier machen.,일단 합격,축제,false,false,2025-04-28 09:57:50.128321+00,false,,,,
+386d05fa-9ad5-40ca-8834-4f770ff814ae,A1,schenken,선물하다,Meiner Mutter schenke ich eine Kette (schenken은 3격/에게+4격/을),일단 합격,축제,false,false,2025-04-28 10:00:54.116839+00,true,schenkte,geschenkt,schenkst,schenkt
+b9fcd7a2-4da2-41bc-923c-8c5172a9e39b,A1,wünschen,"원하다, wish",Ich wünsche dir alles Gute.,일단 합격,축제,false,false,2025-04-28 10:02:34.955476+00,true,wünschte,gewünscht,wünschst,wünscht
+a97e42e7-ff86-4b3b-96da-79f1a429cfcd,A1,bekommen,"get, receive, 받다",Von meinem Freund habe ich eine Tasche bekommen.,일단 합격,축제,false,false,2025-04-28 10:04:08.58858+00,true,bekam,bekommen,bekommst,bekommt
+3e7b167c-d1bd-42f4-969b-31af27e3df82,A1,machen,"~ 하다, 만들다",Wir machen einen Salat,일단 합격,축제,false,false,2025-04-28 10:06:07.076958+00,true,machte,gemacht,machst,macht
+bd43f4f6-5df2-4857-ac32-b3e7ff46e804,A1,danken,감사하다,Vielen Dank,일단 합격,축제,false,false,2025-04-28 10:06:42.018468+00,true,dankte,gedankt,dankst,dankt
+80db219d-018d-45f5-88b6-c19b4663dad5,A1,werden,"~ 이 되다, become",Am Freitag werde ich 30 Jahre alt.,일단 합격,축제,false,false,2025-04-28 10:08:08.200485+00,true,wurde,geworden,wirst,wird
+8cb05cb3-895b-47f1-ae68-0ed0b9d40c07,A1,feiern,"축하하다, 기념하다",Ich feiere im Restaurant Lezza,일단 합격,축제,false,false,2025-04-28 10:08:57.174031+00,true,feierte,gefeiert,feierst,feiert
+871852d2-ffbd-4465-a5f0-51d21649b8da,A1,organisiern,organize (편성/조직하다),Wer hat die Veranstaltung orgbanisiert?,일단 합격,축제,false,false,2025-04-28 10:10:19.010079+00,true,organisierte,organisiert,organisierst,organisiert
+c8e58d21-796f-42c0-8b26-931824971faa,A1,einladen,초대하다,Ich lade Sie ein.,일단 합격,축제,false,false,2025-04-28 10:11:31.140249+00,true,lud ein,eingeladen,lädst ein,lädt ein
+9fe870cd-1a4d-43fc-ba13-9d0e6b1d10d0,A1,der Gast,손님,Der Gast ist freundlich.	,일단 합격,호텔,false,false,2025-04-28 10:14:30.773679+00,false,,,,
+6ff53560-c9e1-4aa0-9e1d-60f9ced0e4dc,A1,der Schlüssel	,열쇠,Wo ist mein Schlüssel?	,일단 합격,호텔,false,false,2025-04-28 10:14:38.246569+00,false,,,,
+1517647e-198a-4ae2-8970-e26232353d97,A1,der Koffer	,여행 가방	,Mein Koffer ist schwer.	,일단 합격,호텔,false,false,2025-04-28 10:14:45.8879+00,false,,,,
+10e2908b-918a-4003-9f6c-797e6a9bbd26,A1,die Reise	,여행	,Die Reise nach Berlin war schön.	,일단 합격,호텔,false,false,2025-04-28 10:14:53.874339+00,false,,,,
+101dd789-ac49-425b-b8ac-5a9c74630679,A1,die Übernachtung	,숙박	,Die Übernachtung kostet 50 Euro.	,일단 합격,호텔,false,false,2025-04-28 10:15:04.059634+00,false,,,,
+d00aa773-ce38-4031-b471-90b113eb8ce5,A1,die Reservierung	,예약	,Ich habe eine Reservierung auf meinen Namen.	,일단 합격,호텔,false,false,2025-04-28 10:15:12.655962+00,false,,,,
+341dfc8e-f371-43d1-825c-c1063ed482f6,A1,das Einzelzimmer	,싱글룸 (1인실)	,Ich möchte ein Einzelzimmer.	,일단 합격,호텔,false,false,2025-04-28 10:15:21.109004+00,false,,,,
+662946ce-76d5-4692-b61e-4852056cd5bc,A1,das Doppelzimmer	,더블룸 (2인실)	,Wir nehmen ein Doppelzimmer.	,일단 합격,호텔,false,false,2025-04-28 10:15:34.290877+00,false,,,,
+a77b2312-2e6a-475f-80ee-237e348be4b7,A1,die Zimmernummer	,방 번호	,Wie ist Ihre Zimmernummer?	,일단 합격,호텔,false,false,2025-04-28 10:15:43.795592+00,false,,,,
+b46e84e9-3598-428d-a475-70cbf059d9e8,A1,das Frühstück	,아침 식사	,Das Frühstück ist um 7 Uhr.	,일단 합격,호텔,false,false,2025-04-28 10:15:51.467671+00,false,,,,
+2caa841b-72b6-412b-8518-1532206eb07a,A1,der Ausweis	,신분증,Bitte zeigen Sie Ihren Ausweis.	,일단 합격,호텔,false,false,2025-04-28 10:16:04.685364+00,false,,,,
+01076c36-7f9f-4081-8272-f19232967130,A1,der Empfang	,리셉션 (프론트 데스크)	,Der Empfang ist im Erdgeschoss.	,일단 합격,호텔,false,false,2025-04-28 10:16:26.326944+00,false,,,,
+a3c4a37c-f06b-4caf-aba3-ad91e211d450,A1,der Hoteldiener	,"호텔 직원, 호텔 벨보이	",Der Hoteldiener trägt meinen Koffer.	,일단 합격,호텔,false,false,2025-04-28 10:16:44.28326+00,false,,,,
+2a6b203a-bc04-4514-8089-b58b20ad9940,A1,der Kellner	,웨이터 (남성)	,Der Kellner bringt das Essen.	,일단 합격,호텔,false,false,2025-04-28 10:16:52.165083+00,false,,,,
+bfea386d-e358-48fc-bc81-d4059c55b38b,A1,die Kellnerin	,웨이트리스 (여성)	,Die Kellnerin ist sehr freundlich.	,일단 합격,호텔,false,false,2025-04-28 10:16:59.706328+00,false,,,,
+a90c113b-edfd-45fb-ac98-5508d201b44b,A1,die Köchin	,여자 요리사	,Die Köchin kocht sehr gut.	,일단 합격,호텔,false,false,2025-04-28 10:17:12.631+00,false,,,,
+12a4585a-5dac-4ae0-ad48-e04727dd4ba2,A1,der Koch,남자 요리사,Der Koch kocht sehr gut,일단 합격,호텔,false,false,2025-04-28 10:17:25.25547+00,false,,,,
+069907ad-e4f8-4e68-8f6e-e3e58205c680,A1,die Unterkunft,숙박,Ich suche eine preiswerte Unterkunft.,일단 합격,호텔,false,false,2025-04-28 10:18:16.558178+00,false,,,,
+7c98f0a4-cc15-463b-a6e6-062f7de864e8,A1,das Hotel,호텔,können Sie mir bitte ein sauberes Hotel empfehlen?,일단 합격,호텔,false,false,2025-04-28 10:18:53.893916+00,false,,,,
+bdc3c487-ec1a-4d49-ba7c-678e53458ae6,A1,"sauber ",깨끗한,sauberes Hotel (4격),일단 합격,호텔,false,false,2025-04-28 10:19:43.357889+00,false,,,,
+2c16742d-c372-4d25-aa36-9c28f22ee0d4,A1,das Zimmer,방,Haben Sie noch ein Zimmer frei?,일단 합격,호텔,false,false,2025-04-28 10:20:03.263991+00,false,,,,
+bbaa7322-9abc-4db8-8ca8-ab40a0fcc22a,A1,von~ bis~,~언제부터 ~언제까지,Ich bleibe vom 4. Januar bis 9. Januar.,일단 합격,호텔,false,false,2025-04-28 10:20:57.456903+00,false,,,,
+e4ae959f-7258-48b1-aa44-e047dfa2471b,A1,offen,열려있는,Die Tür ist offen,일단 합격,호텔,false,false,2025-04-28 10:21:16.584925+00,false,,,,
+938afd01-1d2a-4e97-8022-8c3b2fa7619f,A1,sicher,"safe, surely, safely ","Das Auto ist sicher.	*형용사 ,부사 전부 사용",일단 합격,호텔,false,false,2025-04-28 10:22:16.316651+00,false,,,,
+55bffee0-0e69-4886-9814-e85ebe949b52,A1,absagen,"cancel, 취소/거절하다",Ich sagte den Termin ab. (과거),일단 합격,호텔,false,false,2025-04-28 10:23:33.989139+00,true,sagte ab,abgesagt,sagst ab,sagt ab
+35bd197b-c912-42d8-abcf-90e3ff5d90f5,A1,abreisen,떠나다,Ich werde in 3 Tagen abreisen,일단 합격,호텔,false,false,2025-04-28 10:24:41.723315+00,true,reiste ab,abgereist,reist ab,reist ab
+e798aa05-0c7a-469b-a0d3-3b928d302b47,A1,reservieren,예약하다,Ich möchte ein Doppelzimmer reservieren,일단 합격,호텔,false,false,2025-04-28 10:26:41.22142+00,true,reservierte,reserviert,reservierst,reserviert
+e65b9331-25b8-4883-aed4-f1f5660dbbe3,A1,"übernachten ",숙박하다,Ich habe in einer Jugendherberge übernachtet.,일단 합격,호텔,false,false,2025-04-28 10:28:46.295955+00,true,übernachtete,übernachtet,übernachtest,übernachtet
+db0dac30-9d82-49b5-af67-be0f26c9fb1a,A1,empfehlen,추천하다,Welches Hotel können Sie mir empfehlen?,일단 합격,호텔,false,false,2025-04-28 10:30:13.713225+00,true,empfahl,empfohlen,empfehlst,empfehlt
+750edf9e-2afb-46bd-baff-65433c4ec022,A1,bleiben,머물다,Ich bleibe im Hotel,일단 합격,호텔,false,false,2025-04-28 10:30:54.894073+00,true,bleib,gebleiben,bleibst,bleibt
+ded514a4-9162-4146-80ff-224d805e01a8,A1,klingeln,"벨이 울리다 ",Es hat geklingelt.,일단 합격,호텔,false,false,2025-04-28 10:31:47.860005+00,true,klingelte,geklingelt,klingelst,klingelt
+703cb706-77eb-489f-8358-f02db4c3323c,A1,ausleihen,"빌리다, 빌려주다",Was können wir hier ausleihen?,일단 합격,호텔,false,false,2025-04-28 10:33:01.060957+00,true,leih aus,ausgeleihen,leihst aus,leiht aus
+664e7c00-cfb2-41ad-86bf-4ec4b6e748e9,A1,der Frühling	,봄	,Im Frühling blühen die Blumen.	,일단 합격,날씨,false,false,2025-04-28 10:36:18.295654+00,false,,,,
+cd1a920d-cc65-409a-a418-5f0bc377dbf2,A1,der Sommer	,여름,Der Sommer ist heiß.	,일단 합격,날씨,false,false,2025-04-28 10:36:26.524828+00,false,,,,
+3ea23b93-e393-4fec-8f9b-ba8683005a09,A1,der Herbst	,가을,Im Herbst fallen die Blätter.	,일단 합격,날씨,false,false,2025-04-28 10:36:38.396106+00,false,,,,
+18227962-3c2d-4161-a373-25764806e5c3,A1,der Winter	,겨울,Der Winter ist kalt.	,일단 합격,날씨,false,false,2025-04-28 10:36:46.626339+00,false,,,,
+8ea73864-bbe9-4f85-8226-68699f6d0999,A1,das Wetter	,날씨	,Das Wetter ist heute schön.	,일단 합격,날씨,false,false,2025-04-28 10:36:55.211155+00,false,,,,
+ba1dcae2-9271-4cdc-8dc4-f0ad66272fe6,A1,der Regen	,비,Der Regen ist stark.	,일단 합격,날씨,false,false,2025-04-28 10:37:07.856905+00,false,,,,
+b3400ec2-0c29-4350-bbc3-e8281c3caf62,A1,die Wolke	,구름,Am Himmel sind viele Wolken.	,일단 합격,날씨,false,false,2025-04-28 10:37:25.678305+00,false,,,,
+67d6b0b6-fa08-4ad7-a5c2-2939fd60033c,A1,der Wind	,바람,Der Wind ist stark heute.	,일단 합격,날씨,false,false,2025-04-28 10:37:34.859306+00,false,,,,
+dabfe0f1-4696-4aba-b570-c959ee3f864c,A1,der Schnee	,눈	,Der Schnee ist weiß.	,일단 합격,날씨,false,false,2025-04-28 10:37:44.677968+00,false,,,,
+ada513be-e3fb-487b-8f3c-037b62980f25,A1,das Gewitter	,천둥번개	,Das Gewitter ist laut.	,일단 합격,날씨,false,false,2025-04-28 10:37:52.358224+00,false,,,,
+c9191ecb-913a-4ee9-8a9c-561d4d74fb29,A1,der Regenbogen	,무지개,Ich sehe einen Regenbogen.	,일단 합격,날씨,false,false,2025-04-28 10:37:59.852902+00,false,,,,
+60856449-caf9-42e5-a44c-cfb8b3c3fe8d,A1,die Sonne,태양,Die Sonne scheint,일단 합격,날씨,false,false,2025-04-28 10:38:15.81959+00,false,,,,
+f4dc9562-5532-4eff-9dfb-97bb4eb8869d,A1,der Wind,바람,In Deutschland weht oft kühler Wind.,일단 합격,날씨,false,false,2025-04-28 10:38:43.193063+00,false,,,,
+74d9b945-27a5-49a5-b840-c3671540ee7c,A1,die Temperatur,온도,Die Temperatur ist gestiegen.,일단 합격,날씨,false,false,2025-04-28 10:38:54.753674+00,false,,,,
+67302687-67f9-4285-aa03-d1ecf77f379e,A1,die Himmelsrichtung,방향,"Die Himmelsrichtungen sind Norden , Süden, Osten, Western.",일단 합격,날씨,false,false,2025-04-28 10:39:26.656212+00,false,,,,
+63ebd6c0-b2ee-425c-ba1b-2dcf9d4302f3,A1,die Jahreszeit,계절,Welche Jahreszeit magst du?,일단 합격,날씨,false,false,2025-04-28 10:39:48.253684+00,false,,,,
+9346c520-084e-492d-9599-a045a3fe854c,A1,der Westen	,서쪽,Die Sonne geht im Westen unter.	,일단 합격,날씨,false,false,2025-04-28 10:41:49.170566+00,false,,,,
+4bffa6c2-3cde-4f9b-b55e-0b9452ea7717,A1,der Süden	,남쪽,Der Süden von Deutschland ist sehr schön.	,일단 합격,날씨,false,false,2025-04-28 10:41:57.61652+00,false,,,,
+cbd0b908-2ff7-4874-8202-b1ecb3214d39,A1,der Norden	,북쪽,Hamburg liegt im Norden von Deutschland.	,일단 합격,날씨,false,false,2025-04-28 10:42:05.31623+00,false,,,,
+1bf52c8c-b9a6-4b3a-bcad-8b8489daf8c5,A1,"blitzen ",번개가 치다,"Heute Nacht blitzt es. ",일단 합격,날씨,false,false,2025-04-28 10:43:04.062861+00,true,es blitzte,geblitzt,"blitzen ",es blitzt
+d533de3a-2d06-4404-af70-ad86179d1fb2,A1,regnen,비가 오다,Es regnet.,일단 합격,날씨,false,false,2025-04-28 10:44:37.663311+00,true,regnete,geregnet,-,regnet
+9fb89465-b338-4852-bb30-062f6543bad3,A1,schneien,"눈이 내리다 ",Es schneit viel im Winter,일단 합격,날씨,false,false,2025-04-28 10:45:04.505544+00,true,schneite,geschneit,-,schneit
+54ebf441-c99f-4b55-ab3b-53c39e034767,A1,scheinen,"빛나다 ",Heute wird die Sonne scheinen.,일단 합격,날씨,false,false,2025-04-28 10:45:35.488903+00,true,schein,geschienen,scheinst,scheint
+087f9291-2efb-40bd-ac06-452cf927ea90,A1,die Ampel	,신호등,Die Ampel ist rot.	,일단 합격,교통,false,false,2025-04-28 10:52:28.839506+00,false,,,,
+6b7f7921-1669-408e-ad1b-6fdb4e11ac89,A1,das Schiff	,"배, 선박	",Das Schiff fährt nach Hamburg.	,일단 합격,교통,false,false,2025-04-28 10:52:37.701954+00,false,,,,
+94af2336-67de-4330-9b9d-51e292ba8c16,A1,das Fahrrad	,자전거	,Ich fahre jeden Tag mit dem Fahrrad.	,일단 합격,교통,false,false,2025-04-28 10:52:49.088512+00,false,,,,
+227606be-2293-48ca-9ae5-7031563cd23b,A1,der Zug	,기차,Der Zug kommt um 10 Uhr an.	,일단 합격,교통,false,false,2025-04-28 10:53:04.300934+00,false,,,,
+8e7a3d81-ad25-47bf-878d-988335c39830,A1,das Auto	,자동차,Mein Auto ist neu.	,일단 합격,교통,false,false,2025-04-28 10:53:17.902109+00,false,,,,
+3a3bb3c2-ae7c-4838-87d5-50bdff02b730,A1,die Straßenbahn	,"트램, 노면전차	",Ich nehme die Straßenbahn zur Arbeit.	,일단 합격,교통,false,false,2025-04-28 10:53:24.020943+00,false,,,,
+d6569b5c-1e33-4a56-af7b-187683436385,A1,der Lastkraftwagen (LKW)	,화물차,Der Lastkraftwagen ist sehr groß.	,일단 합격,교통,false,false,2025-04-28 10:53:37.138144+00,false,,,,
+98008988-9226-466f-8bd2-3afe298da526,A1,der Unfallwagen	,구급차 (사고 차량)	,Der Unfallwagen ist schnell da.	,일단 합격,교통,false,false,2025-04-28 10:53:45.019939+00,false,,,,
+81eda4ee-622f-4055-bd00-e0eaa2a9b61a,A1,das Flugzeug	,비행기,Ich fliege mit dem Flugzeug nach Berlin.	,일단 합격,교통,false,false,2025-04-28 10:53:54.467135+00,false,,,,
+49fc0dc4-19e7-4f93-ae0c-8db2e65370ad,A1,der Bus	,버스,Der Bus fährt alle 10 Minuten.	,일단 합격,교통,false,false,2025-04-28 10:54:02.77808+00,false,,,,
+ef7dcd4b-e5e3-483a-aee9-4e7b8862402e,A1,die U-Bahn	,지하철,Die U-Bahn ist schnell und billig.	,일단 합격,교통,false,false,2025-04-28 10:54:10.988145+00,false,,,,
+8eb8e949-0c2b-4cf5-af83-77870be555ad,A1,die Polizei	,경찰,Die Polizei hilft bei einem Unfall.	,일단 합격,교통,false,false,2025-04-28 10:54:20.113419+00,false,,,,
+9485d74e-2b88-4f63-a658-ae65fd636311,A1,das Motorrad	,오토바이,Mein Bruder fährt ein Motorrad.	,일단 합격,교통,false,false,2025-04-28 10:54:27.802946+00,false,,,,
+8ef6c309-68da-40db-80fe-f3034f6bdbc2,A1,das Taxi	,택시,Ich nehme ein Taxi zum Flughafen.	,일단 합격,교통,false,false,2025-04-28 10:54:38.463816+00,false,,,,
+e7b3d34c-d561-4474-8a61-4ed363d99571,A1,die Haltestelle	,정류장,Die Haltestelle ist vor dem Supermarkt.	,일단 합격,교통,false,false,2025-04-28 10:54:47.187587+00,false,,,,
+9f86d398-6ac7-41fc-8b73-ae2eea0a47c7,A1,fahren,"타고 가다, 타다",Ich fahre mit dem Zug nach Frankfurt.,일단 합격,교통,false,false,2025-04-28 10:56:08.356585+00,true,fuhr,gefahren,fährst,"fährt "
+4f62a4cb-294b-41c8-b4da-b54040d2839d,A1,fliegen,날다,Ich fliege nach Berlin,일단 합격,교통,false,false,2025-04-28 10:56:40.956949+00,true,flog,geflogen,fliegst,fliegt
+c517826d-1163-4805-b0f5-ab39951e657f,A1,abfliegen,"이륙하다, 출발하다",Um 5 Uhr fliegen wir ab.,일단 합격,교통,false,false,2025-04-28 10:57:25.846375+00,true,flog ab,abgeflogen,fliegst ab,fliegt ab
+49688c01-150a-4c6d-b277-0cc1a1ce9087,A1,das Ticket,die Bahn,Wir fahren lieber mit der Bahn,일단 합격,교통,false,false,2025-04-28 10:58:05.010587+00,false,,,,
+7e9c8523-01a2-43d5-aafe-3ac4cf549737,A1,der Schalter,창구,Gehen Sie bitte zum Schalter.,일단 합격,교통,false,false,2025-04-28 10:58:43.320303+00,false,,,,
+78cfa5b9-a959-4b89-a069-2c46106a68d0,A1,der Eingang,입구,"Ich weiss nicht, wo der Eingan ist.",일단 합격,교통,false,false,2025-04-28 10:59:00.410348+00,false,,,,
+873958ca-1710-488b-8072-8ad18cc0987f,A1,der Ausgang,출구,"Ich wiss nicht, wo der Ausgang ist.",일단 합격,교통,false,false,2025-04-28 10:59:12.948086+00,false,,,,
+0b5d5d63-b0e2-452e-afec-b1c7995ff676,A1,die Bushaltestelle,버스 정류장,Wo ist die Bushaltestelle?,일단 합격,교통,false,false,2025-04-28 10:59:27.241505+00,false,,,,
+266f9c9a-4c41-42ac-94a5-e7c0e0b5687e,A1,das Reisebüro,"여행사, 여행 안내소",Wie komme ich zum Reisbüro?,일단 합격,교통,false,false,2025-04-28 10:59:56.776862+00,false,,,,
+bde01dab-c184-4437-9089-d1cf05977f2c,A1,der Hauptbahnhof,중앙역,Ich kaufe am Hauptbahnhof eine Fahrkarte nach Bonn.,일단 합격,교통,false,false,2025-04-28 11:00:16.132711+00,false,,,,
+bb4f8c4d-18b1-472b-9f91-00d294aeceb8,A1,der Flughafen,공항,Ist der Flughafen in der Nähe,일단 합격,교통,false,false,2025-04-28 11:00:53.689104+00,false,,,,
+05b9c6e0-c42d-4b45-9ba2-db5423175ccb,A1,der Bus,"버스 ",Wann fährt der Bus ab,일단 합격,교통,false,false,2025-04-28 11:01:35.579503+00,false,,,,
+aab0ecf9-6c71-498a-a2b1-1b8dc1efc08d,A1,schnell,"빠른, 신속한",Der Zug ist schnell,일단 합격,교통,false,false,2025-04-28 11:02:07.207558+00,false,,,,
+d022a043-ea2d-4b49-b754-89e2672ffec7,A1,der Bahnhof	,기차역,Ich gehe zum Bahnhof.	,일단 합격,기차,false,false,2025-04-28 11:08:32.77531+00,false,,,,
+811e3f44-bb6a-4d95-93d3-04a7c37b723c,A1,das Gleis	,"(기차) 선로, 플랫폼 번호	",Der Zug fährt von Gleis 3 ab.	,일단 합격,기차,false,false,2025-04-28 11:08:42.63231+00,false,,,,
+27329eae-da80-4f8a-83c8-8a40b7a9f12a,A1,die Rolltreppe	,에스컬레이터,Die Rolltreppe ist kaputt.	,일단 합격,기차,false,false,2025-04-28 11:08:55.170105+00,false,,,,
+7141b228-763b-4ce1-8f34-4748374542c4,A1,der Reisende	,여행자,Der Reisende wartet auf den Zug.	,일단 합격,기차,false,false,2025-04-28 11:09:09.124595+00,false,,,,
+854979b8-e270-4774-943b-74653ca55045,A1,der Automat	,자동판매기,Ich kaufe die Fahrkarte am Automaten.	,일단 합격,기차,false,false,2025-04-28 11:09:21.314506+00,false,,,,
+e2fbacea-855e-4159-b8b2-51c0413ee9d2,A1,der Bahnsteig	,승강장	,Ich warte am Bahnsteig.	,일단 합격,기차,false,false,2025-04-28 11:09:38.657035+00,false,,,,
+6be37851-d2bd-45bf-ae59-90e5a67cc4a8,A1,der Fahrplan	,운행시간표,Ich schaue den Fahrplan an.	,일단 합격,기차,false,false,2025-04-28 11:09:54.487236+00,false,,,,
+ab9c4423-6c43-4a78-9355-f2728ca612de,A1,das Café	,카페,Wir trinken Kaffee im Café.	,일단 합격,기차,false,false,2025-04-28 11:10:02.983359+00,false,,,,
+4a49bf72-261a-4c04-acc2-a1bf2e9ca467,A1,die Toilette	,화장실	,Wo ist die Toilette?	,일단 합격,기차,false,false,2025-04-28 11:10:11.273753+00,false,,,,
+cbb587f2-50df-47b9-8890-7d4021abdebc,A1,die Abfahrt	,출발,Die Abfahrt ist um 9 Uhr.	,일단 합격,기차,false,false,2025-04-28 11:10:20.290629+00,false,,,,
+3ac4a611-8f8b-4d50-b23d-9376997f5603,A1,die Anfahrt	,도착,Die Anfahrt dauert 2 Stunden.	,일단 합격,기차,false,false,2025-04-28 11:10:39.357639+00,false,,,,
+816f0447-9166-42d1-92ae-650096d5c3db,A1,die Durchsage	,안내방송	,Die Durchsage ist sehr laut.	,일단 합격,기차,false,false,2025-04-28 11:10:49.147792+00,false,,,,
+710bb0a0-580e-47f8-aa01-8f83b6174bf8,A1,die Verspätung	,지연,Der Zug hat Verspätung.	,일단 합격,기차,false,false,2025-04-28 11:10:58.406622+00,false,,,,
+9b4389db-0615-49cf-9feb-64a45f7077a9,A1,die Fahrkarte	,승차권,Ich habe eine Fahrkarte gekauft.	,일단 합격,기차,false,false,2025-04-28 11:11:07.528237+00,false,,,,
+18c375a6-4168-42f5-90f4-e6f730e9ff24,A1,pünktlich	,제시간에,Der Zug ist pünktlich.	,일단 합격,기차,false,false,2025-04-28 11:11:17.919162+00,false,,,,
+7427f84d-b52c-4f0c-a7c2-b938cf16c413,A1,hin und zurück	,왕복,Ich kaufe eine Fahrkarte hin und zurück.	,일단 합격,기차,false,false,2025-04-28 11:11:29.805698+00,false,,,,
+b51c865e-2ab5-47ec-8a45-a5c9f5bf27e3,A1,das Verkehrsmittel,교통수단,Mit welchem Verkehrsmittel kommst du?,일단 합격,기차,false,false,2025-04-28 11:12:18.190425+00,false,,,,
+4018b0d9-d38c-4323-8a7a-b21f2eb8d9a1,A1,"aussteigen ",내리다,Ich steige an der nächsten Haltestelle aus.,일단 합격,기차,false,false,2025-04-28 11:13:31.913996+00,true,stieg aus	,ausgestiegen	,steigst aus	,steigt aus	
+ccb44922-381a-4cdc-aecd-5322f6c617ce,A1,einsteigen	,타다,Er steigt in den Bus ein.,일단 합격,기차,false,false,2025-04-28 11:14:30.179738+00,true,stieg ein	,eingestiegen	,steigst ein	,steigt ein	
+f6e79247-cdb5-4c4f-b830-2e104388a8f9,A1,umsteigen,환승하다,Wo muss ich umsteigen?,일단 합격,기차,false,false,2025-04-28 11:15:01.422752+00,true,stieg um	,umgestiegen	,steigst um	,steigt um	
+01800a46-2928-40bf-9835-3e6e8702d139,A1,abfahren,출발하다,Der Zug fährt um 9 Uhr ab.,일단 합격,기차,false,false,2025-04-28 11:15:25.849149+00,true,fuhr ab	,abgefahren	,fährst ab	,fährt ab	
+2f74435a-f7ac-4fd0-b823-9c95d83d3759,A1,ankommen,도착하다	,Der Bus kommt bald an,일단 합격,기차,false,false,2025-04-28 11:16:04.517051+00,true,kam an	,angekommen	,kommst an	,kommt an	
+3fa22fa0-7313-4e0f-b08d-5e2ab0ce7945,A1,zurückkommen	,돌아오다,Die Liebe kommt zurück.,일단 합격,기차,false,false,2025-04-28 11:16:52.099303+00,true,kam zurück	,zurückgekommen,kommst zurück	,kommt zurück	
+b1896e50-44ee-4666-8232-71bf3fadbe5b,A1,kaputt	,고장난,Mein Handy ist kaputt.	,일단 합격,수리,false,false,2025-04-28 11:21:00.078284+00,false,,,,
+a4af75c4-499c-48e9-a9ac-8d22963947e8,A1,der Techniker	,기술자,Der Techniker repariert den Computer.	,일단 합격,수리,false,false,2025-04-28 11:21:11.43721+00,false,,,,
+f7db2e4e-d018-4c3c-bb72-a349d1e7ab73,A1,die Arbeitskleidung	,작업복,Er trägt Arbeitskleidung.	,일단 합격,수리,false,false,2025-04-28 11:21:20.230283+00,false,,,,
+218668aa-91bf-4e30-8dd2-6fd20d789cd3,A1,der Arbeiter	,노동자,Der Arbeiter arbeitet auf der Baustelle.	,일단 합격,수리,false,false,2025-04-28 11:21:30.119183+00,false,,,,
+d0d8cdb7-d258-46c4-9497-baf7aa39ddb6,A1,reparieren	,수리하다	,Ich repariere mein Fahrrad.	,일단 합격,수리,false,false,2025-04-28 11:21:43.024671+00,false,,,,
+4aebddbe-21fa-4f0f-9d13-cb1322cc9ddd,A1,bauen	,"짓다, 건설하다	",Sie bauen ein neues Haus.	,일단 합격,수리,false,false,2025-04-28 11:21:52.559796+00,false,,,,
+719ccd00-4099-4f03-a537-87dc791ae782,A1,funktionieren	,작동하다,Der Drucker funktioniert nicht.	,일단 합격,수리,false,false,2025-04-28 11:22:02.627504+00,false,,,,
+d628ec57-6301-4420-8e84-fec9e0483e7d,A1,der Kollege	,남자 동료	,Mein Kollege hilft mir.	,일단 합격,수리,false,false,2025-04-28 11:22:09.854657+00,false,,,,
+ac6263bc-f516-46c7-9301-41545bd5d87a,A1,mitarbeiten	,함께 일하다	,Ich arbeite an dem Projekt mit.	,일단 합격,수리,false,false,2025-04-28 11:22:18.383292+00,false,,,,
+940859e1-9fb6-4afa-bdef-36f08468218c,A1,das Telefon	,전화기,Das Telefon klingelt.	,일단 합격,수리,false,false,2025-04-28 11:22:25.909432+00,false,,,,
+75aef3e5-550c-4b1e-bce3-b95660d5ab74,A1,das Handy	,휴대전화,Wo ist mein Handy?	,일단 합격,수리,false,false,2025-04-28 11:22:32.226834+00,false,,,,
+63cd5c37-2dba-4772-825e-394ea82f5bfd,A1,die Kollegin	,여자 동료	,Meine Kollegin ist sehr nett.	,일단 합격,수리,false,false,2025-04-28 11:22:40.552275+00,false,,,,
+3f6fbfd5-2c8d-4d49-943f-7930499c2187,A1,der Computer	,컴퓨터,Mein Computer ist neu.	,일단 합격,수리,false,false,2025-04-28 11:22:47.914039+00,false,,,,
+b2c225ea-bcb4-4f0f-8362-348bdd81564a,A1,der Direktor	,"이사, 교장	",Der Direktor spricht mit uns.	,일단 합격,수리,false,false,2025-04-28 11:22:57.309926+00,false,,,,
+d35b456e-d9d6-47cd-bef0-7f127f3b65d5,A1,die Sekretärin	,여비서	,Die Sekretärin schreibt eine E-Mail.	,일단 합격,수리,false,false,2025-04-28 11:23:05.481437+00,false,,,,
+e01e9fcf-32b2-4f2d-9c51-b21f9514d0a1,A1,der Brief	,편지,Ich schreibe einen Brief.	,일단 합격,수리,false,false,2025-04-28 11:23:12.816214+00,false,,,,
+38e0925f-7980-4247-a8b3-1dc6b4977970,A1,kostenlos	,무료의,Diese App ist kostenlos.	,일단 합격,수리,false,false,2025-04-28 11:23:19.373749+00,false,,,,
+1cab8243-11d6-4463-8b7c-79b37ce701ec,A1,technisch,기술적인,Technische Probleme sind schwer.	,일단 합격,수리,false,false,2025-04-28 11:23:27.033612+00,false,,,,
+c32928f6-2381-4b04-91c1-b8354c7b6897,A1,die Nummer	,번호,Wie ist deine Nummer?	,일단 합격,수리,false,false,2025-04-28 11:23:34.103325+00,false,,,,
+c9e70d2b-f584-4242-8ccd-49c3dd4e24bc,A1,die Gebrauchsanweisung	,사용 설명서	,Lies bitte die Gebrauchsanweisung.	,일단 합격,수리,false,false,2025-04-28 11:23:49.558193+00,false,,,,
+ee2350d5-e78d-4cb0-8f95-1e8ccb004316,A1,die Reparatur	,수리,Die Reparatur kostet 100 Euro.	,일단 합격,수리,false,false,2025-04-28 11:23:58.259686+00,false,,,,
+b9bfb7d0-65da-4315-a7ab-49791c84922f,A1,tun,하다,Was tust du?,일단 합격,수리,false,false,2025-04-28 11:28:26.465312+00,true,tat,getan,tust,tut
+273873fa-4861-4710-ab8f-59ca5da28894,A1,bitten,부탁하다,"Ich bitte dich um Hilfe. ",일단 합격,수리,false,false,2025-04-28 11:28:49.102046+00,true,bat	,gebeten,bittest,bittet
+a4bc50af-c7b5-4946-b1cb-99dd4c5b7b8f,A1,funktionieren,작동하다,"Der Fernseher funktioniert nicht. ",일단 합격,수리,false,false,2025-04-28 11:29:13.480819+00,true,funktionierte,funktioniert,funktionierst,funktioniert
+2506635d-021d-495e-a44a-3ba274867539,A1,schicken,보내다,Ich schicke eine E-Mail.,일단 합격,수리,false,false,2025-04-28 11:29:31.987435+00,true,schickte,geschickt,schickst,schickt
+89d31b3c-9394-4ede-83d8-9ff7c4355e6b,A1,reparieren,수리하다,Er repariert mein Fahrrad,일단 합격,수리,false,false,2025-04-28 11:29:52.555814+00,true,reparierte,repariert,reparierst,repariert
+f4cf1482-5435-4bd8-96db-dbb66580e196,A1,aussein,"꺼져 있다	, 작동하지 않는다. ","Das Licht war aus. ",일단 합격,수리,false,false,2025-04-28 11:31:13.635009+00,true,war aus	,"ausgegangen ",bist aus	,ist aus	
+1a4556fb-c387-43b0-8b78-a7837dc9a7a8,A1,nachfragen,"문의하다, 확인하다	",Fragen Sie so viel wie moglich nach!,일단 합격,수리,false,false,2025-04-28 11:32:29.197454+00,true,fragte nach,nachgefragt,fragst nach,fragt nach
+62a6ec9d-a55d-49d0-81c1-6032eac008df,A1,Bescheid sagen,"알려주다, 정보를 주다, 항의하","Ich sage dir morgen Bescheid. ",일단 합격,수리,false,false,2025-04-28 11:33:09.354246+00,true,sagte Bescheid	,Bescheid gesagt	,sagst Bescheid	,sagt Bescheid	
+9820646c-cf7b-4197-8248-d1b56e757072,A1,ausgehen,"꺼지다 / 꺼져 있다, 외출하다 ",Du gehst aus dem Zimmer.,일단 합격,수리,false,false,2025-04-28 11:35:05.928934+00,true,ging aus,ausgegangen,gehst aus,geht aus
+f471c678-1a12-4146-8a72-b24e47b8878d,A1,auf sein,열려 있다,Die Tür ist auf.,일단 합격,수리,false,false,2025-04-28 11:35:46.025697+00,true,war auf,auf gewesen	,bist auf,ist auf
+53edcd1b-7782-40e1-aa69-50d44880c457,A1,zu sein	,잠겨있다.,Das Fenster war gestern zu.,일단 합격,수리,false,false,2025-04-28 11:36:42.013413+00,true,war zu,zu gewesen," bist zu",ist zu
+d56c71b2-b3aa-487b-b24e-aba144b37b26,A1,die Lehrerin	,여자 선생님	,Die Lehrerin erklärt die Aufgabe.	,일단 합격,학업,false,false,2025-04-28 11:39:29.81657+00,false,,,,
+fba4f4ca-a0ae-414e-86fb-4ba8a6faf345,A1,die Note	,"성적, 점수	",Ich habe eine gute Note bekommen.	,일단 합격,학업,false,false,2025-04-28 11:39:43.494954+00,false,,,,
+84d42c7f-815f-47a4-96fa-c133280f165f,A1,lernen	,배우다	,Ich lerne Deutsch.	,일단 합격,학업,false,false,2025-04-28 11:39:51.609299+00,false,,,,
+b2160f58-426f-4b04-9b96-957f683532fa,A1,die Schülerin	,여학생,Die Schülerin schreibt einen Test.	,일단 합격,학업,false,false,2025-04-28 11:39:59.399856+00,false,,,,
+d898b695-fe2b-42bf-a38f-da3428efbfca,A1,der Schüler	,남학생	,Der Schüler liest ein Buch.	,일단 합격,학업,false,false,2025-04-28 11:40:08.542227+00,false,,,,
+7fbef0d7-694a-40d2-b341-fdc3356cbc95,A1,die Tafel	,칠판,Die Lehrerin schreibt an die Tafel.	,일단 합격,학업,false,false,2025-04-28 11:40:16.110219+00,false,,,,
+debb228c-dc4f-4cec-ac29-8544922018fc,A1,der Lehrer	,남자 선생님	,Der Lehrer stellt eine Frage.	,일단 합격,학업,false,false,2025-04-28 11:40:28.878062+00,false,,,,
+8c46f106-ec69-4e6b-9f8c-4e0befda67ca,A1,der Tisch	,책상,Auf dem Tisch liegt ein Heft.	,일단 합격,학업,false,false,2025-04-28 11:40:37.201347+00,false,,,,
+3337e1a3-f869-40e7-9354-21ddf44011be,A1,das Klassenzimmer	,교실,Das Klassenzimmer ist groß.	,일단 합격,학업,false,false,2025-04-28 11:40:49.108407+00,false,,,,
+43db941c-0e5a-441a-a654-c09ef7027112,A1,der Bleistift	,연필	,Ich schreibe mit einem Bleistift.	,일단 합격,학업,false,false,2025-04-28 11:40:57.857441+00,false,,,,
+e918c8cb-075e-4ab0-aecf-df9745a50744,A1,der Kugelschreiber	,볼펜,Hast du einen Kugelschreiber?	,일단 합격,학업,false,false,2025-04-28 11:41:06.507916+00,false,,,,
+7f4841ac-ed2f-4c42-aee1-98e551359c61,A1,der Stuhl	,의자,Der Stuhl ist bequem.	,일단 합격,학업,false,false,2025-04-28 11:41:14.606092+00,false,,,,
+93d02a95-94f3-4688-841f-b9de1fc40428,A1,das Heft	,공책,Ich kaufe ein neues Heft.	,일단 합격,학업,false,false,2025-04-28 11:41:22.807339+00,false,,,,
+6f0574d4-efcc-4899-8dc4-feb40b5c06fa,A1,das Alphabet	,알파벳,Ich lerne das deutsche Alphabet.	,일단 합격,학업,false,false,2025-04-28 11:41:29.794895+00,false,,,,
+afac96ac-3d94-4557-b011-ec4d451e5f0f,A1,das Lehrbuch	,교과서,Das Lehrbuch ist interessant.	,일단 합격,학업,false,false,2025-04-28 11:41:37.621027+00,false,,,,
+41aacb1f-725c-47b7-a8b5-208928d2d098,A1,die Prüfung	,시험,Die Prüfung ist am Montag.	,일단 합격,학업,false,false,2025-04-28 11:41:44.70873+00,false,,,,
+8b70af6d-34e7-415f-9147-36f85afe0480,A1,das Studium	,대학 공부	,Mein Studium ist anstrengend.	,일단 합격,학업,false,false,2025-04-28 11:41:54.500896+00,false,,,,
+a9f387fb-fa45-445f-b016-b42c6ef468cf,A1,die Aufgabe	,"과제, 문제	",Ich mache die Hausaufgabe.	,일단 합격,학업,false,false,2025-04-28 11:42:03.027213+00,false,,,,
+4102b10c-94e7-45f1-b463-996c4f05451c,A1,der Raum	,"방, 공간	",Der Raum ist hell.	,일단 합격,학업,false,false,2025-04-28 11:42:10.636195+00,false,,,,
+b307c1f4-a3e5-4322-9e13-a792b3bb82ab,A1,der Unterricht	,수업,Der Unterricht beginnt um 8 Uhr.	,일단 합격,학업,false,false,2025-04-28 11:42:17.293092+00,false,,,,
+c3aee0a5-96bc-4dda-a1a5-afeff787ecdb,A1,lernen,배우다,Ich lerne Deutsch.,일단 합격,학업,false,false,2025-04-28 11:43:02.638362+00,true,lernte,gelernt,lernst,lernt
+89ff76f2-566e-425f-bd5d-995a5b4acd22,A1,erklären,설명하다,Die Lehrerin erklärt die Aufgabe,일단 합격,학업,false,false,2025-04-28 11:43:22.609303+00,true,erklärte,erklärt,erklärst,erklärt
+5a06892a-81d6-4b9f-9d69-341f75b880a6,A1,hören,듣다,"Ich höre Musik. ",일단 합격,학업,false,false,2025-04-28 11:43:43.778431+00,true,hörte,gehört,hörst,hört
+3168cfe5-3245-4d54-9bfc-8d194f700693,A1,bedeuten,의미하다,Was bedeutet dieses Wort?,일단 합격,학업,false,false,2025-04-28 11:44:15.744786+00,true,bedeutete,bedeutet,bedeutest,bedeutet
+02186fd6-4e8b-4539-9f87-5bb4561ac528,A1,studieren,대학에서 공부하다	,Ich studiere Informatik.,일단 합격,학업,false,false,2025-04-28 11:45:06.065898+00,true,studierte,studiert,studierst,studiert
+af6d33c5-0228-48a9-a079-dc4371dfa64d,A1,können,~할 수 있다,Ich kann gut schwimmen,일단 합격,학업,false,false,2025-04-28 11:45:35.380099+00,true,konnte,gekonnt,kannst,kann
+249ec3d8-81c8-4e73-87d4-45a2e1edfc76,A1,finden	,"찾다, 생각하다","Ich finde die Idee gut. ",일단 합격,학업,false,false,2025-04-28 11:46:15.726452+00,true,fand,gefunden,findest,findet
+34b22f08-e696-47de-bedc-08b381d01251,A1,verstehen,이해하다,Ich verstehe dich.,일단 합격,학업,false,false,2025-04-28 11:46:34.722766+00,true,verstand,verstanden,verstehst,versteht
+e2d2ce0b-8308-43f8-86ce-3882673735ab,A1,wiederholen,반복하다,Kannst du das bitte wiederholen?,일단 합격,학업,false,false,2025-04-28 11:46:54.769511+00,true,wiederholte,wiederholt,wiederholst,wiederholt
