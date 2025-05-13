@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/Jun0S2/devoca/compare/v0.0.8...v0.0.9) (2025-05-13)
+
+
+### Features
+
+* update db ([c5dda2d](https://github.com/Jun0S2/devoca/commit/c5dda2df1ce1b98935247e4d5bcf5c4ddca274be))
+
 ### [0.0.8](https://github.com/Jun0S2/devoca/compare/v0.0.7...v0.0.8) (2025-05-01)
 
 ### [0.0.7](https://github.com/Jun0S2/devoca/compare/v0.0.6...v0.0.7) (2025-04-30)
