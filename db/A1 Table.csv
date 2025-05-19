@@ -157,6 +157,8 @@ f4dc9562-5532-4eff-9dfb-97bb4eb8869d,A1,der Wind,바람,In Deutschland weht oft 
 60856449-caf9-42e5-a44c-cfb8b3c3fe8d,A1,die Sonne,태양,Die Sonne scheint,일상,날씨,false,false,2025-04-28 10:38:15.81959+00,false,null,null,null,null
 6570ddd2-378c-494c-b9f6-dd99799ce9c7,A1,der Mittwoch,수요일,Mittwochs habe ich Deutschkurs.	,일상,요일,false,false,2025-04-28 08:47:25.887673+00,false,null,null,null,null
 d266009d-d7c0-4155-b005-3b96215539cb,A1,wo,Wo wohnst du?,어디,인적 사항,자기소개,false,false,2025-05-18 12:41:14.223284+00,false,,,,
+236a40a3-5e6e-4311-90bf-8644f22e842a,A1,das Datum,날짜,Welches Datum ist heute?,시간,기본,false,false,2025-05-19 13:37:22.464965+00,false,null,null,null,null
+48f43f46-d23b-4012-9123-88df1692ca6b,A1,der Geburtstag,생일,Mein Geburtstag ist im Mai.,시간,기념일,false,false,2025-05-19 13:37:22.465034+00,false,null,null,null,null
 097a981f-a7cd-4712-8dfc-2d449503d550,A1,der Bonbon	,사탕,Möchtest du einen Bonbon?	,일상,축제,false,false,2025-04-28 09:54:09.529474+00,false,null,null,null,null
 18227962-3c2d-4161-a373-25764806e5c3,A1,der Winter	,겨울,Der Winter ist kalt.	,일상,계절,false,false,2025-04-28 10:36:46.626339+00,false,null,null,null,null
 1841adc5-658d-4b45-bf7a-0e6cb2209332,A1,der Husten,기침,Ich habe Husten.,건강,상태,false,false,2025-04-30 17:00:53.808233+00,false,null,null,null,null
@@ -422,6 +424,7 @@ e7b3d34c-d561-4474-8a61-4ed363d99571,A1,die Haltestelle	,정류장,Die Haltestel
 873958ca-1710-488b-8072-8ad18cc0987f,A1,der Ausgang,출구,"Ich wiss nicht, wo der Ausgang ist.",교통,교통,false,false,2025-04-28 10:59:12.948086+00,false,null,null,null,null
 266f9c9a-4c41-42ac-94a5-e7c0e0b5687e,A1,das Reisebüro,"여행사, 여행 안내소",Wie komme ich zum Reisbüro?,교통,여행,false,true,2025-04-28 10:59:56.776862+00,false,null,null,null,null
 63cd5c37-2dba-4772-825e-394ea82f5bfd,A1,die Kollegin	,여자 동료	,Meine Kollegin ist sehr nett.	,호텔&집,직업,false,false,2025-04-28 11:22:40.552275+00,false,null,null,null,null
+7873ebc3-d07d-4139-bc0c-6d6cf996ce1c,A1,übermorgen,모레,Ich gehe übermorgen zum Arzt.,시간,날짜,false,true,2025-05-18 14:21:07.291718+00,false,null,null,null,null
 00795744-b3a2-4a97-bbc3-f9e2e5d2c9fb,A1,früh,이른,Ich stehe früh auf.,시간,일상 표현,false,false,2025-05-18 14:21:07.290227+00,false,null,null,null,null
 b2d1b461-0d21-48aa-ad49-421fc2e47e6d,A1,halb,반 (30분),Es ist halb neun.,시간,표현,false,false,2025-05-18 14:21:07.290402+00,false,null,null,null,null
 6d30f4cd-c2c0-4a59-a8d7-e0bf3144758f,A1,vor,~ 전,Es ist zehn vor acht.,시간,표현,false,false,2025-05-18 14:21:07.291018+00,false,null,null,null,null
@@ -433,7 +436,6 @@ dd092e5d-ce17-495a-9591-8bce2269bf9d,A1,schon,이미,Ich bin schon da.,시간,�
 4a49bf72-261a-4c04-acc2-a1bf2e9ca467,A1,die Toilette	,화장실	,Wo ist die Toilette?	,호텔&집,방,false,false,2025-04-28 11:10:11.273753+00,false,null,null,null,null
 ef66b1e5-68dc-4977-b90f-c2c13f3c6392,A1,am,~에 (요일/날짜/시간대),Ich arbeite am Montag.,시간,전치사 표현,false,false,2025-05-18 14:21:07.291685+00,false,null,null,null,null
 c7feba52-50d2-49ba-a27f-28cd48f05fb1,A1,die Wochenende,주말,Am Wochenende habe ich frei.,시간,기간,false,false,2025-05-18 14:21:07.291702+00,false,null,null,null,null
-7873ebc3-d07d-4139-bc0c-6d6cf996ce1c,A1,übermorgen,모레,Ich gehe übermorgen zum Arzt.,시간,날짜,false,false,2025-05-18 14:21:07.291718+00,false,null,null,null,null
 8971e23f-a302-401a-a1bc-fe163697a3f9,A1,montags,매주 월요일,Ich habe montags Deutschkurs.,시간,요일,false,false,2025-05-18 14:21:07.291731+00,false,null,null,null,null
 2a157ed8-989c-45ef-9caa-b3debf7228fc,A1,dienstags,매주 화요일,Ich arbeite dienstags nicht.,시간,요일,false,false,2025-05-18 14:21:07.291741+00,false,null,null,null,null
 be483fc0-5b9b-4580-ada8-7abc702c8f10,A1,mittwochs,매주 수요일,Ich spiele mittwochs Tennis.,시간,요일,false,false,2025-05-18 14:21:07.291751+00,false,null,null,null,null
@@ -758,3 +760,189 @@ df845115-0fb6-41f0-b772-87d5f5fca3e0,A1,süß,달콤한,Schokolade ist süß.,�
 22fc02ab-d513-4669-a41d-f2c8e2ece62c,A1,die Cola,콜라,Cola ist süß.,음료/간식,음료,false,false,2025-05-18 14:35:12.939813+00,false,null,null,null,null
 160dbd8d-2504-4ae1-b559-b33deb7d15f7,A1,die Miclh,우유,Ich trinke Milch am Morgen.,음료/간식,음료,false,false,2025-05-18 14:35:12.939833+00,false,null,null,null,null
 83d59988-5cf1-4f93-9155-61e6797590e7,A1,der Alkohol,알코올,Ich trinke keinen Alkohol.,음료/간식,음료,false,false,2025-05-18 14:35:12.939844+00,false,null,null,null,null
+6fa2d798-720c-4afe-8b86-45a03b35f2b0,A1,in,~안에,Ich bin in der Schule.,이동,전치사,false,false,2025-05-19 13:25:14.127043+00,false,null,null,null,null
+cd804430-9f7c-4b19-b4b6-dd09f6ad4e86,A1,das Glas,유리컵,Ich trinke Wasser aus dem Glas.,물건,식기,false,false,2025-05-19 13:03:43.805453+00,false,null,null,null,null
+9f32d37f-cf4a-4a88-abdc-3fa9349a3eed,A1,die Flasche,병,Die Flasche ist leer.,물건,식기,false,false,2025-05-19 13:03:43.805492+00,false,null,null,null,null
+7b3b2e8e-18fb-4c62-a011-28b53e6acff0,A1,die Schüssel,그릇,Ich nehme eine Schüssel.,물건,식기,false,false,2025-05-19 13:03:43.805574+00,false,null,null,null,null
+d2dd4fc4-3c68-4a62-b83e-ab9c8d1d39a7,A1,das Besteck,식기류,Das Besteck ist sauber.,물건,식기,false,false,2025-05-19 13:03:43.805646+00,false,null,null,null,null
+6974b40d-b49f-4919-993e-277a39641293,A1,das Messer,칼,Das Messer ist scharf.,물건,식기,false,false,2025-05-19 13:03:43.805752+00,false,null,null,null,null
+477cf41f-6ab0-4de6-a863-99b39b7bfb8d,A1,der Löffel,숟가락,Ich brauche einen Löffel.,물건,식기,false,false,2025-05-19 13:03:43.805821+00,false,null,null,null,null
+e890d20a-1a86-4ffa-bbe0-9b9a3cb18c64,A1,das Esstäbchen,젓가락,Ich esse mit Esstäbchen.,물건,식기,false,false,2025-05-19 13:03:43.80586+00,false,null,null,null,null
+f109956a-f785-452c-94b8-2fea152d5dfb,A1,alt sein,오래되다,Das Buch ist alt.,형용사,상태,false,false,2025-05-19 13:03:43.8059+00,true,war alt,alt gewesen,bist alt,ist alt
+6e8536dd-f717-4f78-89f5-6519731d45a2,A1,neu sein,새롭다,Das Handy ist neu.,형용사,상태,false,false,2025-05-19 13:03:43.805965+00,true,war neu,neu gewesen,bist neu,ist neu
+d8262420-09e8-43a3-88dd-ef80e11db87c,A1,interessant sein,흥미롭다,Der Film ist interessant.,형용사,느낌,false,false,2025-05-19 13:03:43.806022+00,true,war interessant,interessant gewesen,bist interessant,ist interessant
+1bf47714-4524-4831-888f-6e022f122184,A1,langweilig sein,지루하다,Das Spiel ist langweilig.,형용사,느낌,false,false,2025-05-19 13:03:43.806037+00,true,war langweilig,langweilig gewesen,bist langweilig,ist langweilig
+b218aa77-9889-4e5a-965b-2d91456bafc7,A1,teuer sein,비싸다,Das Auto ist teuer.,형용사,가격,false,false,2025-05-19 13:03:43.806065+00,true,war teuer,teuer gewesen,bist teuer,ist teuer
+91ac1daf-9e3f-42cf-b0ac-bd2e38307ad2,A1,billig sein,싸다,Das T-Shirt ist billig.,형용사,가격,false,false,2025-05-19 13:03:43.806098+00,true,war billig,billig gewesen,bist billig,ist billig
+0611c8ae-2ed8-46a6-9421-29161397fe95,A1,günstig sein,합리적이다,Das Angebot ist günstig.,형용사,가격,false,false,2025-05-19 13:03:43.80641+00,true,war günstig,günstig gewesen,bist günstig,ist günstig
+bceb6b86-1e0f-43a3-91e3-e99263e2b65a,A1,das Wöterbuch,사전,Ich benutze ein Wörterbuch.,물건,문구,false,false,2025-05-19 13:03:43.80675+00,false,null,null,null,null
+64b29a43-7080-41e8-9832-3fec0622600f,A1,der Stift,펜,Der Stift ist blau.,물건,문구,false,false,2025-05-19 13:03:43.806908+00,false,null,null,null,null
+f873ecd5-5d6b-4bfd-9e1e-e8984fb42da1,A1,der Bleistift,연필,Ich schreibe mit einem Bleistift.,물건,문구,false,false,2025-05-19 13:03:43.807036+00,false,null,null,null,null
+9ee56bf9-46ea-4878-95b5-cd59e9c85f1b,A1,der Kugelschreiber,볼펜,Ich nehme einen Kugelschreiber.,물건,문구,false,false,2025-05-19 13:03:43.807108+00,false,null,null,null,null
+1d749f8f-8a51-4114-879d-78c8c904cfe7,A1,der Kuli,볼펜,Der Kuli ist rot.,물건,문구,false,false,2025-05-19 13:03:43.807123+00,false,null,null,null,null
+2a3711b2-35e7-43b2-8957-fa63a80b3a83,A1,die Notiz,메모,Ich schreibe eine Notiz.,물건,문구,false,false,2025-05-19 13:03:43.807153+00,false,null,null,null,null
+85c65c1c-23f4-4e2a-ac37-119f425731e9,A1,die Schere,가위,Die Schere ist scharf.,물건,문구,false,false,2025-05-19 13:03:43.807201+00,false,null,null,null,null
+6344e485-25bf-415a-b9aa-0a81f0be5549,A1,das Telefon,전화기,Das Telefon klingelt.,물건,전자기기,false,false,2025-05-19 13:03:43.807221+00,false,null,null,null,null
+ae53fff1-e7b8-442b-be19-a130706f92aa,A1,das Handy,휴대폰,Mein Handy ist neu.,물건,전자기기,false,false,2025-05-19 13:03:43.807237+00,false,null,null,null,null
+142c4dd5-a1f6-4bdf-96a5-b676ca17aa1d,A1,der Computer,컴퓨터,Ich arbeite am Computer.,물건,전자기기,false,false,2025-05-19 13:03:43.807254+00,false,null,null,null,null
+d6639502-aa55-43ec-be17-95ce76df9da5,A1,der Laptop,노트북,Ich benutze meinen Laptop.,물건,전자기기,false,false,2025-05-19 13:03:43.807271+00,false,null,null,null,null
+6fc3a305-4316-44c1-a72b-0c8f5507e20d,A1,das Tablet,태블릿,Das Tablet ist praktisch.,물건,전자기기,false,false,2025-05-19 13:03:43.807288+00,false,null,null,null,null
+32bad0f7-efad-4faf-afd7-0feed4b7d062,A1,der Druckerr,프린터,Der Drucker funktioniert nicht.,물건,전자기기,false,false,2025-05-19 13:03:43.807303+00,false,null,null,null,null
+849b713c-fae6-4c79-9aef-6e0dcfa5f0fc,A1,die Tasche,가방,Ich habe eine Tasche.,물건,소지품,false,false,2025-05-19 13:03:43.807319+00,false,null,null,null,null
+8c3b7ec6-2e11-437a-bab6-89b2bc559a6d,A1,der Rucksack,백팩,Der Rucksack ist schwer.,물건,소지품,false,false,2025-05-19 13:03:43.807334+00,false,null,null,null,null
+dce51d67-77e6-4c88-b3e5-fc01fcc80623,A1,schön sein,예쁘다,Das Kleid ist schön.,형용사,외모,false,false,2025-05-19 13:03:43.807352+00,true,war schön,schön gewesen,bist schön,ist schön
+5a962280-4d6b-41f7-95ba-f9d19930ed7a,A1,hübsch sein,귀엽다,Sie ist hübsch.,형용사,외모,false,false,2025-05-19 13:03:43.807368+00,true,war hübsch,hübsch gewesen,bist hübsch,ist hübsch
+252cda28-f324-45e5-b39e-299e8364fb50,A1,hässlich sein,못생기다,Der Raum ist hässlich.,형용사,외모,false,false,2025-05-19 13:03:43.807385+00,true,war hässlich,hässlich gewesen,bist hässlich,ist hässlich
+db4cbd94-2775-44d0-9524-000cca55365b,A1,schwer sein,무겁다,Der Tisch ist schwer.,형용사,무게,false,false,2025-05-19 13:03:43.807402+00,true,war schwer,schwer gewesen,bist schwer,ist schwer
+2aa5fc50-3d68-4304-99ad-2e0141fbf94e,A1,leicht sein,가볍다,Das Paket ist leicht.,형용사,무게,false,false,2025-05-19 13:03:43.807418+00,true,war leicht,leicht gewesen,bist leicht,ist leicht
+aa334a1a-e82b-4ecc-9c2a-c345eeb8e9e3,A1,schlecht sein,나쁘다,Das Wetter ist schlecht.,형용사,평가,false,false,2025-05-19 13:03:43.807443+00,true,war schlecht,schlecht gewesen,bist schlecht,ist schlecht
+eb62b47c-d7d4-4a1b-b83a-3ef74940c3ea,A1,das Esszimmer,식당,Wir essen im Esszimmer.,공간,가정,false,false,2025-05-19 13:03:43.80746+00,false,null,null,null,null
+8c53caed-eed3-4dd7-a22a-7eace2b85fb7,A1,der Stock,층,Ich wohne im dritten Stock.,공간,건물,false,false,2025-05-19 13:03:43.807483+00,false,null,null,null,null
+222dccd1-caf8-4735-a13a-2b99c627ad3d,A1,die Wand,벽,Die Wand ist weiß.,공간,건물,false,false,2025-05-19 13:03:43.807499+00,false,null,null,null,null
+77191c21-f8d6-49cb-82d7-afee82f7076b,A1,die Decke,천장,Die Decke ist hoch.,공간,건물,false,false,2025-05-19 13:03:43.807514+00,false,null,null,null,null
+9537a03e-82ce-4802-8b71-30ab017377d7,A1,das Bild,그림,Das Bild ist schön.,공간,거실,false,false,2025-05-19 13:03:43.807534+00,false,null,null,null,null
+67fe3c08-aa20-4e17-92c9-d48fd13c2b4e,A1,das Sofa,소파,Ich sitze auf dem Sofa.,공간,거실,false,false,2025-05-19 13:03:43.807552+00,false,null,null,null,null
+89401e60-8757-4b16-9a45-5968afec5357,A1,der Sessel,1인용 의자,Der Sessel ist bequem.,공간,거실,false,false,2025-05-19 13:03:43.807568+00,false,null,null,null,null
+9f4cb20e-57b3-47d9-88ca-8e081493711e,A1,der Schrank,장,Der Schrank ist voll.,공간,가구,false,false,2025-05-19 13:03:43.807583+00,false,null,null,null,null
+611b6ea9-5b0d-4a04-ba12-5ef5d2938b33,A1,das Regal,선반,Ich stelle Bücher ins Regal.,공간,가구,false,false,2025-05-19 13:03:43.807605+00,false,null,null,null,null
+77230462-3326-4cbc-a479-b8fed3bc4ac3,A1,der Vorhang,커튼,Der Vorhang ist offen.,공간,가구,false,false,2025-05-19 13:03:43.807623+00,false,null,null,null,null
+924ea905-8fa1-47bc-a446-8d36bed23e8c,A1,die Pflanze,식물,Die Pflanze ist grün.,공간,장식,false,false,2025-05-19 13:03:43.807639+00,false,null,null,null,null
+0fba5083-6ba2-439c-b6c5-e790bd678518,A1,der Fernseher,TV,Ich sehe fern mit dem Fernseher.,공간,가전,false,false,2025-05-19 13:03:43.807656+00,false,null,null,null,null
+f3b4b654-5964-47a9-972b-d258ed75af44,A1,zu,"~에게, ~로",Ich gehe zu meiner Freundin.,이동,전치사,false,false,2025-05-19 13:25:14.127418+00,false,null,null,null,null
+b6b4c1a6-0002-4103-9236-cfa6025be8e1,A1,nach Hause,집으로,Ich gehe nach Hause.,이동,방향,false,false,2025-05-19 13:25:14.127637+00,false,null,null,null,null
+52ba2da2-9b90-493b-95db-6a2f61f304ed,A1,zu Hause,집에,Ich bin zu Hause.,이동,위치,false,false,2025-05-19 13:25:14.127968+00,false,null,null,null,null
+5695029e-b025-43bf-9783-bd53a000e5a6,A1,die Arbeit,일터,Ich gehe zur Arbeit.,장소,직장,false,false,2025-05-19 13:25:14.128819+00,false,null,null,null,null
+d5319195-0d70-49db-ace1-2adea9dab5cd,A1,das Büro,사무실,Ich arbeite im Büro.,장소,직장,false,false,2025-05-19 13:25:14.128934+00,false,null,null,null,null
+d37aadeb-3bd6-4315-bb6f-3707f3d69c05,A1,die Schule,학교,Die Schule beginnt um 8 Uhr.,장소,교육,false,false,2025-05-19 13:25:14.129017+00,false,null,null,null,null
+f170e058-c55b-4e90-87d1-d69cc72f1f20,A1,die Uni,대학교,Ich studiere an der Uni.,장소,교육,false,false,2025-05-19 13:25:14.129051+00,false,null,null,null,null
+b40433de-c721-409d-95ce-2d0ed14b735e,A1,lange,오래,Ich war lange unterwegs.,시간,부사,false,false,2025-05-19 13:25:14.12908+00,false,null,null,null,null
+9b329b6c-a9e6-4e00-8f00-53ac68ce7002,A1,dauern,지속되다,Wie lange dauert der Film?,이동,동사,false,false,2025-05-19 13:25:14.129123+00,true,dauerte,gedauert,dauerst,dauert
+b6e3d707-90de-485a-a943-0bfa3101754c,A1,brachen,필요로 하다,Ich brauche ein Ticket.,이동,동사,false,false,2025-05-19 13:25:14.129147+00,true,brauchte,gebraucht,brauchst,braucht
+e9db42b8-0177-48fa-8469-d4f47eba000a,A1,das Fahrrad,자전거,Ich fahre mit dem Fahrrad.,이동수단,교통,false,false,2025-05-19 13:25:14.129195+00,false,null,null,null,null
+a63cc9ad-f195-44fa-bc51-d2bbad5596e1,A1,das Auto,자동차,Das Auto ist schnell.,이동수단,교통,false,false,2025-05-19 13:25:14.129207+00,false,null,null,null,null
+d1691aad-1daf-4eb0-83a6-498f9bc257ec,A1,die Straßenbahn,트램,Ich nehme die Straßenbahn.,이동수단,교통,false,false,2025-05-19 13:25:14.129217+00,false,null,null,null,null
+697a05e5-99a8-4704-93c9-5fefdc5f3b99,A1,die U-Bahn,지하철,Ich fahre mit der U-Bahn.,이동수단,교통,false,false,2025-05-19 13:25:14.129229+00,false,null,null,null,null
+1642f36d-32c0-4bc3-8280-e4f4bfbbb0a9,A1,der Zug,기차,Der Zug ist verspätet.,이동수단,교통,false,false,2025-05-19 13:25:14.129248+00,false,null,null,null,null
+da323787-2e11-4cdb-a71d-5ce9764f4e74,A1,das Flugzeug,비행기,Ich fliege mit dem Flugzeug.,이동수단,교통,false,false,2025-05-19 13:25:14.129269+00,false,null,null,null,null
+d325cd30-7afa-462e-a377-3a75a6d3f58c,A1,das Schiff,배,Das Schiff fährt um 10 Uhr ab.,이동수단,교통,false,false,2025-05-19 13:25:14.129279+00,false,null,null,null,null
+dc3c35eb-083f-423c-ae4c-a353397c65e7,A1,zu Fuß,도보로,Ich gehe zu Fuß zur Schule.,이동수단,도보,false,false,2025-05-19 13:25:14.129298+00,false,null,null,null,null
+2b204266-f732-46a3-ae68-648685fcdb2d,A1,weit,멀리,Die Schule ist weit weg.,거리,형용사,false,false,2025-05-19 13:25:14.12931+00,false,null,null,null,null
+3ead17b1-3224-40b4-b78d-aa060387ab76,A1,nah,가깝다,Die Post ist ganz nah.,거리,형용사,false,false,2025-05-19 13:25:14.129329+00,false,null,null,null,null
+2cc1682c-1f61-47fc-a8fd-3c161609db92,A1,aussteigen,내리다,Ich steige an der Haltestelle aus.,이동,동사,false,false,2025-05-19 13:25:14.129347+00,true,stieg aus,ausgestiegen,steigst aus,steigt aus
+3d6eba45-637d-4197-84c2-e7d34872e979,A1,aus dem Haus gehen,집에서 나가다,Ich gehe um 8 Uhr aus dem Haus.,일상,이동,false,false,2025-05-19 13:25:14.129362+00,true,ging,gegangen,gehst,geht
+1847c0df-58a3-4a87-8588-6e3bad24ef7a,A1,losfahren,출발하다,Wir fahren um 9 Uhr los.,이동,동사,false,false,2025-05-19 13:25:14.129381+00,true,fuhr los,losgefahren,fährst los,fährt los
+c0ea8544-baf3-4b42-ada1-c62207434313,A1,zu spät kommen,늦다,Ich komme zu spät zur Arbeit.,시간,동사,false,false,2025-05-19 13:25:14.129395+00,true,kam,gekommen,kommst,kommt
+2c8da75c-bc34-4d4c-987f-56a606cd01d9,A1,nach Hause kommen,집에 오다,Ich komme um 18 Uhr nach Hause.,이동,동사,false,false,2025-05-19 13:25:14.129424+00,true,kam,nach Hause gekommen,kommst,kommt
+ca32ed56-464d-4bcb-a6e2-73887b336b12,A1,rausgehen,밖에 나가다,Ich gehe kurz raus.,이동,동사,false,false,2025-05-19 13:25:14.129493+00,true,ging raus,rausgegangen,gehst raus,geht raus
+728333ae-4f42-441b-9adc-a4a76e2bdf49,A1,der Weg,길,Der Weg ist lang.,장소,경로,false,false,2025-05-19 13:25:14.129797+00,false,null,null,null,null
+53bb3bec-8996-401f-9b78-6db34030e939,A1,die Haltestelle,정류장,Ich warte an der Haltestelle.,장소,교통,false,false,2025-05-19 13:25:14.129875+00,false,null,null,null,null
+adcb036c-de3c-4cdf-8489-36ad9ac6cf23,A1,die Station,역,Ich steige an der nächsten Station aus.,장소,교통,false,false,2025-05-19 13:25:14.129911+00,false,null,null,null,null
+be5a1680-e3fe-4aed-84f8-70f462ff91f2,A1,die Post,우체국,Ich gehe zur Post.,장소,공공시설,false,false,2025-05-19 13:25:14.129983+00,false,null,null,null,null
+158be7f8-d675-445d-bdfc-e3278f9f8278,A1,die Bank,은행,Die Bank öffnet um 9 Uhr.,장소,공공시설,false,false,2025-05-19 13:25:14.130036+00,false,null,null,null,null
+240dd5e4-8c01-43fd-be1c-c7bdb4c153c6,A1,das Rauthaus,시청,Das Rathaus ist geschlossen.,장소,공공시설,false,false,2025-05-19 13:25:14.130071+00,false,null,null,null,null
+844b4fad-eb74-4432-8da5-35b34966f013,A1,die Bäckerei,빵집,Ich kaufe Brot in der Bäckerei.,장소,가게,false,false,2025-05-19 13:25:14.130085+00,false,null,null,null,null
+aea97687-2cfb-43b6-88f4-06f6ecdd840c,A1,die Apotheke,약국,Ich gehe in die Apotheke.,장소,가게,false,false,2025-05-19 13:25:14.130102+00,false,null,null,null,null
+8817a0e6-9182-4061-9c90-4a0063556362,A1,das Museum,박물관,Ich besuche ein Museum.,장소,문화,false,false,2025-05-19 13:25:14.130112+00,false,null,null,null,null
+108ef976-d6c8-4d48-a061-a24bb900038d,A1,das Einkaufszentrum,쇼핑몰,Ich gehe ins Einkaufszentrum.,장소,쇼핑,false,false,2025-05-19 13:25:14.130122+00,false,null,null,null,null
+57f4b296-20da-40b9-876d-3d6acfbb1ddd,A1,Geburtstag haben,생일이다,Ich habe heute Geburtstag.,시간,기념일,false,false,2025-05-19 13:37:22.465052+00,true,hatte,gehabt,hast,hat
+2681fcdc-5474-497b-ae4e-dfa0690ece39,A1,der Janur,1월,Der Januar ist kalt.,시간,달,false,false,2025-05-19 13:37:22.465076+00,false,null,null,null,null
+2e4f0bac-f364-489c-9307-5d2bee8f8be1,A1,der Februar,2월,Im Februar ist es noch Winter.,시간,달,false,false,2025-05-19 13:37:22.465099+00,false,null,null,null,null
+c864e49e-1b92-4941-885c-71c03737b082,A1,der März,3월,Im März wird es wärmer.,시간,달,false,false,2025-05-19 13:37:22.465117+00,false,null,null,null,null
+1b1f284e-8ea9-4684-b565-6ea698df5bd9,A1,der April,4월,"Der April macht, was er will.",시간,달,false,false,2025-05-19 13:37:22.465132+00,false,null,null,null,null
+0dcf9bd0-cf2c-422a-8166-c906475e2a81,A1,der Mai,5월,Im Mai blühen Blumen.,시간,달,false,false,2025-05-19 13:37:22.465151+00,false,null,null,null,null
+a595f171-b917-4dc9-b79b-e5ac3a91e8ed,A1,der Juni,6월,Juni ist der Anfang des Sommers.,시간,달,false,false,2025-05-19 13:37:22.465181+00,false,null,null,null,null
+c5bd0dbb-752f-41dd-83bf-fac2b2e8017e,A1,der Juli,7월,Im Juli ist es heiß.,시간,달,false,false,2025-05-19 13:37:22.465235+00,false,null,null,null,null
+2771be44-e5dc-4665-aeb6-e393feebe075,A1,der August,8월,Im August habe ich Urlaub.,시간,달,false,false,2025-05-19 13:37:22.465301+00,false,null,null,null,null
+f0e4ded5-07d4-4950-a2e1-f00d73ea9112,A1,der September,9월,Im September beginnt die Schule.,시간,달,false,false,2025-05-19 13:37:22.465318+00,false,null,null,null,null
+08a58fb7-ca64-476a-b831-c06d8110197c,A1,der Oktober,10월,Der Oktober ist bunt.,시간,달,false,false,2025-05-19 13:37:22.465382+00,false,null,null,null,null
+d756fa07-7b8b-428b-b369-cd073a6528ac,A1,der November,11월,Der November ist grau.,시간,달,false,false,2025-05-19 13:37:22.46544+00,false,null,null,null,null
+a19ebf82-e333-4ae0-8056-b5705f845f94,A1,der Dezember,12월,Im Dezember feiern wir Weihnachten.,시간,달,false,false,2025-05-19 13:37:22.465596+00,false,null,null,null,null
+f18ec4ec-8c71-4b14-89cb-9297545d491d,A1,gestern,어제,Gestern war Sonntag.,시간,과거,false,false,2025-05-19 13:37:22.465662+00,false,null,null,null,null
+f0d104fe-5b53-4100-8c69-dd6ac6975990,A1,vorgestern,그저께,Vorgestern war Freitag.,시간,과거,false,false,2025-05-19 13:37:22.466091+00,false,null,null,null,null
+0169b56a-b20a-4e49-90ab-3100f0334427,A1,letzte Woche,지난주,Letzte Woche war ich krank.,시간,과거,false,false,2025-05-19 13:37:22.466175+00,false,null,null,null,null
+796ff87b-cedc-439e-9f5d-14d10718730c,A1,letzten Monat,지난달,Letzten Monat war ich im Urlaub.,시간,과거,false,false,2025-05-19 13:37:22.466408+00,false,null,null,null,null
+9c5fe7d8-e961-4e9e-967e-478eaffeb480,A1,letztes Jahr,작년,Letztes Jahr war ich in Deutschland.,시간,과거,false,false,2025-05-19 13:37:22.466453+00,false,null,null,null,null
+bbf858d8-c432-4978-8e6f-62f107902926,A1,das Wetter,날씨,Wie ist das Wetter?,날씨,일반,false,false,2025-05-19 13:37:22.46647+00,false,null,null,null,null
+091b692b-3eba-44d7-8642-afec92c6d4be,A1,sonnig sein,맑다,Heute ist es sonnig.,날씨,형용사,false,false,2025-05-19 13:37:22.46651+00,true,war sonnig,sonnig gewesen,bist sonnig,ist sonnig
+1854feb6-4e16-47d2-a24d-9ab5deac2a51,A1,die Sonnie,태양,Die Sonne scheint.,날씨,명사,false,false,2025-05-19 13:37:22.466542+00,false,null,null,null,null
+977e1ed1-6c41-41cd-8759-9a456c57ffb2,A1,der Regen,비,Heute gibt es viel Regen.,날씨,명사,false,false,2025-05-19 13:37:22.466562+00,false,null,null,null,null
+1eb9bff5-e122-4856-a0d7-44e8cdccd5c5,A1,bewölkt sein,흐리다,Es ist bewölkt.,날씨,형용사,false,false,2025-05-19 13:37:22.466575+00,true,war bewölkt,bewölkt gewesen,bist bewölkt,ist bewölkt
+2b2f9cbe-8842-4342-8f6f-1e60abbd1a5b,A1,die Wolke,구름,Am Himmel sind viele Wolken.,날씨,명사,false,false,2025-05-19 13:37:22.466589+00,false,null,null,null,null
+144a5579-ebd7-42a6-a440-7508a26f4acd,A1,windig,바람이 부는,Heute ist es windig.,날씨,형용사,false,false,2025-05-19 13:37:22.466602+00,false,null,null,null,null
+066e13e5-c75c-437b-b797-b490dc8eecfe,A1,der Schnee,눈,Im Winter fällt Schnee.,날씨,명사,false,false,2025-05-19 13:37:22.466616+00,false,null,null,null,null
+0a895bdd-d4cd-4704-89e2-105a49e5cee6,A1,der Grad,도(온도),Heute sind es 20 Grad.,날씨,단위,false,false,2025-05-19 13:37:22.466631+00,false,null,null,null,null
+86f5eb72-316e-4b12-a883-7b8a5c5fe064,A1,der Frühling,봄,Im Frühling blühen Blumen.,날씨,계절,false,false,2025-05-19 13:37:22.466647+00,false,null,null,null,null
+c72dc1c5-cb42-4e89-9e7f-c255483235cb,A1,der Sommer,여름,Der Sommer ist heiß.,날씨,계절,false,false,2025-05-19 13:37:22.466663+00,false,null,null,null,null
+9f7f4367-db35-4f5b-b7f5-4772eccc5753,A1,der Herbst,가을,Im Herbst fallen Blätter.,날씨,계절,false,false,2025-05-19 13:37:22.466678+00,false,null,null,null,null
+73b3a8ea-efeb-47ec-867a-ca5893561c17,A1,der Winter,겨울,Der Winter ist kalt.,날씨,계절,false,false,2025-05-19 13:37:22.466699+00,false,null,null,null,null
+ba7f60d5-7997-40f8-8f13-30b6c2645f18,A1,bei,~할 때,Bei Regen bleibe ich zu Hause.,시간,전치사,false,false,2025-05-19 13:37:22.466714+00,false,null,null,null,null
+db132036-b065-4d9c-a0de-812ed81a015d,A1,danach,그 후,Danach gehen wir essen.,시간,부사,false,false,2025-05-19 13:37:22.466728+00,false,null,null,null,null
+a0e622af-0102-43f5-b1c8-d9b471679693,A1,fast immer,거의 항상,Ich bin fast immer müde.,빈도,부사,false,false,2025-05-19 13:37:22.466754+00,false,null,null,null,null
+088106b9-94ab-43ca-8e19-e8cac1d36a09,A1,oft,자주,Ich esse oft Pizza.,빈도,부사,false,false,2025-05-19 13:37:22.466764+00,false,null,null,null,null
+8c52ed09-1158-4e8d-a2a9-45fa8c8d3734,A1,regalmäßig,정기적으로,Ich gehe regelmäßig ins Fitnessstudio.,빈도,부사,false,false,2025-05-19 13:37:22.466774+00,false,null,null,null,null
+060137bc-bdd8-4a8e-a607-de67c117c145,A1,ab  und zu,가끔,Ich gehe ab und zu ins Kino.,빈도,부사,false,false,2025-05-19 13:37:22.466784+00,false,null,null,null,null
+738cad38-6400-43da-9309-650404d18282,A1,fast nie,거의 안,Ich bin fast nie krank.,빈도,부사,false,false,2025-05-19 13:37:22.466794+00,false,null,null,null,null
+ad21fade-5e75-4898-aba0-8920f8967634,A1,einmal/zweimal ... am Tag,하루에 한/두 번,Ich esse zweimal am Tag.,빈도,패턴,false,false,2025-05-19 13:37:22.466804+00,false,null,null,null,null
+ac7ca470-95d0-49b2-bbcf-f337093dd5cc,A1,einmal/zweimal ... in der Woche,일주일에 한/두 번,Ich trainiere einmal in der Woche.,빈도,패턴,false,false,2025-05-19 13:37:22.466814+00,false,null,null,null,null
+c922eff2-60a6-4273-9e7a-aa4936dec028,A1,einmal/zweimal ... im Monat,한달에 한/두 번,Ich besuche meine Oma einmal im Monat.,빈도,패턴,false,false,2025-05-19 13:37:22.466849+00,false,null,null,null,null
+0cdb9da8-e4fb-4adf-824b-f18c3dc5db6c,A1,einmal/zweimal ... im Jahr,1년에 한/두 번,Ich reise zweimal im Jahr.,빈도,패턴,false,false,2025-05-19 13:37:22.466884+00,false,null,null,null,null
+0b6504ef-dd85-4c78-bd0d-712e534b9dd3,A1,schon mal,언젠가,Warst du schon mal in Berlin?,표현,경험,false,false,2025-05-19 13:37:22.466906+00,false,null,null,null,null
+bb349af2-b9bc-4bd2-9eaa-1be1efa2fb0f,A1,noch nie,아직 한 번도,Ich war noch nie dort.,표현,경험,false,false,2025-05-19 13:37:22.466918+00,false,null,null,null,null
+38f7e195-e55a-441a-8bef-508d355b1850,A1,nicht mehr,더 이상 ~아니다,Ich arbeite nicht mehr dort.,표현,부정,false,false,2025-05-19 13:37:22.466933+00,false,null,null,null,null
+84e86c07-b4cd-4d3a-aac4-a980e6df9205,A1,nichts,아무것도 ~아니다,Ich sehe nichts.,표현,부정,false,false,2025-05-19 13:37:22.466947+00,false,null,null,null,null
+98a4bd26-85a0-40b0-9aef-b8f89ed5a232,A1,etwas,무언가,Ich möchte etwas essen.,표현,긍정,false,false,2025-05-19 13:37:22.466958+00,false,null,null,null,null
+a222a392-dc52-4a40-8788-7136274ed8b4,A1,niemand,아무도,Niemand ist da.,표현,부정,false,false,2025-05-19 13:37:22.466967+00,false,null,null,null,null
+33b9e709-3a90-4de3-b05a-7fda188ee144,A1,alle,모두,Alle sind eingeladen.,표현,긍정,false,false,2025-05-19 13:37:22.466977+00,false,null,null,null,null
+d6059d52-e5fd-473f-b85e-46d5dbcdc25e,A1,noch nicht,아직 아니다,Ich bin noch nicht fertig.,표현,부정,false,false,2025-05-19 13:37:22.466998+00,false,null,null,null,null
+6abfe392-078e-4ae1-9d15-0d1e25feef48,A1,dürfen,해도 되다,Darf ich hier rauchen?,조동사,허가,false,false,2025-05-19 13:37:22.467011+00,true,durfte,gedurft,darfst,darf
+ef1471bf-1a92-4582-97ae-1884ebb76a1f,A1,sollen,해야 한다,Ich soll mehr lernen.,조동사,의무,false,false,2025-05-19 13:37:22.467022+00,true,sollte,gesollt,sollst,soll
+93b876b1-a931-4f81-80fa-3b01b742ee7d,A1,verboten sein,금지되어 있다,Rauchen ist hier verboten.,표현,금지,false,false,2025-05-19 13:37:22.467031+00,true,war verboten,verboten gewesen,bist verboten,ist verboten
+c5947d03-647f-41d4-8c62-9a1eb6282e1a,A1,erlaubt sein,허용되어 있다,Essen ist erlaubt.,표현,허가,false,false,2025-05-19 13:37:22.467041+00,true,war erlaubt,erlaubt gewesen,bist erlaubt,ist erlaubt
+03dfab2c-5fc6-4f3a-9543-04b40d9247c4,A1,möchten,~하고 싶다,Ich möchte schlafen.,조동사,희망,false,false,2025-05-19 13:37:22.467053+00,true,wollte,gewollt,möchtest,möchte
+b1737774-6ec7-4267-894a-90f23578dc35,A1,müssen,해야 한다,Ich muss lernen.,조동사,의무,false,false,2025-05-19 13:37:22.467068+00,true,musste,gemusst,musst,muss
+b1a09691-70de-4c3c-9da2-cf3ce8df5d57,A1,fragen,질문하다,Ich frage den Lehrer.,행동,커뮤니케이션,false,false,2025-05-19 13:37:22.467082+00,true,fragte,gefragt,fragst,fragt
+5a4ae3d3-4d36-4323-b663-a1c963c3e496,A1,die Frage,질문,Ich habe eine Frage.,행동,커뮤니케이션,false,false,2025-05-19 13:37:22.467092+00,false,null,null,null,null
+ecd607f4-ba4d-4284-95b3-34ff1f927e89,A1,die Antwort,답변,Ich weiß die Antwort.,행동,커뮤니케이션,false,false,2025-05-19 13:37:22.467103+00,false,null,null,null,null
+b48ac9e5-dd83-4039-a5e2-23c87b5e1ee4,A1,mitnehmen,가져가다,Ich nehme mein Buch mit.,일상,행동,false,false,2025-05-19 13:37:22.467117+00,true,nahm mit,mitgenommen,nimmst mit,nimmt mit
+cdd7527c-ecf4-4feb-9138-ad49a37b5369,A1,telefonieren,전화하다,Ich telefoniere mit meiner Mutter.,일상,행동,false,false,2025-05-19 13:37:22.467131+00,true,telefonierte,telefoniert,telefonierst,telefoniert
+93386652-b77c-4734-abfb-aa7fd1c34c4e,A1,benutzen,사용하다,Ich benutze das Handy.,일상,행동,false,false,2025-05-19 13:37:22.46715+00,true,benutzte,benutzt,benutzt,benutzt
+4186c6e1-7beb-4e5c-ab16-866fc78eae8c,A1,leihen,빌리다,Ich leihe ein Buch.,일상,행동,false,false,2025-05-19 13:37:22.46716+00,true,lieh,geliehen,leihst,leiht
+e0e27d8b-c58a-4979-af37-5463e143eb2d,A1,sauber sein,깨끗하다,Das Zimmer ist sauber.,형용사,청결,false,false,2025-05-19 13:37:22.467176+00,true,war sauber,sauber gewesen,bist sauber,ist sauber
+82d0bf1c-5470-4693-9361-03f611a4226c,A1,aufrämen,정리하다,Ich räume mein Zimmer auf.,일상,정리,false,false,2025-05-19 13:37:22.46719+00,true,räumte auf,aufgeräumt,räumst auf,räumt auf
+2c698351-d182-4f0a-84da-ae3fa97a8652,A1,einschalten,켜다,Ich schalte den Fernseher ein.,일상,전기,false,false,2025-05-19 13:37:22.467204+00,true,schaltete ein,eingeschaltet,schaltest ein,schaltet ein
+b0c311d9-f028-45e1-8c39-5111ad1185e9,A1,anmachen,켜다,Ich mache das Licht an.,일상,전기,false,false,2025-05-19 13:37:22.467217+00,true,machte an,angemacht,machst an,macht an
+2e0a9909-50a2-4d6d-9b5b-1d03128e7c65,A1,ausschalten,끄다,Ich schalte das Licht aus.,일상,전기,false,false,2025-05-19 13:37:22.467231+00,true,schaltete aus,ausgeschaltet,schaltest aus,schaltet aus
+65dc3a82-3e7b-40b9-95dd-a10b22fa1239,A1,ausmachen,끄다,Ich mache den Fernseher aus.,일상,전기,false,false,2025-05-19 13:37:22.467243+00,true,machte aus,ausgemacht,machst aus,macht aus
+a2b4d02b-de95-40bd-b301-a529b6ae3aeb,A1,öffnen,열다,Ich öffne das Fenster.,일상,문/창문,false,false,2025-05-19 13:37:22.467255+00,true,öffnete,geöffnet,öffnest,öffnet
+b54c32c5-621c-4b0c-a79a-bee4b181edad,A1,aufmachen,열다,Ich mache die Tür auf.,일상,문/창문,false,false,2025-05-19 13:37:22.467268+00,true,machte auf,aufgemacht,machst auf,macht auf
+608043ce-04e0-4aa5-8d03-8de89edab027,A1,schließen,닫다,Ich schließe das Fenster.,일상,문/창문,false,false,2025-05-19 13:37:22.467282+00,true,schloss,geschlossen,schließt,schließt
+a686e20c-1647-4aa1-9dd4-b524d0a8f073,A1,zumachen,닫다,Ich mache das Fenster zu.,일상,문/창문,false,false,2025-05-19 13:37:22.467296+00,true,machte zu,zugemacht,machst zu,macht zu
+ea1b79c2-b750-4004-9e60-3d16d66f2c23,A1,lang,길다,Meine Haare sind lang.,신체,외모,false,false,2025-05-19 13:45:45.069107+00,false,null,null,null,null
+58d69570-8992-4704-be29-57cc313765c4,A1,kurz,짧다,Er trägt kurze Hosen.,신체,외모,false,false,2025-05-19 13:45:45.070063+00,false,null,null,null,null
+272ff75a-0cfc-4975-87b7-fd06be82ba14,A1,glatt,"곱슬이 아닌, 직모",Sie hat glatte Haare.,신체,외모,false,false,2025-05-19 13:45:45.070316+00,false,null,null,null,null
+b993f83b-42eb-4c1d-b1f4-139a13f6de48,A1,wellig,웨이브진,Er hat wellige Haare.,신체,외모,false,false,2025-05-19 13:45:45.07058+00,false,null,null,null,null
+bd6453be-20d6-484d-b623-0867150cf7bf,A1,gelockt,곱슬곱슬한,Ihre Haare sind gelockt.,신체,외모,false,false,2025-05-19 13:45:45.070662+00,false,null,null,null,null
+fd50100f-7dd0-47e4-9fcf-e339f65ce549,A1,die Locke,곱슬머리,Ich habe eine Locke.,신체,외모,false,false,2025-05-19 13:45:45.070695+00,false,null,null,null,null
+2410e706-152b-43e3-befa-0711fae3d226,A1,der Kpof,머리,Ich habe Kopfschmerzen.,신체,부위,false,false,2025-05-19 13:45:45.070708+00,false,null,null,null,null
+c4e7e8d1-d7f8-473b-9666-a5041f9e3c26,A1,die Augenbraue,눈썹,Sie hat schöne Augenbrauen.,신체,부위,false,false,2025-05-19 13:45:45.070739+00,false,null,null,null,null
+90937487-2492-4523-85f8-298e0d0b0625,A1,die Lippe,입술,Ihre Lippen sind rot.,신체,부위,false,false,2025-05-19 13:45:45.070765+00,false,null,null,null,null
+793ff0f6-5eb8-4639-9e3e-354ba80ef35a,A1,der Po,엉덩이,Der Po tut weh.,신체,부위,false,false,2025-05-19 13:45:45.07079+00,false,null,null,null,null
+e135dbd4-b42b-4e47-8077-5d4a06ee5ee1,A1,der Zeh,발가락,Ich habe mir den Zeh gestoßen.,신체,부위,false,false,2025-05-19 13:45:45.070823+00,false,null,null,null,null
+d7e59793-e22b-4d0d-ae6c-9b4673b9afa6,A1,groß sein,크다,Ich bin groß.,신체,외모,false,false,2025-05-19 13:45:45.070842+00,true,war groß,groß gewesen,bist groß,ist groß
+663f03a7-0ece-45d5-bd0a-b6135687a065,A1,klein sein,작다,Er ist klein.,신체,외모,false,false,2025-05-19 13:45:45.070867+00,true,war klein,klein gewesen,bist klein,ist klein
+9b64fbbd-2417-48d1-aff3-76949a6f2711,A1,schlank sein,날씬하다,Sie ist schlank.,신체,외모,false,false,2025-05-19 13:45:45.070898+00,true,war schlank,schlank gewesen,bist schlank,ist schlank
+102eec00-9744-47d6-9980-d5c6ffd32af1,A1,dünn sein,마르다,Du bist dünn geworden.,신체,외모,false,false,2025-05-19 13:45:45.070912+00,true,war dünn,dünn gewesen,bist dünn,ist dünn
+eee883ff-e0c8-4a37-8fd4-85604830f3cc,A1,pummelig sein,통통하다,Das Kind ist pummelig.,신체,외모,false,false,2025-05-19 13:45:45.070933+00,true,war pummelig,pummelig gewesen,bist pummelig,ist pummelig
+99faf2d3-ded2-4dc4-adef-dcf0c80d2428,A1,dick sein,뚱뚱하다,Er ist dick geworden.,신체,외모,false,false,2025-05-19 13:45:45.070982+00,true,war dick,dick gewesen,bist dick,ist dick
+f10cc182-e09a-43e6-9793-ea76e6401933,A1,gutaussehend sein,잘생기다,Er ist sehr gutaussehend.,신체,외모,false,false,2025-05-19 13:45:45.071059+00,true,war gutaussehend,gutaussehend gewesen,bist gutaussehend,ist gutaussehend
+93e7f6fc-1570-4c07-b878-46d1db43665b,A1,krank sein,아프다,Ich bin krank.,건강,증상,false,false,2025-05-19 13:45:45.071074+00,true,war krank,krank gewesen,bist krank,ist krank
+13972cb0-67c0-4a6b-9b3c-9ad44e8eb5b4,A1,übel sein,메스껍다,Mir ist übel.,건강,증상,false,false,2025-05-19 13:45:45.071517+00,true,war übel,übel gewesen,ist übel,ist übel
+92432bc3-4150-4762-a0e3-3128584f7618,A1,schelcht sein,상태가 나쁘다,Mir ist schlecht.,건강,증상,false,false,2025-05-19 13:45:45.07156+00,true,war schlecht,schlecht gewesen,ist schlecht,ist schlecht
+ad84a876-d0a8-4f66-9291-3bfcaefc41f1,A1,erkältet sein,감기에 걸리다,Ich bin erkältet.,건강,증상,false,false,2025-05-19 13:45:45.071575+00,true,war erkältet,erkältet gewesen,bist erkältet,ist erkältet
+bf53e285-e719-4ffe-b55e-a2d7f6542946,A1,eine Erkältung haben,감기 걸리다,Ich habe eine Erkältung.,건강,증상,false,false,2025-05-19 13:45:45.071589+00,true,hatte,gehabt,hast,hat
+0fa219dc-4b93-435e-b1d1-82493ed41cf5,A1,Schnupfen haben,콧물 나다,Ich habe Schnupfen.,건강,증상,false,false,2025-05-19 13:45:45.071601+00,true,hatte,gehabt,hast,hat
+0709d3e1-c82d-471a-9bbb-e6926fa8a34f,A1,Husten haben,기침하다,Ich habe Husten.,건강,증상,false,false,2025-05-19 13:45:45.071611+00,true,hatte,gehabt,hast,hat
+1c618c03-415f-4903-a592-f6a12a18b1a4,A1,die Nase läuft,콧물이 흐르다,Meine Nase läuft.,건강,증상,false,false,2025-05-19 13:45:45.07162+00,true,lief,gelaufen,läuft,läuft
+64f087a1-6b2e-4beb-b91e-54f162ee6801,A1,Fieber haben,열이 있다,Ich habe Fieber.,건강,증상,false,false,2025-05-19 13:45:45.07163+00,true,hatte,gehabt,hast,hat
+6b58251c-1cef-4973-a400-e0faf89d72d4,A1,eine Grippe haben,독감에 걸리다,Ich habe eine Grippe.,건강,증상,false,false,2025-05-19 13:45:45.071644+00,true,hatte,gehabt,hast,hat
+618ad0d9-b22b-4c57-aa99-743c6fde6f53,A1,zum Arzt gehen,병원에 가다,Ich gehe zum Arzt.,건강,행동,false,false,2025-05-19 13:45:45.071658+00,true,ging,gegangen,gehst,geht
