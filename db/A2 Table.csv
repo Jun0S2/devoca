@@ -8,6 +8,8 @@ cead98b0-f07f-4984-adb8-558c18801ad9,A2,heiraten,결혼하다,Meine Schwester he
 e63bb6e6-5cc5-46e1-ba0c-790c3f5c7aae,A2,schön,예쁜 / 멋진,Dein Kleid ist schön.,형용사,표현,false,false,2025-05-01 07:59:10.068513+00,false,,,,
 f465df15-3ab2-4bdc-820b-77350eea65fc,A2,einfach,쉬운,"Deutsch ist nicht einfach. ",형용사,표현,false,false,2025-05-01 07:58:05.939896+00,false,,,,
 def56c56-7aa8-47e6-903f-ff911b9b479b,A2,billig,저렴한,	Die Schuhe waren billig.,형용사,표현,false,false,2025-05-01 07:58:55.67544+00,false,,,,
+c1cd0739-f50b-4963-82c6-1c4bd3d886bc,A2,sich anfreunden,친해지다,Wir haben uns schnell angefreundet.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,freundete sich an,sich angefreundet,freundest dich an,freundet sich an
+c7c110f8-9d1d-4b79-a883-04619211af5e,A2,Leute kennenlernen,사람들을 알게 되다,Im Urlaub habe ich viele Leute kennengelernt.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,lernte kennen,kennengelernt,lernst kennen,lernt kennen
 1d9591ea-67eb-4ac1-abdf-fdf70f6173a2,A2,sauber,깨끗한,Das Zimmer ist sauber.,형용사,표현,false,false,2025-05-01 08:00:08.86376+00,false,,,,
 149c18ee-d9c7-43f4-8583-0764e6936538,A2,unwichtig,중요하지 않은," Die Details sind unwichtig.",형용사,표현,false,false,2025-05-01 08:01:10.330699+00,false,,,,
 22cc7705-dcdc-4949-bed7-355f48648935,A2,warm,따뜻한,Die Suppe ist warm.,형용사,표현,false,false,2025-05-01 07:59:56.846296+00,false,,,,
@@ -58,20 +60,32 @@ f8d60b15-ae58-4dee-829b-db489a2de136,A2,"Es gibt ",~ 가 있다,Wo gibt es hier 
 636d32ba-da9e-499d-9048-9be643894bc9,A2,der Parkplatz,주차장,Der Parkplatz ist voll.,도시관광,관광,false,false,2025-05-02 15:28:16.642545+00,false,,,,
 f11439d2-be1e-4ed8-af81-59aebaa8badb,A2,das Stadion,"stadium, 경기장",Das Spiel findet im Stadion statt.,도시관광,관광,false,false,2025-05-02 15:29:11.526904+00,false,,,,
 324240f0-189b-4b73-b64e-59f4c14454c0,A2,wecken,깨우다,Kannst du mich morgen um 6 Uhr wecken?,일상,표현,false,false,2025-05-01 08:30:35.0717+00,true,weckte,geweckt,weckst,weckt
+ea0333c9-bbf9-4a75-a682-ce349e847342,A2,Freunde sein,친구이다,Wir sind seit der Schulzeit Freunde.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+6dadbe19-1619-4b5a-8969-ef0f6605f998,A2,der beste Freund,절친(남),Max ist mein bester Freund.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+8b05704e-1b3b-4c5d-bb6b-3ce18dc93019,A2,der Bekannte,남자 지인,Er ist nur ein Bekannter von mir.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+95007eb2-5238-4b0e-ab52-3d915bffa230,A2,Zeit verbringen,시간을 보내다,Ich verbringe das Wochenende mit meiner Familie.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+9937167b-2623-448f-baf6-a478edce8536,A2,sehen,보다,Ich habe sie gestern gesehen.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,sah,gesehen,siehst,sieht
 53b6644d-d2bc-4004-8851-353ea6f1bab1,A2,die 2-Zimmer-Wohnung	,투,Ich suche eine 2-Zimmer-Wohnung in Berlin.,집,주거,false,false,2025-05-01 09:37:50.040075+00,false,,,,
 6bd113ce-fe3a-4e71-bed6-c1c8e06b51a3,A2,sich interessieren (für),흥미를 느끼다,Ich interessiere mich für Musik,취미,표현,false,true,2025-05-01 08:10:03.672004+00,true,interessierte,interessiert,interessierst dich,interessiert sich
 de8ec56b-6827-431b-beaf-d7e84eb1dfb4,A2,die Heirat,결혼,Die Heirat meiner Schwester ist nächsten Monat.,가족과 친구,가족과 친구,false,true,2025-05-01 06:37:44.0612+00,false,,,,
 dd785ef4-64da-4421-b9c6-984c1fc051ff,A2,der Junge,남자아이,Der Junge spielt gern Fußball.,가족과 친구,가족과 친구,false,false,2025-05-01 06:38:13.797222+00,false,,,,
 79e46e77-b7e1-4101-a9d5-3f5252ed7261,A2,die Kaltmiete	,기본 월세 (난방/물 미포함),Die Kaltmiete beträgt 500 Euro.,집,월세,false,true,2025-05-01 09:22:52.891274+00,false,,,,
+07348a2a-a604-45d6-b6bb-15cc143df670,A2,die beste Freundin,절친(여),Anna ist meine beste Freundin.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+8ed68b49-650d-4dd7-994d-a27bdc3d228f,A2,der Freundeskreis,친구 모임,Unser Freundeskreis trifft sich jeden Freitag.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+03e8b253-ecd6-4bdb-b516-e964359eebda,A2,die Bekannte,여자 지인,Sie ist eine alte Bekannte.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 1017c6a1-0ea2-4d5a-8bdf-cb166790e163,A2,Mein(e) ... tut/tun weh,저는 ... 가 아픕니다,"Mein Bein tut weh ",건강,회화,false,true,2025-05-02 14:25:35.936554+00,false,,,,
 767ccc75-2a75-49d9-9116-6b1ee953088a,A2,Ich muss zum Arzt gehen,나는 의사에게 (병원에) 가야합니다.,Ich muss zum Arzt gehen,건강,회화,false,true,2025-05-02 14:26:05.587611+00,false,,,,
 0482b780-4538-408e-b4d8-c8fe0883caa4,A2,Ich bin gesund,나는 건강합니다,Ich bin gesund,건강,회화,false,false,2025-05-02 14:24:43.367904+00,false,,,,
 70ce8c48-6398-4bf9-a268-721b8ed002c7,A2,das Baby,아기,Das Baby schläft in seinem Bett.,가족과 친구,가족과 친구,false,false,2025-05-01 06:38:00.449034+00,false,,,,
 dbd44c97-662c-46c4-afc3-b6e486a4943e,A2,"das Mädchen ","여자아이 ",Das Mädchen liest ein Buch.,가족과 친구,가족과 친구,false,false,2025-05-01 06:38:27.336861+00,false,,,,
+0f59b389-494f-4f14-b6af-d913ca8ab62e,A2,sich treffen,만나다,Wir treffen uns am Samstag im Café.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,traf,getroffen,triffst,trifft
+d94c2a01-0163-4496-ad23-7cdd887e95e6,A2,Zeit zusammen verbringen,같이 시간을 보내다,Wir verbringen gerne Zeit zusammen.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,null,null,null,null
 04f9b22a-5b4d-46f5-9001-ceaa8415651c,A2,gefallen,마음에 들다,Das Kleid gefällt mir.,집,월세,false,false,2025-05-01 09:51:02.96484+00,true,giefiel,gefallen,"gefällst ",gefällt
 8bdfeb0b-28d3-4c54-8816-c0a7087a87ff,A2,Ich bin krank,나는 아픕니다,Ich bin krank,건강,회화,false,false,2025-05-02 14:24:27.257134+00,false,,,,
 fbd520d9-0122-4d7d-a2a0-dc27d369aef8,A2,Ich habe ... schmerzen (Kopf/Bauch/Zahn),나는 ...통증이 있습니다,Ich habe Kopftschmerzen,건강,회화,false,false,2025-05-02 14:25:08.196971+00,false,,,,
 a6e149bf-1bff-4d1b-bea5-d5ddfb3b9247,A2,Wo ist die Apotheke?,약국이 어딥니까?,Wo ist die Apotheke?,건강,회화,false,false,2025-05-02 14:26:30.528223+00,false,,,,
+5be20b71-7287-4c57-8dab-edd08140d383,A2,ein Freund von mir,내 남자 친구 중 한 명,Ein Freund von mir arbeitet in Berlin.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+b29b1249-a8af-425c-b513-c7f65e05a891,A2,kennenlernen,처음 알게 되다,Wir haben uns auf einer Party kennengelernt.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,lernte kennen,kennengelernt,lernst kennen,lernt kennen
 bc86fd40-90fa-4d67-98b3-c3ecce570efb,A2,die Warmmiete	,Kaltmiete + Nebenkosten 포함된 총액	,Die Warmmiete ist 750 Euro.,집,월세,false,true,2025-05-01 09:23:08.291647+00,false,,,,
 f808eacd-075c-43f9-84ec-9ccb74c3f1a2,A2,beschreiben,묘사하다 / 설명하다 (영어: to describe),Beschreib deine Wohnung!,집,월세,false,true,2025-05-01 09:51:51.225635+00,true,beschrieb,beschrieben,beschreibst,beschreibt
 654bd5df-bdfd-4b8f-ab2e-f48c2aa3766f,A2,Ich schreibe Ihnen ein Rezept.,처방전을 써드리겠습니다.,Ich schreibe Ihnen ein Rezept.,건강,회화,false,true,2025-05-02 14:27:04.584928+00,false,,,,
@@ -80,6 +94,9 @@ f808eacd-075c-43f9-84ec-9ccb74c3f1a2,A2,beschreiben,묘사하다 / 설명하다 
 8e6dd432-a5dc-443d-a6f8-542b7788283f,A2,nach rechts	,오른쪽으로,Dann biegen Sie nach rechts ab.,도시관광,방향,false,false,2025-05-01 09:39:16.314175+00,false,,,,
 c25169ae-5f47-4583-9d82-2de95b31d9c5,A2,Ich habe Grippe,나는 독감에 걸렸습니다.,Ich habe Grippe,건강,회화,false,false,2025-05-02 14:27:16.887066+00,false,,,,
 8a8b5928-f8cb-4849-8ad1-dbe921f75461,A2,zeichnen,스케치 하다,Er hat mit Kohle gezeichnet.,취미,표현,false,true,2025-05-01 08:10:43.728821+00,true,zeichnete,gezeichnet,zeichnest,zeichnet
+013385dd-550a-4285-bc81-6d15d98208a5,A2,ser Streit,"싸움, 다툼",Der Streit war schnell wieder vorbei.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+e2ff745c-fae5-4bc8-bdfc-4db1cd283c36,A2,sich gut verstehen,서로 잘 지내다,Wir verstehen uns sehr gut.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+e98efaea-e53a-4c1a-8a5a-54ef19a5c56d,A2,sich streiten,다투다,"Wir streiten uns manchmal, aber versöhnen uns schnell.",Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,stritt sich,sich gestritten,streitest dich,streitet sich
 360c90b7-6443-4a2b-b473-689b315d253a,A2,pünktlich,"제시간에, 정시에",Der Bus kommt pünktlich an.,도시관광,여행,false,false,2025-05-02 16:53:08.892253+00,false,,,,
 a8c9aefc-af2e-4b2b-943a-cff065506148,A2,der Bahnsteig,승강장,Ich warte auf dem Bahnsteig.,도시관광,여행,false,false,2025-05-02 16:53:30.738406+00,false,,,,
 e03f8f42-8b5a-4369-8811-cd8c51fe9942,A2,Ich brauche ein Medikament,나는 약이 필요합니다.,Ich brauche ein Medikament,건강,회화,false,true,2025-05-02 14:26:47.09752+00,false,,,,
@@ -130,6 +147,13 @@ afd58e47-dc0c-47b6-b599-3b12880c9535,A2,satt,배부른 (*형용사),Ich bin tota
 70d050bd-6f24-4767-97c6-e44910c6d8ad,A2,die Sehenswürdigkeit,"볼거리, 관광지","Entschudigung, ich bin auf der Suche nach Sehenwürdigkeiten.",도시관광,관광,false,true,2025-05-02 15:31:32.915489+00,false,,,,
 680e482d-359d-4309-a143-44d00101e0de,A2,(da) oben,위에 / 위쪽에 (over),Mein Zimmer ist da oben.,도시관광,방향,false,false,2025-05-01 09:39:34.36929+00,false,,,,
 d52565d6-bbd3-48a4-b632-2e265b0f1ce0,A2,das Haar,머리카락,Ihre Haare sind blond.,건강,신체,false,false,2025-05-19 13:34:52.230561+00,false,,,,
+79ccdfd3-678c-4a7b-9802-c5031799bfd0,A2,spaß haben,즐겁다,Wir hatten viel Spaß im Kino.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+333a6418-0995-453c-8df0-a9b0bfea5d93,A2,die Liebe,사랑,Die Liebe ist das Schönste im Leben.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+1962340e-3c14-4394-941a-94843a03d4dd,A2,der Traummann,이상형 남자,Sie hat ihren Traummann gefunden.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+a50d0ab2-84ef-4647-a7ee-c83a6a40be6c,A2,die Traumfrau,이상형 여자,Er sucht seine Traumfrau.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+7d1d97c4-753b-4962-96bc-6905036b67fd,A2,Single sein,싱글이다,Ich bin schon lange Single.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+f2033e4f-ee8e-4de2-8dce-616f0bbaf032,A2,das Pärchen,커플(귀엽게),Das junge Pärchen ist verliebt.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+6229eb2c-1eb7-4f7e-a2f3-5ab8be1395f5,A2,stehen auf Akk.,~에게 반하다,"Ich glaube, er steht auf dich.",Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 d08a0283-32ff-470c-8e46-1866742d43b9,A2,zusammenleben,함께살다,Ich lebe noch meinen Eltern Zusammen.,가족과 친구,가족과 친구,false,true,2025-05-01 06:47:29.389214+00,true,lebte zusammen,zusammengelebt,lebst zusammen,lebt zusammen
 629bb949-40f5-4974-9999-b4226782b4ef,A2,das Handtuch,수건,Wo ist mein Handtuch?,일상,단어,false,false,2025-05-01 08:36:39.56721+00,false,,,,
 7d440017-298e-416d-acdf-97f4dce88162,A2,planen,계획하다,Was planst du jezt?,취미,표현,false,true,2025-05-01 08:13:45.23658+00,true,plante,geplant,planst,plant
@@ -139,6 +163,8 @@ aebf5656-ba36-449e-8acb-c3bf09a5148b,A2,der Hals,목,Mein Hals tut weh.,건강,�
 85704b85-87a8-4b1a-b5e1-d00592cb8277,A2,laufen,달리다,Bis wann läuft der Film?,취미,표현,false,false,2025-05-01 08:13:20.77189+00,true,lief,gelaufen,läufst,läuft
 a4ca12bd-f386-4029-8536-41c31442addd,A2,spät,늦은,Er kommt immer zu spät,일상,표현,false,false,2025-05-01 08:33:45.063302+00,false,,,,
 53b29f4f-5f7d-4d8b-a8cf-4bda9df8ea1a,A2,heute,오늘,Treffen wir uns heute?,일상,시간,false,false,2025-05-01 08:33:59.915269+00,false,,,,
+27e68f8a-3fd4-49c3-a392-b1ef5c83c55c,A2,die Fernbeziehung,장거리 연애,Eine Fernbeziehung ist oft schwierig.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+73f83759-c5d6-44cf-bb34-8ecd90220c69,A2,der Jungendliche,청소년(남),Ein Jugendlicher liest ein Buch.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
 50a04e40-cc0f-4876-b017-967d073d6eb6,A2,die Dusche	,샤워,Ich nehme jeden Morgen eine Dusche.,일상,단어,false,true,2025-05-01 08:35:23.915747+00,false,,,,
 cac8cfc4-55e7-49c1-9a0a-00dc79001409,A2,die Schulter,어깨,Ich habe Schmerzen in der Schulter.,건강,신체,false,true,2025-05-02 14:33:29.392127+00,false,,,,
 88dbdd19-6056-4ce5-8afa-f840c364e87a,A2,die Brust,"가슴, 흉부",Er atmet tief in die Brust.,건강,신체,false,true,2025-05-02 14:33:39.297404+00,false,,,,
@@ -154,11 +180,20 @@ b2730444-cff8-493d-88bc-b669f0eed7e3,A2,"die Seife ",비누,Ich wasche meine Hä
 35be5aee-9399-4d1a-bd0c-1c4fcb20576e,A2,der Wecker,알람시계,Der Wecker klingelt um 6 Uhr.,일상,단어,false,false,2025-05-01 08:35:07.952311+00,false,,,,
 646954f2-9ba2-4a1a-9d29-fa62dda00cdb,A2,Wo ist ...?,_ 는 어디에 있습니까?,Wo ist die Bahn?,도시관광,회화,false,false,2025-05-02 15:13:35.313085+00,false,,,,
 a4970fd3-c291-4470-8897-fcbeaa019161,A2,untersuchen,"검사하다, 진찰하다 ",Ich will mich zunächst untersuchen lassen (나는 우선 진찰을 받고 싶다),건강,표현,false,true,2025-05-02 14:59:06.354082+00,true,untersuchte,untersucht,untersuchst,untersucht
+482a42f6-cfff-4bb0-97ce-b950c76079b9,A2,zusammenkommen,연인이 되다,Wir sind letztes Jahr zusammengekommen.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+b5405391-73f7-43aa-b1d9-66a1223f15f6,A2,zusammen sein,사귀고 있다,Wir sind seit drei Monaten zusammen.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+982e08de-9263-47ea-84cf-4e34aced249c,A2,das Paar,커플,Das Paar sieht glücklich aus.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 45874015-7da2-4be3-bf45-fcdec62d3a88,A2,die Eintrittskarte,"입장권 (entry, Eintritt)",Wo kann man hier eine Entrittskarte kaufen?,도시관광,관광,false,true,2025-05-02 15:32:22.796653+00,false,,,,
+9cbf2131-9290-48ba-b2aa-a51786d4db5d,A2,ein Date haben,데이트하다,Heute habe ich ein Date mit ihm.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+2fe8aadc-99a4-4593-9147-75c03d7b83c7,A2,sich verabreden,약속하다,Wir haben uns zum Abendessen verabredet.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,verabredete sich,sich verabredet,verabredest dich,verabredet sich
 879cf6ec-6e3a-4303-b12c-d5f75a9f394c,A2,die Nähe,근처,Gibt es hier in der Nähe ein Kaufhaus?,도시관광,관광,false,false,2025-05-02 15:32:47.662266+00,false,,,,
+5966deb3-6899-4dc2-ad01-50f7b1df2941,A2,quatschen,수다 떨다,Wir haben den ganzen Abend gequatscht.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,quatschte,gequatscht,quatschst,quatscht
 2015f4dc-4416-4c42-9dc4-141924afee5c,A2,Gibt es hier ...?,여기 __ 있나요?,Gibt es hier Brot?,도시관광,회화,false,true,2025-05-02 15:14:17.961577+00,false,,,,
 c2a7cfc0-c068-4708-873f-464c98e04cf6,A2,bekannt,"잘 알려진, 유명한 ",Der Dom ist sehr bekannt.,도시관광,표현,false,false,2025-05-02 15:33:37.213864+00,false,,,,
 8f849178-2bc9-475e-94df-b142674f4797,A2,Was möchten Sie besichtigen?,무엇을 관람하고 싶습니까?,Was möchten Sie besichtigen?,도시관광,회화,false,false,2025-05-02 15:13:57.081817+00,false,,,,
+9bf39957-120c-4637-b6e7-81c60575464a,A2,reden,말하다,Kann ich kurz mit dir reden?,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,redete,geredet,redest,redet
+efc56baf-adf1-4529-8e88-71b9c7560045,A2,(et)was von jmdm. wollen,~에게 관심이 있다,"Ich glaube, sie will was von ihm.",Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+90d72406-1bdb-45ea-9c42-85850a8d07be,A2,sich unterhalten,이야기하다,Wir haben uns lange unterhalten.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,unterhielt sich,sich unterhalten,unterhältst dich,unterhält sich
 3a71e98d-0dd4-4114-9d07-ce4ad48e1e36,A2,grillen,그릴에 굽다,Soll ich Würste grillen?,취미,표현,false,false,2025-05-01 08:14:22.857081+00,true,grillte,gegrillt,grillst,grillt
 a4d16e10-a226-42d1-8703-bdbb3d41480c,A2,reisen,여행하다,Wir sind mit dem Zug nach Wien gereist.,취미,표현,false,false,2025-05-01 08:14:49.110519+00,true,reiste,gereist,reist,reist
 217d466f-9eb4-4191-afc6-75289130f4d3,A2,ein bisschen	,조금,Ich bin ein bisschen krank.,형용사,정도,false,false,2025-05-01 08:40:53.462472+00,false,,,,
@@ -173,9 +208,11 @@ d8d60677-cd0d-47ae-80e9-b19cfffeec32,A2,die Bluse,블라우스 (여성용),Die B
 29b6f226-da5b-44e4-b47f-b86d1f870db1,A2,der Hut,모자,Der Hut sieht schick aus.,도시관광,의류,false,false,2025-05-02 15:54:00.197286+00,false,,,,
 de3aee2f-0c76-497d-b920-3ebc6222f59f,A2,die Brille,안경,Ich brauche eine neue Brille.,도시관광,의류,false,false,2025-05-02 15:54:30.150499+00,false,,,,
 88f51da8-861f-47af-a687-028b932a2810,A2,anrufen,전화하다,Ich habe dich gestern angerufen,도시관광,표현,false,false,2025-05-02 16:05:54.195102+00,true,rief an,angerufen,rufst an,ruft an
+893b2bbf-d6ef-40c4-9868-b78192c83ab9,A2,verliebt sein,사랑에 빠져 있다,Ich bin total in ihn verliebt.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 03be7b21-d61f-4634-b291-bd7b457992cc,A2,die Durchsage,안내 방송,Die Durchsage informiert über die Verspätung.,도시관광,여행,false,false,2025-05-02 16:53:46.788004+00,false,,,,
 a932e6ae-d5f2-44e3-b7c6-69cffc0ea77c,A2,das Strandtuch	,비치타올	,Am Strand habe ich ein buntes Strandtuch dabei.,일상,단어,false,false,2025-05-01 08:38:25.301791+00,false,,,,
 1711f555-418a-4c0d-b3f4-487d0fd2b58e,A2,das Taschentuch	,손수건 / 티슈	,Ich brauche ein Taschentuch. Meine Nase läuft.,일상,단어,false,false,2025-05-01 08:38:38.924517+00,false,,,,
+533a80b3-8342-4731-9de0-ea8975fa79ef,A2,die Liebe des Lebens,인생의 사랑,Er ist die Liebe meines Lebens.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 6ad7163f-641c-40a6-9209-c6028c3e4e51,A2,ankreuzen,"체크하다, 표시하다 (□에 X 표시하는 것,)",Ich habe das falsche Kästchen angekreuzt.,집,월세,false,false,2025-05-01 09:54:04.152685+00,true,kreuzte an,angekreuzt,kreuzt an,kreuzt an
 437ec296-2c0f-418d-96fc-b4f204269a82,A2,das Knie,무릎,Mein Knie ist verletzt.,건강,신체,false,true,2025-05-02 14:34:32.552816+00,false,,,,
 75ca0ed1-15ba-4186-8194-27a42113dab2,A2,verschieben,"연기하다, 밀어옮기다",Kann ich den Termin auf Donnerstag verschieben?,건강,표현,false,true,2025-05-02 15:00:53.222385+00,true,verschob,verschoben,verschiebst,verschiebt
@@ -205,6 +242,7 @@ eb450e93-21be-4cc0-af45-c9b7cb3ef65b,A2,leicht,가벼운,Diese Tasche ist leicht
 2933ed7c-ac12-4320-89c4-5acaa29e966f,A2,dünn,얇은,Dieses Papier ist sehr dünn.,형용사,표현,false,false,2025-05-01 08:40:00.990396+00,false,,,,
 10efb7bf-ca4a-4ed4-bb81-392fefc168d3,A2,ziemlich,"꽤, 제법	",Sie ist ziemlich nett.,형용사,정도,false,true,2025-05-01 08:41:09.89309+00,false,,,,
 535ac86b-150b-4ea3-8e92-c7681ac9d2c3,A2,wirklich,정말로 (진짜)	,Das ist wirklich schwer.,형용사,정도,false,false,2025-05-01 08:41:31.872642+00,false,,,,
+a1e481f6-40ae-4f4c-9d9a-e8a0424caa73,A2,sich verlieben,반하다,Ich habe mich in dich verliebt.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,verliebte sich,sich verliebt,verliebst dich,verliebt sich
 a157bc8a-e73b-41ad-9f45-f45797df7ad3,A2,Meine Hobbys sind ...,내 취미들은 ...,Meine Hobby ist ...,취미,회화,false,false,2025-05-01 06:50:23.366314+00,false,,,,
 5d0a675e-0cb8-4c95-a606-b19502dd1533,A2,Was sind deine Hobbys?,너의 취미들은 무엇이니?,Was sind deine Hobbys?,취미,회화,false,false,2025-05-01 06:50:06.973071+00,false,,,,
 1456674a-a198-4c10-a5f0-024d2e8cc6d9,A2,nicht so,not so ~,Das Essen war nicht so gut.,형용사,뉘앙스,false,false,2025-05-01 08:42:37.490442+00,false,,,,
@@ -236,6 +274,7 @@ f345fdfe-71d9-4e9e-bb09-d11459569f24,A2,schneiden,자르다,Er schneidet die Piz
 fc483858-adcc-4b09-b854-70bcd2faf01a,A2,der Schuh,신발,Die Schuhe sind bequem.,도시관광,의류,false,true,2025-05-02 15:56:07.967526+00,false,,,,
 b3490482-61f4-42f7-8920-7d38c334e3e3,A2,zurückfahren,"돌아가다, 귀향하다",Ich bin gestern nach Hause zurückgefahren.,도시관광,표현,false,false,2025-05-02 16:57:32.465401+00,true,fuhr zurück,zurückgefahren,fährst zurück,fährt zurück
 6706fb12-23e7-409e-9185-96aca6c60637,A2,"zu ","너무 ~하다 (과한 상태), too",Sie spricht zu schnell.,형용사,뉘앙스,false,false,2025-05-01 08:42:25.011168+00,false,,,,
+1d701b7f-303b-4e06-88bc-3431d78445cb,A2,küssen,키스하다,Sie haben sich zum ersten Mal geküsst.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,küsste,geküsst,küsst,küsst
 df580fe1-c4d8-4e6e-b4dd-6fd572b73393,A2,geboren,태어난,Wo sind Sie geboren? (adj.),가족과 친구,가족과 친구,false,false,2025-04-30 16:33:12.939858+00,false,,,,
 0317bb62-f24a-4ace-865e-f577cc939683,A2,die  großfamilie,대가족,Meine Familie ist eine Großfamilie.,가족과 친구,가족과 친구,false,false,2025-04-30 16:33:50.756176+00,false,,,,
 e85e9f46-2660-405e-acdf-f7f3e906e3a8,A2,sportlich,운동의,Meine Schwester ist nicht besonders sportlich (besonders : 특별히),가족과 친구,가족과 친구,false,false,2025-04-30 16:35:53.22934+00,false,,,,
@@ -248,6 +287,7 @@ bb16012d-0867-4476-98b9-48ba3c1704ef,A2,der Geburtsort,출생지,Meine Geburtsor
 cf1cae37-3f3f-4f52-b7c7-d1b535d85e2f,A2,das Heimatland,고향,Ich vermisse mein Heimatland (나는 나의 고향이 그립다),가족과 친구,가족과 친구,false,false,2025-04-30 16:32:33.6491+00,false,,,,
 168e45e7-23db-4bef-b897-baf6069bbdb5,A2,der Wohnort,거주지,Ich musste meinen Wohnort verlegen (나는 거주지를 옮겨야만 했다),가족과 친구,가족과 친구,false,false,2025-04-30 16:31:13.217577+00,false,,,,
 c7723f74-549f-4e8e-805a-ea67121d9c14,A2,fast immer	,거의 항상	(90%),Er kommt fast immer zu spät.,형용사,빈도부사,false,false,2025-05-01 08:19:42.319998+00,false,,,,
+4a4d0e1c-8f3a-4c12-a311-a27b519bca39,A2,die Jungendliche,청소년(여),Eine Jugendliche hört Musik.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
 1be3c0d8-0a8b-42d4-ba27-9e2860bb3fc5,A2,oft / häufig	,자주(60–70%),Wir gehen oft ins Kino.,형용사,빈도부사,false,true,2025-05-01 08:20:07.431894+00,false,,,,
 1ede7cdf-df6c-43cf-a4c6-255af2442687,A2,meistens,대부분의 경우	(80%),Ich esse meistens zu Hause.,형용사,빈도부사,false,true,2025-05-01 08:19:54.887222+00,false,,,,
 c9eb9712-964b-489a-82c2-fee647385833,A2,immer,항상(100%),Ich bin immer müde.,형용사,빈도부사,false,false,2025-05-01 08:19:28.312614+00,false,,,,
@@ -262,6 +302,7 @@ c9eb9712-964b-489a-82c2-fee647385833,A2,immer,항상(100%),Ich bin immer müde.,
 7de4db1a-d41a-4e4c-9b02-827075c728e4,A2,die Nachbarin,여자 이웃,Die Nachbarin bringt einen Kuchen.,집,주거,false,false,2025-05-01 09:28:19.527693+00,false,,,,
 d235eec4-a43c-4607-a984-51dd182a9177,A2,das Arbeitszimmer,"서재, 작업방",Ich arbeite im Arbeitszimmer.,집,주거,false,false,2025-05-01 09:28:59.201052+00,false,,,,
 2668ac56-f7a5-4525-8b54-334076743109,A2,die Lampe,"전등, 램프",Die Lampe ist sehr hell.,집,가구,false,false,2025-05-01 09:29:36.644824+00,false,,,,
+9e69ce40-e0d0-4c4f-8957-1d472800143b,A2,betrügen,"속이다, 배신하다",Er hat sie betrogen.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,betrog,betrogen,betrügst,betrügt
 af9b634f-efba-4df9-9501-1d075431ac6f,A2,der Roman,"소설 ",Ich lese gerade einen spannenden Roman.(나는 지금 재미있는 소설을 읽고 있어.),취미,취미,false,true,2025-05-01 06:55:55.382552+00,false,,,,
 534beaee-473a-4dbc-8300-8631a19ca5fe,A2,der Spiegel,거울,Ich sehe mich im Spiegel.,집,가구,false,true,2025-05-01 09:29:52.973128+00,false,,,,
 f2a74fe3-b7ac-458a-8248-1e69355ace76,A2,der Keller,지하실,Die Fahrräder stehen im Keller.,집,주거,false,true,2025-05-01 09:30:22.722665+00,false,,,,
@@ -294,6 +335,7 @@ f5f12ca1-31b0-4ddd-986f-9a4cd9dadd4d,A2,die Besserung,"회복, 좋아짐",Gute B
 0c4a5ad0-98aa-449d-bd37-abf51aa6714c,A2,Ich hätte gern __,저는 __를 주문하고 싶어요,Ich hätte gern das Bier.,도시관광,회화,false,true,2025-05-02 15:19:26.945929+00,false,,,,
 66152a72-4a0c-4f3e-91b4-21c3aecf6b62,A2,Ich nehme __,저는 __을 선택할게요,Ich nehme ein Glas Bier bitte!,도시관광,회화,false,false,2025-05-02 15:19:49.837138+00,false,,,,
 f040dfa9-93fe-46bf-9ffa-4e0f05f8eb8f,A2,genau,"정확한, 딱 들어맞는",Genau! Das ist ein richtiges Haus für Sie!,형용사,표현,false,false,2025-05-01 09:43:13.16616+00,false,,,,
+df7e97ec-b6c1-42c0-bda9-f8557df49811,A2,der Ex-Freund,전 남자친구,Mein Ex-Freund lebt jetzt in München.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 49c3c736-8081-4dfd-b0f7-63c937b923e6,A2,Liest du gerne Bücher?,너는 책들을 즐겨 읽니?,Lesen Sie gern Bücher?,취미,회화,false,false,2025-05-01 06:51:34.710082+00,false,,,,
 dbd853e2-a153-44c1-924f-fde1b39fdacd,A2,das Kinderzimmer	,어린이 방	,Das Kinderzimmer ist bunt und groß.(아이 방은 알록달록하고 커요.),집,주거,false,false,2025-05-01 09:35:43.538802+00,false,,,,
 986e7740-b2d7-4cd3-9ee1-7d8e7a166841,A2,seit wann,언제부터,Seit wann wohnen Sie hier?,일상,시간,false,false,2025-05-01 09:43:36.995526+00,false,,,,
@@ -317,6 +359,7 @@ c6efade6-cbb3-402a-94b4-cb9dff014c38,A2,der Bahnhof,기차역,Wir treffen uns am
 5cf2adbe-149b-4e46-b694-d27369c9e0dd,A2,führen,"안내하다, 이끌다, 지도하다",Er führte die Touristen durch ein Museum,도시관광,표현,false,true,2025-05-02 15:38:31.278282+00,true,führte,geführt,führtst,führt
 0b2e4d08-d9c4-4c29-a8c2-aadeb7eda479,A2,Guten Appetit!,맛있게 드세요!,Guten Appetit!,도시관광,회화,false,false,2025-05-02 15:20:32.068703+00,false,,,,
 725e783f-d10b-40b0-8fca-7190f8ac0d97,A2,einpacken,짐을 싸다,Ich habe die Kleidung eingepackt.,도시관광,표현,false,false,2025-05-02 16:56:24.593984+00,true,packte ein,eingepackt,packst ein,packt ein
+182d5edc-4f38-475c-9765-84e9224a773d,A2,die Ex-Freundin,전 여자친구,Seine Ex-Freundin war nett.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 4a3961bc-2f16-46f0-898b-5336c43e4779,A2,Wie hoch sind die Nebenkosten?,관리비는 얼마나 됩니까?,Wie hoch sind die Nebenkosten?,집,회화,false,true,2025-05-01 09:19:15.492117+00,false,,,,
 d27ea843-0068-4d22-8fac-16fe91c87a48,A2,das Apartment	,아파트 (작은 형태)	,Mein Apartment ist im dritten Stock.,집,주거,false,false,2025-05-01 09:35:59.869644+00,false,,,,
 888ffc0d-b7d3-4d04-ab84-4ace71dc3ae6,A2,interessant,흥미로운,Der Film ist interessant.,형용사,표현,false,false,2025-05-01 07:00:24.490728+00,false,,,,
@@ -336,6 +379,7 @@ e60a8b0a-ea14-411e-bf00-8dc1cefe4de8,A2,frostig,"서리 내린, 추운",Die Nach
 05a6cffd-9af2-4e2d-83a9-3728995c8bf0,A2,die Gesundheit,건강,Die Gesundheit ist wichtig.,건강,병원,false,true,2025-05-02 14:43:11.55914+00,false,,,,
 8d05f224-e864-42a2-9b48-0ca86f51d992,A2,der Schmerz,"통증, 아픔",Ich habe starke Schmerzen. (심한 통증이 있어),건강,병원,false,true,2025-05-02 14:43:38.33642+00,false,,,,
 1374ba43-3083-4aa0-ace6-5a9294c98f21,A2,spannend,흥미진진한 / 몰입되는,Das Buch ist spannend. Ich lese einen spannenden Krimi.,형용사,표현,false,true,2025-05-01 07:00:00.77654+00,false,,,,
+86d3f757-5c41-4503-a5a0-97d97b0ee590,A2,zusammenwohnen,함께 살다,Wir wohnen seit zwei Jahren zusammen.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,true,null,null,null,null
 ceb22bf2-6c75-4c49-b438-4bd13295be36,A2,sich erkälten,감기 들다,Er hat sich erkältet.,건강,표현,false,true,2025-05-02 15:04:22.558754+00,true,erkältete,erkältet,erkältest dich,erkältet sich
 db3403ed-1219-4345-8cb3-a29da70919ab,A2,begegnen,"마주치다, 만나다",Ich bin ihr auf der Straße begegnet,도시관광,표현,false,true,2025-05-02 15:39:28.637802+00,true,begegnete,begegnet,begegnest,begegnet
 412c8aed-60f8-4b99-872d-c7bc7161a810,A2,die Eisenbahn,철도,Die Eisenbahn fährt durch das Dorf.,도시관광,여행,false,true,2025-05-02 16:51:35.150478+00,false,,,,
@@ -349,6 +393,10 @@ d7c2b859-1a7a-4342-9662-142651c10837,A2,Guten Morgen!,굿모닝,Guten Morgen!,�
 abe6ca79-16ba-4b66-8eef-4d21c775e507,A2,Guten Abend!,Good afternoon,Guten Abend!,일상,회화,false,false,2025-05-01 08:23:33.232317+00,false,,,,
 6241645b-528d-41d8-990a-74aa7dfec83e,A2,Gute Nacht!,Good night!,Gute Nacht! Schlafen gut!,일상,회화,false,false,2025-05-01 08:23:57.466899+00,false,,,,
 fd39a8aa-7a7a-434d-8af5-0bdcaa85d945,A2,Wie spät ist es?,지금 몇 시야?,Wspät ist es?,일상,회화,false,false,2025-05-01 08:24:21.308778+00,false,,,,
+8ba70b55-7f9f-4091-9430-4e29ee399060,A2,ledig,미혼인,Ich bin noch ledig.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+576a87eb-01d3-4dd3-8d9b-2b7890b58d2a,A2,sich verloben,약혼하다,Wir haben uns verlobt!,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,verlobte sich,sich verlobt,verlobst dich,verlobt sich
+fc92f0ff-eaad-4ecb-8215-7a6268e1a9a5,A2,die Mittelschule,중학교,Meine Schwester besucht die Mittelschule.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+657bd400-6686-4d1d-aeb3-783d7f555ae3,A2,verheiratet,결혼한,Ich bin seit 2010 verheiratet.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 0a67cb31-3f26-43e1-b193-33a2c4e21878,A2,Ich fahre mit dem (Zug / Auto / Flugzeug),저는 (전차 / 자동차 / 비행기) 를 타고 갑니다.,Ich fahre mit dem Zug,도시관광,회화,false,false,2025-05-02 15:22:01.541991+00,false,,,,
 f93591a0-2217-4edc-aa0d-2933ef67b093,A2,vermieten,세놓다 (lease),Ich vermitete mein Haus für 2 Jahre.,집,월세,false,false,2025-05-01 09:47:37.867552+00,true,vermietete,vermietet,vermietest,vermietet
 0cbf788a-a197-4ee2-8f45-0ef6fe11aa35,A2,der Termin,"예약, 약속",Ich habe einen Termin beim Arzt.,건강,병원,false,true,2025-05-02 14:44:39.097694+00,false,,,,
@@ -362,6 +410,7 @@ df0afcbf-844b-4cb3-b2fd-9abcdd896647,A2,das Niesen,재채기,Das ständige Niese
 0c413049-aeeb-4b1e-8fb4-9d303153c39f,A2,das Wartezimmer,대기실,Bitte nehmen Sie im Wartezimmer Platz. (대기실에서 기다려 주세요),건강,병원,false,false,2025-05-02 14:45:56.819081+00,false,,,,
 763f5080-26d5-4c75-a7cd-ffc5f53434b4,A2,anprobieren,입어보다,Hast du die Hose anprobiert?,도시관광,표현,false,false,2025-05-02 16:08:40.421435+00,true,probierte an,anprobiert,probierst an,probiert an
 af6e640a-848a-40d4-a399-016949008245,A2,das Gleis,"플랫폼, 선로",Der Zug fährt von Gleis 5 ab.,도시관광,여행,false,false,2025-05-02 16:51:49.490792+00,false,,,,
+c62fef4a-1b0c-42a2-bd62-4baa50dfe8a9,A2,geschieden sein,이혼한 상태이다,Ich bin seit 2020 geschieden.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 4519e1ba-9481-4963-962b-d890bdc21f6f,A2,arbeiten,일하다,Ich arbeite nicht gern.,일상,표현,false,false,2025-05-01 08:25:47.208376+00,true,arbeitete,gearbeitet,arbeitest,arbeitet
 d9cb29fe-1dea-4697-abfa-7c40ba37e442,A2,die Heizung	,난방,Die Heizung ist im Winter sehr wichtig.,집,월세,false,false,2025-05-01 09:21:21.6756+00,false,,,,
 7dcdfee7-8721-4f85-9785-171d270da3c4,A2,das Internet	,인터넷,Das Internet musst du selbst anmelden.,집,월세,false,false,2025-05-01 09:22:25.833269+00,false,,,,
@@ -376,9 +425,557 @@ f5c42945-aa83-42bf-8196-da841e5804e5,A2,der Flur	,복도,Die Schuhe stehen im Fl
 0bea3ef3-4708-449f-b3f4-3e08b2010653,A2,operieren,수술하다,Ich lasse mich nicht operieren (나는 수술을 받지 않겠다),건강,표현,false,true,2025-05-02 15:05:17.449127+00,true,operierte,operiert,operierst,operiert
 072a08a1-47b0-471b-ad51-91e44a883af2,A2,erfahren,"경험하다, 알다 (*er : 비분리동사 - 경험)",Wie haben Sie davon erfahren? (당신은 그것에 대해 어떻게 알게 되었어요?),도시관광,표현,false,true,2025-05-02 15:41:13.623821+00,true,erfuhr,erfahren,erfährst,erfährt
 3f190122-ea90-435c-9ec8-f852f2de60b3,A2,Ich wünsche Ihnen eine gut Reise!,좋은 여행 되시길 바랍니다.,Ich wünsche Ihnen eine gut Reise!,도시관광,회화,false,false,2025-05-02 15:22:34.788409+00,false,,,,
+03eae866-25ba-4c27-bf5d-187b48f5e6cf,A2,verwitwet,사별한,Er ist seit zwei Jahren verwitwet.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 e3a37b64-08b2-4d52-9f57-2affc7f69bb7,A2,schwierig,어려운,Die Aufgabe ist sehr schwierig.,형용사,표현,false,false,2025-05-02 17:20:34.13996+00,false,,,,
+ff82b5f5-a277-40b5-925c-c777239ce2c9,A2,der Partner,파트너(남),Mein Partner ist sehr verständnisvoll.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+334076f2-7a59-4b2d-b7f7-9b87cabbaf86,A2,die Partnerin,파트너(여),Meine Partnerin ist klug und freundlich.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+1dd73471-bb7c-4613-8f59-892fa288701d,A2,der Lebensgefährte,동거 남자,Ihr Lebensgefährte ist sehr nett.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+6c4c9f8b-fbe3-4ea7-8a97-ff9dc2deded4,A2,das Ehepaar,부부,Das Ehepaar lebt glücklich zusammen.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+520ffff6-2f00-41cc-bf4a-8318692a7eb2,A2,die Lebensgefährtin,동거 여자,Seine Lebensgefährtin arbeitet als Ärztin.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+82ce2e06-3145-4c1e-900f-568a879f8221,A2,die Witwe,미망인,Die Witwe trägt schwarze Kleidung.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+053fbe95-f0e7-4940-9df2-2037c927bf65,A2,der Verwandte,남자 친척,Ein Verwandter von mir lebt in Wien.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 b14f6a74-38b8-48aa-b3c5-6b38f014ac31,A2,die Reinigung,청소,Die Treppenhausreinigung ist im Mietvertrag enthalten.,집,월세,false,true,2025-05-08 04:11:50.281745+00,false,,,,
 d7917eb2-2bdb-4e00-87b7-ffa37b6f359f,A2,das Untergeschoss,지하층,Im Untergeschoss ist die Waschküche.,집,주거,false,false,2025-05-01 09:26:09.57553+00,false,,,,
 df03451f-a8de-4d07-beef-3c4c67b783a9,A2,vorbeikommen,"지나가다, 잠시 방문하다",Brauche ich da einen Termin oder kann ich einfach vorbeikommen?,건강,표현,false,true,2025-05-02 15:01:46.426922+00,true,kam vorbei,vorbigekommen,kommst vorbei,kommt vorbei
+a9cde8a8-5abf-4a48-96bc-42326b4a049b,A2,die Tanete,"이모, 고모",Meine Tante kocht sehr gut.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 600a393f-c82b-494a-beb3-bc14b61b0b7a,A2,die Geldbörse,지갑,Ich habe meine Geldbörse zu Hause vergessen. (I forgot my wallet at home.),도시관광,의류,false,false,2025-05-13 15:44:13.891986+00,false,,,,
+9c06ce0c-e6bd-4ce1-9930-bd9f83c9d507,A2,die Schwägerin,"시누이, 형수 등",Meine Schwägerin ist sehr nett.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+56ef5b69-766e-4fa3-a0ac-08a47e2eef53,A2,der Cousin,남자 사촌,Mein Cousin studiert in Berlin.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+ac7bfce3-95b1-4f3d-b065-d0e7317c6ac1,A2,die Cousine,여자 사촌,Meine Cousine ist ein Jahr älter als ich.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+d374da76-70e3-40fc-bc58-f97f7d5e3e66,A2,die Verwandtschaft,친척들,Die ganze Verwandtschaft war eingeladen.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+adcf644f-e5b8-432a-ae88-b06bf1be850e,A2,der Schwager,"처남, 형부, 시동생 등",Mein Schwager hilft mir oft.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
 be1c97dc-5dad-42f8-81a5-36539b4c80b5,A2,das Portemonnaie,지갑,Ich habe mein Portemonnaie zu Hause vergessen.,도시관광,의류,false,false,2025-05-13 15:45:03.221795+00,false,,,,
+465784de-63f3-405f-a94c-3797f77dfaf7,A2,die Schwiegermutter,시아버지,Meine Schwiegermutter ist sehr lieb.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+4702494d-15d2-4b85-ae28-e4ad6ef4282f,A2,die Realschule,중등학교,Er geht auf die Realschule.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+e83ca23b-797d-4af6-99e5-4fc9f6269c6e,A2,die Spülmaschine einräumen,식기세척기에 넣다,Ich räume die Spülmaschine nach dem Frühstück ein.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+0675354a-8b1f-42c8-8037-6ae64514298e,A2,das Jackett,재킷,Er trägt ein elegantes Jackett.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+8fe944a0-ab03-4d57-ae14-1e8b572d733c,A2,die Leggings,레깅스,Leggings sind sehr bequem.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+3def2df7-0f8d-46a1-80d0-5d9c2f36f698,A2,der BH,브래지어,Sie hat einen neuen BH gekauft.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+51a589d2-e169-41cf-adba-398c2effe871,A2,der Turnschuh,운동화,Ich trage heute meine Turnschuhe.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+3cfe1292-d3e7-4cbd-af8f-9668d5309a8e,A2,die Mütze,모자,Ich habe meine Mütze vergessen.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+ed3f34be-3664-4476-af46-f57aa6a4a9e8,A2,der Handschuh,장갑,Wo sind meine Handschuhe?,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+e4e94e97-ef69-456b-9709-8e29a3f947d3,A2,die Handtasche,핸드백,Ihre Handtasche ist sehr teuer.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+64e3b692-807f-45a9-8d82-9bdd74230a3b,A2,die Sonnenbrille,선글라스,Ich brauche meine Sonnenbrille.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+37383bd4-6b0e-4bf4-accf-4a88f9a583e5,A2,die Armbanduhr,손목시계,Er trägt eine teure Armbanduhr.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+d70077d7-357e-4636-9ec7-a011048cf9ca,A2,der Ring,반지,Der Ring war ein Geschenk.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+bcf5f98f-b274-4a34-a345-d9bf33566899,A2,das Armband,팔찌,Ich habe ein goldenes Armband.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+08431a90-0ffc-432b-977c-873e759b8e8b,A2,zu Dat. passen,~에 어울리다,Die Bluse passt gut zur Hose.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,passte,gepasst,passt,passt
+6f19054f-aca6-46cf-be0a-7298c5854527,A2,formell,격식을 갖춘,Er trägt ein formelles Hemd.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+19db3141-66a1-45ff-9bdf-62bdbc9dd998,A2,klassisch,고전적인,Sie trägt klassische Kleidung.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+a66a80d3-ed84-4d5e-b787-832dc15cdb4f,A2,einfarbig,단색의,Diese Jacke ist einfarbig.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+36d8ecab-1b74-4ea0-a531-8c01a0f59128,A2,bunt,"화려한, 다채로운",Ich trage heute ein buntes T-Shirt.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+fa9165b0-a677-4c22-ae0b-2d7cf27bd557,A2,elegant,우아한,Sie sieht sehr elegant aus.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+60f5a4df-629c-4561-9b59-36f086057bd3,A2,schlicht,단순한,Ich mag schlichte Farben.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+5462df2b-4500-4e66-ac8d-7812dd9cf8ad,A2,der Stil,스타일,Ihr Stil ist klassisch und elegant.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+461f0692-91e7-4763-9348-5d3d11c93938,A2,die Kette,목걸이,Diese Kette gefällt mir.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+11cd5daf-35df-4e19-835c-9b707a0add4e,A2,lässig,캐주얼한,Sein Stil ist sehr lässig.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+b4f8e394-8114-49a1-93d6-10aedc8e7d4d,A2,der Gürtel,벨트,Der Gürtel passt perfekt zur Hose.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+e66894eb-808b-4080-b024-e9ba9903d45d,A2,das Langarmshirt,긴팔 셔츠,Ich habe ein neues Langarmshirt gekauft.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+be1f088c-859a-4d34-b42d-bc9369947040,A2,der Strumpf,양말,Ich habe ein Loch im Strumpf.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+4d9437e4-7d97-48bc-a13c-4d53ea5e5997,A2,der Schal,목도리,Im Winter brauche ich einen warmen Schal.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+378baab2-f19a-40b7-8107-6ef5374bccba,A2,schick,"멋진, 세련된",Das ist ein schickes Outfit.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+8ab9ebef-e1f1-4c8b-8e7d-f8c955a9770c,A2,bequem,편안한,Diese Schuhe sind bequem.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+aaa0226d-921a-4306-b243-67c64170d2b5,A2,der Ohrring,귀걸이,Ich habe einen Ohrring verloren.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+fdb0aa3e-dc58-4ad7-9ac9-98af4d790243,A2,abgetragen,낡은,Die Hose ist ziemlich abgetragen.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+ac151691-6fe3-4edc-b7c1-8de24a7c1ad5,A2,der Schmuck,"악세서리, 장신구",Sie trägt viel Schmuck.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+fafa9b4a-ba4f-40c0-976a-52fc1ed0c9b3,A2,jmdm. stehen,~에게 어울리다,Das Kleid steht dir gut.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,true,stand,gestanden,stehst,steht
+a0da44a3-a86a-4abf-9df6-37645dd696ae,A2,die Fliege,나비넥타이,Die Fliege ist sehr stilvoll.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+b009e12b-3e42-4344-b4a5-470077132b29,A2,der Anzug,정장,Er trägt einen schwarzen Anzug.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+50d5a570-449b-455c-b319-35725c6054cb,A2,die Sturmpfhose,타이즈,Im Winter trage ich Strumpfhosen.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+99ffbd06-764b-434d-9242-2af376e5fb1f,A2,das Kleidungsttück,의류 품목,Dieses Kleidungstück ist sehr beliebt.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+18200760-1cd9-4f37-9cd3-26d7c089f1cb,A2,die Unterwäsche,속옷,Ich kaufe neue Unterwäsche.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+055f05bd-ccc0-4cf1-b34f-fd4f748a55c9,A2,die Krawatte,넥타이,Er hat eine rote Krawatte an.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+7c91c7fe-ef77-4a00-87f2-d3c24869cb81,A2,der Blazer,블레이저,Dieser Blazer passt gut zu dir.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+85e8a149-062f-4876-8607-e03c799612d4,A2,der Absatz,굽,Diese Schuhe haben einen hohen Absatz.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+0df6120b-4b50-413c-833f-4c7e2fd6dd63,A2,das Outfit,"차림, 복장",Dein Outfit sieht super aus!,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+4a2668fd-672f-446a-a873-0fe658192d4e,A2,staubsaugen,진공청소기로 청소하다,Ich staubsauge jeden Samstag mein Zimmer.,Wohnen,Alltag,false,true,2025-05-20 15:17:21.101897+00,true,saugte staub,staubgesaugt,saugst staub,saugt staub
+4ae90dc9-39bd-4c8f-b2c8-51e189f835db,A2,sich die Haare waschen,머리를 감다,Ich muss mir heute die Haare waschen.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,wusch sich die Haare,die Haare gewaschen,wäschst dir die Haare,wäscht sich die Haare
+0f643e2f-fd4f-42e4-921a-c51f889858bb,A2,passen,"맞다, 어울리다",Die Schuhe passen perfekt.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,passte,gepasst,passt,passt
+75025efd-ad8f-4317-ac68-e09425b2ab36,A2,die Große,사이즈,Welche Größe trägst du?,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+df7c8bbc-01f2-4388-91ad-06d430d196e9,A2,wachsen,자라다,Kinder wachsen sehr schnell.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,wuchs,gewachsen,wächst,wächst
+3ebdd8a0-15b0-4342-9705-0ee1e0b98fc6,A2,die Onlineshop,온라인 쇼핑몰,Ich bestelle oft im Onlineshop.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+c2f7fd76-caee-4cb2-932e-8e7bbb69361d,A2,online,온라인의,Ich kaufe oft Kleidung online.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+0706ad65-ac1d-4e1e-888d-d1814f2538da,A2,im Internet,인터넷에서,Ich habe das Kleid im Internet bestellt.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+c9b48052-abd7-4482-be9c-033ce2abe727,A2,auswählen,고르다,Ich wähle meine Kleidung sorgfältig aus.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,true,wählte aus,ausgewählt,wählst aus,wählt aus
+2f1a634d-f10c-4371-8271-4f1ab4252c55,A2,in den Warenkorb legen,장바구니에 담다,Ich lege das T-Shirt in den Warenkorb.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+cc09cfd3-4224-468c-a57d-ade4d6b9abc5,A2,eng,꽉 끼는,Die Hose ist zu eng.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+b4ca0d4e-2bad-45f4-b329-dd5148b468fe,A2,sitzen,잘 맞다,Die Hose sitzt perfekt.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,saß,gesessen,sitzt,sitzt
+70c6a192-92c3-44ff-bcf9-b24452678450,A2,abnehmen,살이 빠지다,Ich möchte ein paar Kilo abnehmen.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,nahm ab,abgenommen,nimmst ab,nimmt ab
+13031d8d-5513-4fdf-ae35-91469820c719,A2,zunehmen,살이 찌다,Ich habe in letzter Zeit zugenommen.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,nahm zu,zugenommen,nimmst zu,nimmt zu
+8f27f6db-fa0c-4e7c-81f9-25af17076c28,A2,das Gepäck,수하물,Wir müssen das Gepäck wiegen.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+8116c36f-7d13-49b1-a853-467c91814b2b,A2,eine Bestellung abschicken,주문을 보내다,Ich habe die Bestellung gestern abgeschickt.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,true,schickte ab,abgeschickt,schickst ab,schickt ab
+47028393-e956-4eee-80c9-286edead18f2,A2,eine Bestellung stornieren,주문을 취소하다,Ich musste die Bestellung stornieren.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,true,stornierte,storniert,stornierst,storniert
+81a1a8af-5db8-4d17-8446-a0e5f07f7d8b,A2,die Bestätigung,확인,Ich habe eine Bestätigung per E-Mail erhalten.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+0e1435cd-bc38-46d3-9f02-d7801c21bc87,A2,der Versandkosten,배송비,Die Versandkosten sind inklusive.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+3d6436f4-94d1-462c-a215-9b82b2583125,A2,einen Ausflug machen,"소풍을 가다, 나들이하다",Am Wochenende machen wir einen Ausflug.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,true,machte,gemacht,machst,macht
+bbc9954e-098b-413f-98c7-bf5e5d9fcdea,A2,gratis,무료의,Die Lieferung ist gratis.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+0b7f865f-6005-4d7b-b8ba-7a126715bc73,A2,kostenlos,무료의,Die App ist kostenlos.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+6d53a00e-a136-4454-8171-9d6b07ac0253,A2,das Schulfach,과목,Mathe ist mein Lieblingsschulfach.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+8b604397-b5a0-4a58-9c85-aadc6d825996,A2,die Biologie,생물학,In Biologie lernen wir über Pflanzen.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+1278d944-9890-4d68-9ccd-13db0d93c01f,A2,die Chemie,화학,Ich finde Chemie sehr interessant.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+454459bd-2d4c-4e1a-986c-f4cc4a69628a,A2,die Geografie,지리,Geografie zeigt uns die Welt.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+f63182f6-7b77-451a-ac6d-a04e9d663934,A2,umsonst,공짜로,Ich habe das umsonst bekommen.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+e1e72a59-87d2-4f39-b931-fb28075e109d,A2,die Lieferung,배송,Die Lieferung dauert drei Tage.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+35ec0dc0-e197-4da5-a20f-d81ee3484e17,A2,vershcicken,보내다,Ich verschicke die Ware heute.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,true,null,null,null,null
+965dbeae-8897-4707-aebd-c3dffad87057,A2,zurükschicken,반품하다,Ich muss die Jacke zurückschicken.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,null,null,null,null
+1cb64288-85a3-4626-a5f2-13cb5617fd20,A2,die Geschichte,역사,In Geschichte lernen wir über die Vergangenheit.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+d723bc1c-6c66-45b6-b720-c1e22814f985,A2,reklamieren,불만을 제기하다,Ich reklamiere die beschädigte Ware.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,true,reklamierte,reklamiert,reklamierst,reklamiert
+df9776c0-bd28-4c00-84f5-3dc17254d0c2,A2,umtauschen,교환하다,Ich möchte die Hose umtauschen.,Mode,Kleidung,false,true,2025-05-21 15:57:28.762772+00,true,tauschte um,umgetauscht,tauschst um,tauscht um
+8d0fe7ed-4f87-4e69-ae2a-9bfc2be5735d,A2,liefern,배달하다,Wir liefern die Bestellung morgen.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,lieferte,geliefert,lieferst,liefert
+fd007d13-9169-4072-958e-a04aecd775b4,A2,die Umkleide,탈의실,Wo ist die Umkleidekabine?,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+1e2dfc88-68bd-4354-b28c-bdbdf93430cc,A2,Dat. peinlich sein,~에게 창피하다,"Es ist mir peinlich, das zu sagen.",Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,war,gewesen,bist,ist
+79a8d1ea-d0ad-4c98-9d6e-8dddfffddb0f,A2,die Mode,"패션, 유행",Mode ändert sich jedes Jahr.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,false,null,null,null,null
+43a29db0-f17a-4195-8ca9-f08360077312,A2,tragen,"입다, 착용하다",Ich trage heute ein neues Kleid.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,trug,getragen,trägst,trägt
+c313ab96-0003-4cbc-98a2-6ac582f36fd8,A2,ziehen,"이사하다, 끌다",Wir ziehen nächste Woche in ein neues Haus.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,zog,gezogen,ziehst,zieht
+5a9cc569-84bf-4b62-b326-a22c872dfe8f,A2,einziehen,"입주하다, 이사 들어가다",Wann können wir in die neue Wohnung einziehen?,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,zog ein,eingezogen,ziehst ein,zieht ein
+6c4164fb-6540-43aa-bca3-d8c918de965d,A2,das Hochhaus,고층 건물,In dem Hochhaus gibt es einen Fahrstuhl.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+4c000715-753b-4da2-8534-cf473edc0090,A2,die Miete,"월세, 임대료",Die Miete für diese Wohnung ist ziemlich hoch.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+915d6ef7-f1ec-4f03-86e2-2b082c9610fa,A2,die Warmmiete,관리비 포함 임대료,Die Warmmiete beträgt 850 Euro pro Monat.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+183cd75b-bad5-456c-a86e-e0a1f3eef6c3,A2,die Kaltmiete,순수 임대료,"Die Kaltmiete ist günstiger, aber die Nebenkosten kommen dazu.",Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+49abb4c3-5044-42a6-bd31-75f0a337735e,A2,die Vermieterin,여자 집주인,Unsere Vermieterin ist sehr freundlich.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+8a714490-22c0-48e0-8997-d14666fc4398,A2,die Wohngemeinschaft,"공동 주거, 쉐어하우스",Ich lebe in einer Wohngemeinschaft mit zwei Studenten.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+0ccbe6de-6935-40ae-9a0e-a9c1e266d6d5,A2,die WG,쉐어하우스 (줄임말),WG-Leben kann sehr unterhaltsam sein.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+844a37b2-f71b-4672-b60f-3f5f42d8797d,A2,die Mitbewohnerin,여자 룸메이트,Meine Mitbewohnerin und ich verstehen uns gut.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+260edd05-5e9a-4612-801c-e830752f3c53,A2,die Heizung,난방기,Die Heizung funktioniert im Winter sehr gut.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+a4953afa-03a1-4d03-961a-5a17f305f1b7,A2,das Treppenhaus,계단실,Im Treppenhaus ist das Licht kaputt.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+7e85aabc-5761-413e-9b1b-050bf5a560d9,A2,das WLAN,와이파이,Das WLAN ist in meiner Wohnung sehr schnell.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+b607be32-0e3a-4698-8c0a-10c2c5bf751d,A2,die Seife,비누,Diese Seife riecht nach Lavendel.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+819cd276-5ac1-4523-9638-d958585317d5,A2,die Zahnpasta,치약,Ich brauche neue Zahnpasta.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+bbfbc6ce-af9b-4e98-9aa7-afd41eff240c,A2,die Aufgabe,"과제, 임무",Ich habe heute viele Aufgaben zu erledigen.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+abc71f20-b69c-460a-84f9-9ecf49e89f42,A2,aufräumen,정리하다,Kannst du bitte dein Zimmer aufräumen?,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,räumte auf,aufgeräumt,räumst auf,räumt auf
+825daf28-6a6e-4a15-9778-fc6a1bd29f97,A2,die Kaution,보증금,Wir müssen eine Kaution von 1000 Euro zahlen.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+3d527997-7231-44d0-8483-33d546cdb232,A2,den Tisch decken,식탁을 차리다,"Meine Tochter hilft, den Tisch zu decken.",Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+559c6280-60e2-4737-8fec-fca49be1517e,A2,das Stockwerk,"층, 층수",Meine Wohnung ist im dritten Stockwerk.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+c96b40e5-10d2-4ea0-ae38-422e6aa48176,A2,der Wasserhahn,수도꼭지,Der Wasserhahn tropft seit gestern.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+ac407cba-ab7b-48a1-8c67-22fcf9f37a2b,A2,der Schlüssel,열쇠,Ich habe meinen Schlüssel vergessen.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+caa335ea-1b72-4710-9c58-e81f05a82f00,A2,die Spüle,싱크대,Das Geschirr liegt noch in der Spüle.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+c6a8fca9-e7bc-492f-8ca2-01c841638d2c,A2,der Umzug,이사,Der Umzug nach Berlin war stressig.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+eedfbc0a-b402-4600-81f8-2167462be286,A2,die Eigentumswohnung,자가 소유 아파트,Sie hat eine Eigentumswohnung in der Stadt gekauft.,Wohnen,Alltag,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+0c495e8d-5672-4779-bc3e-5a7516124cc6,A2,das Mehrfamilienhaus,다세대 주택,Das Mehrfamilienhaus hat fünf Etagen.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+2e5852c5-ab6e-400f-8efa-49f9f4c92e19,A2,der Verttrag,계약서,Ich habe den Mietvertrag gestern unterschrieben.,Wohnen,Alltag,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+1d89d350-672c-4394-99a6-3401bfd20a11,A2,das Studentenwohnheim,기숙사,Ich wohne im Studentenwohnheim gleich neben der Uni.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+50ce951f-48de-44c3-87e3-04a4677a4025,A2,einrichten,"설치하다, 꾸미다",Wir möchten unser Wohnzimmer neu einrichten.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,richtete ein,eingerichtet,richtest ein,richtet ein
+e5710cc2-33b5-4419-98e0-836b9b1511cd,A2,den Müll rausbringen,쓰레기를 내다 버리다,Ich bringe jeden Abend den Müll raus.,Wohnen,Alltag,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+0395b888-2ed0-4edc-a2b2-eec8d1172ef8,A2,abwaschen,설거지하다,Ich muss nach dem Essen abwaschen.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,wusch ab,abgewaschen,wäschst ab,wäscht ab
+9db0e03d-0fe4-44b7-beee-7a0059e6fc3a,A2,die Einrichtung,"인테리어, 설비",Die Einrichtung der Wohnung ist modern und stilvoll.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+dc3c1a5b-551d-4d62-98ea-fd08ce9faaa1,A2,die Zahnbürste,칫솔,"Vergiss nicht, deine Zahnbürste mitzunehmen.",Wohnen,Alltag,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+0ccae4fd-2a49-4b40-9858-4adcb2f3c3e1,A2,die Lage,"위치, 입지",Die Lage der Wohnung ist perfekt – zentral und ruhig.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+64710aa7-6094-4a11-abad-ec207c4ffd1f,A2,der Mitbewohner,남자 룸메이트,Mein Mitbewohner ist sehr ordentlich.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+a083840e-d8a0-454b-893e-13696f02aba0,A2,die Badewanne,욕조,Nach einem langen Tag entspanne ich mich in der Badewanne.,Wohnen,Alltag,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+e4c38707-b98c-41dc-aed9-8bd9580a16e8,A2,die Nachbarschaft,"이웃, 근처",Die Nachbarschaft ist ruhig und sicher.,Wohnen,Alltag,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+63f09db0-1900-47a8-9dbd-5fbc9d2b02a6,A2,der Wäschetrockner,건조기,Der Wäschetrockner spart im Winter viel Zeit.,Wohnen,Alltag,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+04d8c2dd-0d06-4d5e-b6cd-ac580129f93c,A2,die Umgebung,주변 환경,Die Umgebung bietet viele Einkaufsmöglichkeiten.,Wohnen,Alltag,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+70cb4a78-3ad6-4695-822c-c56332eff94e,A2,der Föhn,헤어드라이기,Ich benutze jeden Morgen einen Föhn.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+dc8c3865-fbb0-4615-82d6-0d8cd743dcda,A2,das Einfamilienhaus,단독 주택,Sie wohnen in einem Einfamilienhaus mit Garten.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+f9d823fa-65a2-43aa-a47c-b5704a7bdbf0,A2,zentral gelegen,중심에 위치한,Unsere neue Wohnung ist zentral gelegen und sehr modern.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+7b73d139-8eb2-4b5a-a3aa-60147e001541,A2,sich anziehen,옷을 입다,Ich ziehe mich schnell an.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,zog sich an,sich angezogen,ziehst dich an,zieht sich an
+ceaba51b-95fe-4eac-a429-6ef3eeed26c5,A2,der Spülmaschine,식기세척기,Wir haben eine neue Spülmaschine gekauft.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+625be4d8-4ecb-43db-a715-59d15f9fe0b9,A2,backen,"굽다, 제빵하다",Ich backe gerne Kuchen am Sonntag.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,buk,gebacken,bäckst,bäckt
+4e877b22-a10f-4f4f-927f-554018036051,A2,Make-up tragen,화장을 하다,Sie trägt täglich leichtes Make-up.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+c7037b16-1142-4efb-aa13-14e76bb1cd07,A2,die Ort,장소,Der Ort ist sehr ruhig und schön.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+ffbbeb87-a418-4b47-a83e-44ac2796dceb,A2,der See,호수,Der Bodensee ist ein großer See in Deutschland.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+e42bfcf9-e797-4bb0-b000-5d2cfdf59247,A2,der Berg,산,Wir wandern auf den Berg.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+f2d13a06-1004-426c-8aba-36167856a405,A2,der Norden,북쪽,Hamburg liegt im Norden Deutschlands.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+c18fc1c7-ee79-4241-b1da-01af0d523c74,A2,der Osten,동쪽,Dresden liegt im Osten.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+e10652cc-9cbf-494c-8b9f-449378bb85a6,A2,der Süden,남쪽,Wir reisen in den Süden.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+24f2ac79-a512-4735-9ec1-68ffc36ad087,A2,der Westen,서쪽,Der Westen ist bekannt für Wein.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+5781cb47-dfa5-4be4-aa08-dc48540d14d1,A2,nördlich von,~의 북쪽에,Berlin liegt nördlich von Leipzig.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+78181f00-228e-4767-a9f6-8be32c65468a,A2,östlich von,~의 동쪽에,Frankfurt liegt östlich von Wiesbaden.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+78dc2976-2f00-41e9-8ea1-03ec0b9161fb,A2,der Urlaub,휴가,Ich plane meinen Sommerurlaub.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+dee84a0c-9b0b-41e6-99e6-c2942d3cff4a,A2,Urlaub machen,휴가를 보내다,Wir machen Urlaub in Italien.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,true,machte,gemacht,machst,macht
+67becfbf-48e9-4b8e-aa0d-3c7c9c5e89c8,A2,im Urlaub sein,휴가 중이다,Ich bin nächste Woche im Urlaub.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,true,war,gewesen,bist,ist
+660e3d42-e896-4696-83a2-d7c34fdae041,A2,die Wäsche waschen,빨래하다,Am Wochenende wasche ich die Wäsche.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+10d973df-fb9e-4536-a04a-9ea2b98066b3,A2,die Wäsche aufhängen,빨래를 널다,Nach dem Waschen hänge ich die Wäsche auf.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+1152c666-9a2e-4927-9bac-66f9ac0c219b,A2,die Wäsche abnehmen,빨래를 걷다,"Ich habe vergessen, die Wäsche abzunehmen.",Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+a604ca84-325b-47fc-90c4-c8fc888fd64f,A2,aufs Klo gehen,화장실에 가다 (구어체),Er geht schnell aufs Klo.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+09da87a3-abb7-486e-83a5-635938c09098,A2,sich rasieren,면도하다,Er rasiert sich jeden Morgen im Bad.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,rasierte sich,rasiert,rasierst dich,rasiert sich
+7f14a1b5-5f34-401e-8522-bfded819983a,A2,die Spülmaschine ausräumen,식기세척기에서 꺼내다,Kannst du bitte die Spülmaschine ausräumen?,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+b0908472-7ad4-4410-8234-7ce2a765f919,A2,sich schminken,화장하다,Sie schminkt sich vor der Arbeit.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,schminkte sich,sich geschminkt,schminkst dich,schminkt sich
+8b217788-59c0-4e0c-9b36-d5584d12dbd3,A2,sich die Fingernäagel schneiden,손톱을 자르다,Du solltest dir die Fingernägel schneiden.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+b7b3b76c-3086-43b7-8d9f-7c4ab30fa7de,A2,sich die Haare föhnen,머리를 말리다,Nach dem Duschen föhne ich mir die Haare.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+7d5c2759-6e72-4d95-b11b-fbe1504a21de,A2,sich die Zähne putzen,이를 닦다,Ich putze mir dreimal am Tag die Zähne.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,putzte sich die Zähne,die Zähne geputzt,putzt dir die Zähne,putzt sich die Zähne
+d4947340-13ba-4a5d-ba2f-8254bbfedcb7,A2,sich abschminken,화장을 지우다,"Bevor ich ins Bett gehe, schminke ich mich ab.",Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,true,schminkte sich ab,sich abgeschminkt,schminkst dich ab,schminkt sich ab
+e16f52bc-0308-4fdc-9570-29cf81b1dcdb,A2,zum Friseur gehen,미용실에 가다,Ich gehe morgen zum Friseur.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+75eede58-5998-4fb5-a60c-0d39ce749ad5,A2,in Urlaub fahren,휴가를 가다,Wir fahren morgen in Urlaub.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,true,fuhr,gefahren,fährst,fährt
+8d084a74-75d2-41e2-9d25-df8800a44087,A2,die Frisur,헤어스타일,Deine neue Frisur sieht toll aus!,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+e6ba867b-f3d7-438d-abc2-d621786b153d,A2,sich die Haare kämmen,머리를 빗다,Sie kämmt sich jeden Tag die Haare.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+3339681a-e0f8-4aa8-9e7f-319b062078bd,A2,auf die Toilette gehen,화장실에 가다,Ich muss kurz auf die Toilette gehen.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+d992a119-0637-442e-8638-60669a99d028,A2,den Tisch abräumen,식탁을 치우다,Nach dem Essen räumen wir gemeinsam den Tisch ab.,Wohnen,Alltag,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+12d6b80c-b5e2-48df-a105-a110db593c47,A2,die Insel,섬,Wir fahren im Sommer auf eine Insel.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+c664b5e6-7e1d-42d5-ae6d-b5f73a70a33d,A2,weit entfernt,멀리 떨어진,Das Dorf ist weit entfernt von der Stadt.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+485df273-dc61-4bc3-a884-a8e3c5961e49,A2,abwärts,"아래로, 하강",Die Straße führt abwärts zum Fluss.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+1da9c235-f340-4864-9296-ef4c1ecad871,A2,das Bundesland,연방주,Bayern ist ein Bundesland in Deutschland.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+31e33fdb-7de0-489c-a293-05f7962b5010,A2,nah an,~에 가까운,Unser Hotel liegt nah am Meer.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+7540f7ff-b768-48ab-97a9-f8439b617005,A2,westlich von,~의 서쪽에,Bonn liegt westlich von Frankfurt.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+91e9b8cc-c38a-4027-9879-af9be91c818b,A2,das Dorf,마을,Ich wohne in einem kleinen Dorf.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+4534ebfe-0adc-406a-a4bf-48953e3884f4,A2,die Mitte,"중앙, 중심",Wir wohnen in der Mitte der Stadt.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+a6ea1eab-9272-4f56-a29a-ab15af333661,A2,auseinander,"떨어져, 흩어져",Die Freunde sind auseinandergezogen.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+b13f4111-3d10-4ad8-8b52-b143e006e540,A2,das Meer,바다,Wir machen Urlaub am Meer.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+5cc94f26-a3ec-4c59-b58c-bb1d3f9a9ea4,A2,aufwärts,"위로, 상승",Wir laufen die Treppe aufwärts.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+3e2b237d-c373-4ce4-8d70-6e37f60ee4c3,A2,südlich von,~의 남쪽에,Stuttgart liegt südlich von Frankfurt.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+95cf8bc8-3b0f-450a-85fd-54f071ab9023,A2,der Kontinent,대륙,Europa ist ein Kontinent.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+c6f95062-c06b-46ad-8847-4197339acde0,A2,die Provinz,"지방, 주",Er wohnt in einer ruhigen Provinz.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+4b33aac5-e1c2-415d-8735-6f0827b0f0f4,A2,das Gebirge,산맥,Das Gebirge ist schneebedeckt.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+f9cd0512-4d7c-4d11-a907-68ecfbae66e9,A2,der Stadtteil,도시 구역,Wir wohnen in einem modernen Stadtteil.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+66b34cc5-9470-4ff9-a771-943ed7ff95a3,A2,in der Nähe von,~의 근처에,Ich wohne in der Nähe von Berlin.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+a861347e-7fef-4c46-b19e-99211930a5c6,A2,die Reise,여행,Die Reise nach Spanien war wunderbar.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+aeb65714-1a13-4117-af11-62950a78964c,A2,packen,짐을 싸다,Ich muss noch meinen Koffer packen.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,true,packte,gepackt,packst,packt
+d58432db-590c-456f-845b-36eb44588ddb,A2,der Koffer,여행가방,Mein Koffer ist schon gepackt.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+75f09a21-d42c-463d-b576-d7e607040067,A2,der Flug,비행,Der Flug dauert zwei Stunden.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+dd1a27a6-3b05-4661-9cec-795651961ab4,A2,übernachten,숙박하다,Wir übernachten in einem kleinen Hotel.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,true,übernachtete,übernachtet,übernachtest,übernachtet
+2fbe12b8-5dca-424b-9df7-a0bc6b674982,A2,das Hostel,호스텔,Das Hostel ist günstig und sauber.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+03c4b785-bd17-476d-947f-73ca86567c44,A2,das Ferienhaus,휴가용 별장,Wir haben ein schönes Ferienhaus gemietet.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+a8a6e204-66c0-4715-ac3d-e408d9e05e9e,A2,sich Akk. mieten,"빌리다, 임차하다",Wir mieten uns ein Auto für die Reise.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+6f75d8c3-5ecf-4163-a6f1-a4348dee2f86,A2,die Tour,"투어, 여행",Wir machen eine geführte Tour durch die Stadt.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+7cad161e-2377-432d-a7c3-6f638d4d837e,A2,der Tourist,남성 관광객,Der Tourist fragt nach dem Weg.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+05c6eea6-cd62-4459-8d73-b186457a57e8,A2,die Natur,자연,"Ich liebe es, Zeit in der Natur zu verbringen.",Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+282550c7-9e8a-47cc-a4dc-d89e9162f64f,A2,der Strand,해변,Wir liegen den ganzen Tag am Strand.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+2230266a-4780-4c75-80ca-8fdb6ef52c62,A2,aktiv,활동적인,Im Urlaub bin ich gern aktiv.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+39adb56c-813a-41c0-a856-052c18fe1585,A2,allein,혼자,Ich reise gern allein.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+71fc7661-ff4a-46f2-8a92-7e7aa29df070,A2,sich langweilen,지루해하다,Im Hotel habe ich mich schnell gelangweilt.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+7b2174bc-dbaa-49c2-9527-8bba39b53078,A2,höfflich,예의 바른,Er ist immer höflich zu allen Leuten.,Emotion,Eigenschaften,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+8db4703c-bba7-4121-a812-495969e1d7aa,A2,unfreundlich,불친절한,Der Kellner war sehr unfreundlich.,Emotion,Eigenschaften,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+385adce3-a12d-49d5-a582-fcb36f15000e,A2,unzuverlässig,신뢰할 수 없는,Er ist leider ziemlich unzuverlässig.,Emotion,Eigenschaften,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+f52f3aa4-5db0-4530-a31b-86a094f7ad13,A2,ausgebucht,예약이 다 찬,Das Hotel ist leider ausgebucht.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+f3ca97d6-22c4-4748-9d13-2f2619543125,A2,die Halbpension,조식+석식 포함,Wir haben Halbpension gebucht.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+f503c368-da14-436e-90c3-c60740626d2f,A2,das Abenteuer,모험,Unsere Reise war ein echtes Abenteuer.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+a7b4a89d-827c-4e21-a5bc-78f1926cf6f0,A2,die Vollpension,전식 포함,Im Preis ist die Vollpension enthalten.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+174144d8-7a18-4885-b44c-2d957247dd0b,A2,auschecken,체크아웃하다,Wir checken morgen früh aus.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+dc9c535c-9ef6-425f-a7bd-ef27c7e438af,A2,sich erholen,"회복하다, 쉬다",Ich will mich gut erholen.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+0324063d-9e40-4d0a-b9a4-5fd305a58e35,A2,die Touristin,여성 관광객,Die Touristin macht viele Fotos.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+2aca3bcc-09d3-428a-915d-f11b40f91465,A2,wegfahren,떠나다,Wir fahren früh am Morgen weg.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+fb704532-250c-459c-999b-904b5f92c791,A2,bekkant sein für Akk,~으로 유명하다,Berlin ist bekannt für seine Geschichte.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+0e1f9ff8-c13a-49c0-9c14-70a02609991f,A2,die Stimmung,분위기,Die Stimmung auf der Party war super.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+f006cfdf-d903-4a34-8451-9a8d707429ec,A2,einchecken,체크인하다,Wir müssen bis 14 Uhr einchecken.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+bbc9626a-b2d7-4bb9-8941-d0c56aa99033,A2,draußen,밖에서,Wir essen heute draußen im Garten.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+fd3bf36e-7f59-4941-9a1c-50f30c1a8b31,A2,die Aussicht,전망,Die Aussicht von diesem Hotel ist fantastisch.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+447ade3f-b493-4599-9b39-334da348c1c7,A2,fleißig,성실한,Meine Tochter ist sehr fleißig in der Schule.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+fa74bc67-a870-4f5b-9ff2-151c9d93aac3,A2,die Landschaft,풍경,Die Landschaft hier ist wunderschön.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+d27fcdc5-50af-4608-9b38-4b0f15325f50,A2,sich beeilen,서두르다,"Wir müssen uns beeilen, sonst verpassen wir den Bus.",Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+c5d14546-1e80-48bb-8f2e-860c2a37ef7e,A2,sich entspannen,편히 쉬다,Im Urlaub kann ich mich richtig entspannen.,Reise,Orte,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+f3eda6f3-3445-48cb-9916-19fe327a4b88,A2,der Eintrittspreis,입장료,Der Eintrittspreis ist heute reduziert.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+26f6ba0d-bd03-46b4-a983-aa5cb3c9aee4,A2,die Eintritt,입장,Der Eintritt ins Museum kostet 10 Euro.,Reise,Orte,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+60405147-88f6-45cd-bf91-0da994575468,A2,bescheiden,겸손한,Sie ist trotz ihres Erfolgs sehr bescheiden.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+33c13bfb-6a7e-49eb-a1e7-466521f49c1f,A2,zuverlässig,신뢰할 수 있는,Mein Kollege ist sehr zuverlässig.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+13d29be1-f043-48d7-8459-8e01d05c4793,A2,faul,게으른,Ich war das ganze Wochenende faul.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+2d718652-1913-4447-abae-336dea63f3be,A2,der Mensch,인간,Der Mensch ist von Natur aus neugierig.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+73baef0f-91ba-48a2-b512-f4be9179669b,A2,eingebildet,잘난 척하는,Er wirkt oft eingebildet.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+906a6e47-5706-43be-b39c-9c7d6704d5a5,A2,selbstbewusst,자신감 있는,Sie ist eine sehr selbstbewusste Frau.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+71c69750-9af6-4110-918d-6f851e32b4e5,A2,frech,건방진,Das Kind war heute ziemlich frech.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+5c24283d-86a6-4bdb-af29-b833f57d3d07,A2,die Persönlichkeit,성격,Er hat eine starke Persönlichkeit.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+8917f211-4541-4d18-bc5b-d5d1431e5ca0,A2,das Selbstbeusstsein,자신감,Selbstbewusstsein ist wichtig im Beruf.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+2284005b-f1c8-4060-b3f4-febe0d97b095,A2,schüchtern,수줍은,"Er ist zu schüchtern, um sie anzusprechen.",Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+6019d9c9-a93e-42dd-97cc-5cfc583bc5ca,A2,unsicher,자신 없는,Ich bin manchmal unsicher bei Entscheidungen.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+5b6e8afd-948b-4e25-9a21-7b4a9ece0d31,A2,gesprächig,말이 많은,Meine Oma ist sehr gesprächig.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+3a537995-910a-4c8b-b435-481730480504,A2,unhöfflich,무례한,"Es ist unhöflich, so zu reden.",Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+4ab0b8e3-c169-4dd7-a277-9ee06bd54314,A2,dumm,멍청한,Das war eine dumme Idee.,Emotion,Eigenschaften,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+e103be00-aa11-4ce2-b22c-5f0eb8fb239e,A2,schlecht drauf,기분이 나쁜 (구어체),Ich bin heute schlecht drauf.,Emotion,Eigenschaften,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+c460471c-a4b1-453b-b012-108c47b0618c,A2,wüntend auf Akk.,~에게 화가 난,Ich bin wütend auf meinen Bruder.,Emotion,Eigenschaften,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+5bc42e3d-8eb6-43c4-b6a8-80371ba12699,A2,Stress haben,스트레스를 받다,Ich habe gerade viel Stress.,Emotion,Eigenschaften,false,false,2025-05-20 15:17:21.101897+00,true,hatte,gehabt,hast,hat
+19bdd934-0a89-4eeb-b88f-19af6d9653e8,A2,stressig,스트레스를 주는,Diese Woche war sehr stressig.,Emotion,Eigenschaften,false,false,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+747e6688-eb23-4556-831f-7efac57445ba,A2,lanweilen,지루하게 하다,Der Film langweilt mich.,Emotion,Eigenschaften,false,false,2025-05-20 15:17:21.101897+00,true,null,null,null,null
+a8ac87a3-4b28-451b-8bf6-c1bc6a018ba4,A2,erleichtert,안도한,Ich war erleichtert nach der Nachricht.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+03a3d1fe-c485-40c5-92af-d8ee087200a6,A2,albern,우스꽝스러운,Warum benimmst du dich so albern?,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+91837ee5-c9a1-42e4-9260-32ae228dff2e,A2,sich schämen für Akk.,~에 대해 부끄러워하다,Ich schäme mich für mein Verhalten.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,schämte,geschämt,schämst,schämt
+b291217a-fae3-454b-8da1-a529a32334fb,A2,lustig,재미있는,Der Film war wirklich lustig.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+4eded1fb-73a1-4a86-9f8b-7cb5292016a3,A2,Angst haben vor Dat.,~을 두려워하다,Ich habe Angst vor Spinnen.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,hatte,gehabt,hast,hat
+5bae5c23-a40c-4a3b-ba55-b951e05b944d,A2,sich Sorgen machen um Akk.,~에 대해 걱정하다,Ich mache mir Sorgen um dich.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,machte,gemacht,machst,macht
+df9f0f4b-f5fc-4126-9072-c71fa0c97cc7,A2,ernst,진지한,Sie hat einen sehr ernsten Blick.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+6af8b8ce-fe75-43f6-81d2-e4aa23447ad4,A2,intelligent,똑똑한,Er ist sehr intelligent und neugierig.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+9773f791-e643-4d27-b9f4-cb9366960b8e,A2,zufrieden,만족한,Ich bin zufrieden mit meinem Leben.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+6718a5d7-5759-4715-a4f9-00d40fd2915e,A2,froh,기쁜,"Ich bin froh, dich zu sehen.",Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+ff59a3bc-f9f3-4fd9-bf4e-e9b1e63ff1c4,A2,das Gefühl,감정,Ich habe ein gutes Gefühl bei der Sache.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+ad141474-e9bf-46fc-9c7a-f922780121e5,A2,aalles okay sein bei Dat.,~는 괜찮다,Ist bei dir alles okay?,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,war,gewesen,bist,ist
+fc7a3981-5ee2-4101-bac7-65c08afa9b98,A2,ehrlich,정직한,Sei bitte ehrlich mit mir.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+a701839f-ab88-407c-a457-8026c52212a1,A2,sich aufregen über Akk.,~에 대해 흥분하다,Ich rege mich über den Lärm auf.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,regte auf,aufgeregt,regst auf,regt auf
+1212200f-4155-4b79-abc7-75700749a31b,A2,gut drauf,기분이 좋은 (구어체),Sie ist heute richtig gut drauf.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+c2d72665-9a35-4ca9-9fe4-ec3e9ed34f22,A2,gut gelaunt,기분이 좋은,Heute bin ich gut gelaunt.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+5a27ba47-9fcd-49ec-8a41-24c0f1e8d946,A2,schlecht gelaunt,기분이 나쁜,Er ist oft schlecht gelaunt.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+91cbedbe-7d22-40d7-99d4-75d55e0e85df,A2,"das Gefühl haben, dass ...",...라는 느낌이 들다,"Ich habe das Gefühl, dass etwas nicht stimmt.",Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+b0d3a0c1-01e1-48c2-82a2-b470c6dbcd03,A2,fröhlich,명랑한,Sie ist ein sehr fröhlicher Mensch.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+5c88f0e7-f89b-4c86-a83e-eea65e451da0,A2,lachen,웃다,Wir lachen über den Witz.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,lachte,gelacht,lachst,lacht
+2766496f-e4ed-483c-9140-b39c20ed4e5a,A2,sich freuen für jmdn.,~을 기뻐하다 (타인을 위해),Ich freue mich für dich.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,freute,gefreut,freust,freut
+de57de08-c68c-42d2-9512-a7f304951460,A2,sich ärgern über Akk.,~에 대해 화나다,Ich ärgere mich über die Rechnung.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,ärgerte,geärgert,ärgerst,ärgert
+e2a8f1eb-475a-4528-9939-bae09f14427f,A2,Dat. auf die Nerven gehen,~를 짜증나게 하다,Sein Lärm geht mir auf die Nerven.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,ging,gegangen,gehst,geht
+e6d04f5c-bbdc-44dc-a6a3-387fcc6b8240,A2,Akk.ärgern,~를 화나게 하다,Sein Verhalten ärgert mich.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,ärgerte,geärgert,ärgerst,ärgert
+0f74c08b-76cf-4239-b123-14ee874bf97e,A2,sich freuen auf Akk.,~을 기대하다,Ich freue mich auf das Wochenende.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,freute,gefreut,freust,freut
+a8d1e0ff-2ea3-4a26-905f-2c7e3e750f64,A2,lächeln,미소 짓다,Sie lächelt den ganzen Tag.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,lächelte,gelächelt,lächelst,lächelt
+699d0727-3895-4a3e-a003-41d3a0e150bf,A2,sauer auf Akk.,~에게 화가 난,Sie ist sauer auf mich.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+a83c7ccc-9c2f-444e-84e5-c1e633d12442,A2,weinen,울다,Das Kind hat gestern viel geweint.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,weinte,geweint,weinst,weint
+d63b3529-1463-4cf0-9af3-fba970abc9e8,A2,sich freuen über Akk.,~에 대해 기뻐하다,Ich freue mich über dein Geschenk.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,freute,gefreut,freust,freut
+52fe8630-4689-4cc1-bc33-b2ec8036c01e,A2,Dat. böse sein,~에게 화난 상태이다,Er ist mir noch böse.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+5296b543-52d0-4152-9d78-4aab6fd3eef2,A2,beleidigt,기분 상한,Er war sehr beleidigt nach dem Streit.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+64728bac-705e-45af-b078-1e16a33ce1cc,A2,enttäuscht,실망한,Ich bin enttäuscht von dem Ergebnis.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+14e49eba-1c27-406a-a707-ce1e2fde2fdc,A2,Akk. stressen,~를 스트레스 주다,Diese Aufgabe stresst mich.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,stresste,gestresst,stresst,stresst
+d352e8b1-8753-4a22-8d13-cfee1dfb355f,A2,stolz auf Akk.,~를 자랑스럽게 여기는,Ich bin stolz auf dich.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+83dff9f5-ac23-43a9-8fc9-1fec8d5fe227,A2,Dat. langweilig sein,~에게 지루하다,Mir ist langweilig.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,true,war,gewesen,bist,ist
+3a912ffa-27fb-42e2-ab15-9b03caab018f,A2,genervt von Dat.,~에 짜증 난,Ich bin genervt von dem Lärm.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+9c594fc0-a6a2-4530-8cb7-3b77b54323ef,A2,anstregend,"고된, 힘든",Der Tag war anstrengend.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+3e82f3cf-1b10-4e0f-a009-4ac9a6b34fd1,A2,gestresst,스트레스를 받은,Ich bin total gestresst wegen der Arbeit.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+9605aaa7-032e-44ce-bae8-ca693aa7655a,A2,nervös,긴장한,Ich bin immer nervös vor Prüfungen.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+f101ee3b-985e-463f-9476-7c9a3e63d516,A2,aufgeregt,"흥분한, 긴장된",Vor dem Auftritt war ich sehr aufgeregt.,Emotion,Eigenschaften,false,true,2025-05-20 15:17:21.101897+00,false,null,null,null,null
+4d4e68c0-8e1b-46a6-b798-d3ec9e2cde20,A2,die Mathe(matik),수학,Mathematik ist manchmal kompliziert.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+e2a361e2-0001-4ee5-89c0-b6e0db68c883,A2,die Philosophie,철학,Wir diskutieren über Philosophie.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+1adbe7c2-9045-4852-a625-64a31486f474,A2,zur Schule gehen,학교에 다니다,Ich gehe jeden Tag zur Schule.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+849b461a-1110-4468-8210-0a09ebdbd596,A2,die Schulzeit,학창 시절,Meine Schulzeit war spannend.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+035b9965-4559-4895-9b8c-57f25a31a7a1,A2,auf eine Schule gehen,학교에 다니다,Sie geht auf eine Gesamtschule.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+29a1e345-662c-4149-9ab5-a29789558a9b,A2,der Mitschüler,남자 반 친구,Mein Mitschüler hilft mir oft.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+29293aed-11ef-4252-b608-fb32a70f2855,A2,die Klasse,학급,Unsere Klasse ist sehr groß.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+0b1832eb-dd61-4778-bcae-24b25d3d9fb4,A2,die 1. Klasse,1학년,Mein Bruder ist in der 1. Klasse.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+30c35699-3718-4afc-8a99-a1f9a0702286,A2,die Pause,쉬는 시간,In der Pause essen wir Snacks.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+a36116bb-9909-4809-a11c-429d8a390e96,A2,die Ferien,방학,Ich freue mich auf die Ferien.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+f977c0bc-cd19-4db9-b67d-f1938b375d42,A2,die Schulferien,학교 방학,Die Schulferien beginnen im Juli.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+d39a435a-4bde-424c-94e0-07593daff17e,A2,die Note,성적,Ich habe eine gute Note bekommen.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+67554684-7029-4d29-a4ba-5e888790143d,A2,der Test,시험,Morgen schreiben wir einen Test.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+953afe03-4835-4aa9-835c-d034c6d0c4b6,A2,die Klassenarbeit,학급 시험,Die Klassenarbeit war schwierig.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+ef023acd-f9d8-4ca0-b8c8-e7bc6d3ac0ac,A2,abschreiben,베끼다,Man darf in der Prüfung nicht abschreiben.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,true,schrieb ab,abgeschrieben,schreibst ab,schreibt ab
+6b56c4e3-9c51-4eae-b12e-34b840ce6ab1,A2,leisten,성취하다,Ich habe viel geleistet.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,true,leistete,geleistet,leistest,leistet
+45e5303d-506b-421d-8852-7c2212c79ced,A2,das Studium,대학 공부,Ich beginne bald mein Studium.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+ed8fae8a-3b08-4d46-9a54-f6d7401ca441,A2,ein Studium beginnen,대학 공부를 시작하다,Sie beginnt ihr Studium im Oktober.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,true,begann,begonnen,beginnst,beginnt
+db3e4984-c630-46b3-8e4d-ac638fb9fbaf,A2,beenden,끝내다,Ich möchte das Semester erfolgreich beenden.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,true,beendete,beendet,beendest,beendet
+09d23f29-09c5-43fc-83db-7b4945a9a6ed,A2,einen Bachelor machen,학사 과정을 하다,Ich mache gerade meinen Bachelor.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+a94046ed-496f-4562-9444-a01c60561676,A2,einen Master machen,석사 과정을 하다,Sie macht einen Master in Informatik.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+e97b650b-7115-462a-a70b-304e077c6870,A2,einen Doktor machen,박사 과정을 하다,Er macht seinen Doktor an der Uni.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+ad046fd7-7d99-402f-8380-f139405b6ede,A2,die Semesterferien,학기 방학,In den Semesterferien reise ich gern.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+ac57ded3-5f61-453e-adf5-37af87756866,A2,die Prüfung,시험,Die Prüfung war schwierig.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+8ab05261-04ea-4ec3-bfb4-a29ad5db2020,A2,die Mensa,학생 식당,In der Mensa gibt es gutes Essen.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+d46fb9e1-c541-4ae0-a932-854a92ad25a5,A2,die Vorlesung,강의,Ich habe heute drei Vorlesungen.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+29c77103-3a51-4aff-8715-278570a3b6ef,A2,der Professor,교수(남),Der Professor hält die Vorlesung.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+697d71f6-970b-47dc-b0c2-94b597e065e6,A2,das Abitur,수능시험,Ich mache nächstes Jahr das Abitur.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+053b5dce-1c86-46cb-a6ae-5e1c145e3f24,A2,der Abiturient,수험생(남),Der Abiturient lernt fleißig.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+5853084d-339e-417b-be1e-3a8032e5c34b,A2,die Abiturientin,수험생(여),Die Abiturientin ist gut vorbereitet.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+770dd520-e39f-43cd-81df-9ef14422bda6,A2,ausfallen,취소되다,Die Prüfung ist wegen Krankheit ausgefallen.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,fiel aus,ausgefallen,fällst aus,fällt aus
+7a0a5e2a-2c52-4cb6-8e6e-aa638b50896f,A2,die Leistung,성과,Seine Leistung war beeindruckend.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+3a601bac-9aa6-4da3-8d58-ed6a7b23de2d,A2,ausgezeichnet,훌륭한,Er ist ein ausgezeichneter Student.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+958760fe-f76e-4a2b-995c-2ec7a1374938,A2,die Klausur,기말 시험,Die Klausur war sehr lang.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+ec552183-cd0f-415d-928c-a3daa8adf8a6,A2,der Abschluss,졸업,Mein Abschluss war im letzten Jahr.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+fcd761dc-89a0-4599-9c6d-8ca6ec240abc,A2,die Physik,물리학,In Physik geht es um Kräfte und Energie.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+db7bf913-9917-460e-a2db-6a336bdb98d0,A2,das Auslandssemseter,해외 학기,Ich plane ein Auslandssemester in Spanien.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+215007d5-53c4-493a-9dce-9e42b33bc350,A2,eine Prüfung bestehen,시험에 합격하다,Ich habe die Prüfung bestanden.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+dc15521d-03bd-487a-bb85-91a9eaf41e78,A2,die vorlesungsfreie Zeit,강의 없는 시간,Ich arbeite in der vorlesungsfreien Zeit.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+354f2f99-b9dd-40d4-8d8f-a709b6ce5657,A2,eine Schule besuchen,학교를 다니다,Er besucht eine internationale Schule.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+19641c80-b810-4263-8179-c8ce1a6b9954,A2,durch eine Prüfung fallen,시험에 떨어지다,Er ist durch die Prüfung gefallen.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+460fbd2d-d9e1-4c8d-87f9-ab43b256a15a,A2,das Seminar,세미나,Das Seminar war sehr informativ.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+ac51d315-db72-4753-8a6b-66d14dc41928,A2,die Veranstaltung,"행사, 수업",Diese Veranstaltung ist obligatorisch.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+dc4cbea0-0718-47b3-a1b2-e84a342ef5d0,A2,die Mitschülerin,여자 반 친구,Meine Mitschülerin ist sehr nett.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+3aaac177-e6db-46b8-9ece-5c3582aeea62,A2,auf einer Schule sein,학교에 재학 중이다,Ich bin noch auf der Schule.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+38b12d95-0a31-4100-a772-a2298f7fd5c9,A2,der Fehler,실수,Ich habe viele Fehler gemacht.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+1d277bd4-4eb1-4660-b64c-56cf55c75899,A2,die Professoring,교수(여),Die Professorin erklärt gut.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+364de0d7-e59e-4df2-a8c1-5c448ca98c16,A2,der Dozent,강사(남),Der Dozent ist sehr kompetent.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+0a01ba87-8f8f-4af9-aec6-3a0caac72387,A2,die Dozentin,강사(여),Die Dozentin ist sehr freundlich.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+4f3fdb7a-82b4-4457-b159-3b2587f7f147,A2,der Job,일,Ich suche einen neuen Job.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+fd0a3da9-0978-40dd-873d-e332116dd63e,A2,der Studentenjob,학생 아르바이트,Ich habe einen Studentenjob gefunden.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+ee55cc55-9187-4f8b-b9c6-8ac5660d3a7f,A2,das Passbild,여권 사진,Bitte bring ein Passbild mit.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+d88a7191-e4b9-48d2-a2fc-76d988740488,A2,der Ausweis,신분증,Vergiss nicht deinen Ausweis!,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+c0349c01-0c75-496f-92ef-5b575364c6c2,A2,der Kollege,남자 동료,Mein Kollege ist sehr hilfsbereit.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+0dc5a7c3-88e7-4452-8ba3-d6ee3388fe4e,A2,die Kollegin,여자 동료,Meine Kollegin ist nett.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+a8fa30fb-cbd8-43fb-af3b-22bbb737f722,A2,der Chef,"사장, 상사(남)",Der Chef ist im Büro.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+4d3b02d0-3ab0-4a1c-9e32-e133839d5ca2,A2,die Chefin,"사장, 상사(여)",Meine Chefin ist auf Geschäftsreise.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+31ab47c7-1190-4b56-a327-e15e39b834bb,A2,die Geschäftsführerin,여자 대표,Die Geschäftsführerin leitet das Unternehmen.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+a4526e60-ab6b-49e7-891a-6755d464c3d7,A2,die Firma,회사,Ich arbeite in einer großen Firma.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+6c344c9f-acf1-4bf2-994a-bb585bc25ebb,A2,bei einer Firma arbeiten,회사에 근무하다,Ich arbeite bei einer IT-Firma.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+d3a99264-9dfd-43e0-bba6-972fa92b68dd,A2,Feierabend machen,퇴근하다,Ich mache jetzt Feierabend.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+36d9776e-78c9-437f-bc5b-bac084196cb3,A2,der Arbeiter,노동자(남),Der Arbeiter trägt Schutzkleidung.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+d94701ae-cefa-48f4-ba56-3c4d67964de0,A2,die Arbeiterin,노동자(여),Die Arbeiterin bedient die Maschine.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+f1be745f-0d49-4584-b378-c6f4653f3cd1,A2,der Momen,순간,Es war ein besonderer Moment.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+e26c0593-d493-4606-86c1-914d14d2b218,A2,sich einnern an Akk.,~을 기억하다,Ich erinnere mich an den ersten Schultag.,Bildung,Schule & Beruf,false,false,2025-05-21 16:14:43.622213+00,true,null,null,null,null
+7412443a-76e7-45ec-8269-a42f5930cdcf,A2,Liebe auf den ersten Blick,첫눈에 반함,Es war Liebe auf den ersten Blick.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+12b84f3f-ca38-4d46-877c-851a1e02a814,A2,sich bewerben,지원하다,Ich bewerbe mich um eine Stelle.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,bewarb,beworben,bewirbst,bewirbt
+2a86e97a-15b4-4dc3-8c18-8fda1f1a02a5,A2,der Kommilitone,남자 동기,Mein Kommilitone hilft mir beim Lernen.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+e72f7b5f-f2ba-475e-9146-c5235226162a,A2,der Nebenjob,부업,Er hat einen Nebenjob als Kellner.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+f1730bf7-b4fb-485c-a3d5-7b01352f215d,A2,die Bewerbung,지원서,Ich schreibe gerade meine Bewerbung.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+9d4fc953-ce18-4f58-8739-10963f72b0ab,A2,das Vorstellungsgespräch,면접,Das Vorstellungsgespräch war erfolgreich.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+a341fcd2-e851-47eb-a336-5d8524d6b374,A2,kündigen,사직하다,Ich habe gestern gekündigt.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,kündigte,gekündigt,kündigst,kündigt
+e72994f6-d679-4f77-936b-d03b4bfbcf49,A2,der Lebenslauf,이력서,Mein Lebenslauf ist vollständig.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+d8554e3b-84fe-4f47-9d9c-56ef5fcf9ae1,A2,die Kommilitonin,여자 동기,Meine Kommilitonin kommt aus Frankreich.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+b8c859ad-e6e0-47d9-bfc9-29827dc147c3,A2,einen Job bekommen,일자리를 얻다,Ich habe endlich einen Job bekommen.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,bekam,bekommen,bekommst,bekommt
+1c390599-ddb1-4d69-8cdc-6bd46a1ef756,A2,feuern,해고하다,Der Chef hat ihn gefeuert.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,feuerte,gefeuert,feuerst,feuert
+ba28ffd2-5bdb-4032-acff-abc5d617f3dd,A2,die Vorgesetzte,상사(여),Meine Vorgesetzte ist fair.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+e1c0fcbb-4556-467b-9970-34be25599d22,A2,der Vorgesetzte,상사(남),Mein Vorgesetzter ist sehr streng.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+5fdfcf3e-3a90-4534-9662-cbabf64809e5,A2,der Geschäftsführer,남자 대표,Der Geschäftsführer hat das Wort.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+61a31859-4f60-4073-9a7b-57b0dc9c4d4a,A2,eine Firma gründen,회사를 창업하다,Sie haben zusammen eine Firma gegründet.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+e4c3b41f-1776-411b-bfa2-efaa3230a42e,A2,der Ferierabend,퇴근 시간,Um 18 Uhr ist endlich Feierabend.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+257283a7-97e4-421c-9fb6-79f8dcc9af87,A2,die Fabrik,공장,Die Fabrik produziert Autos.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+48934155-f0e7-44ac-95af-945eee49a73d,A2,der Angestellte,직원(남),Der Angestellte arbeitet im Büro.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+b64c2334-1c56-4c2d-9be4-1b11e2ac6f04,A2,die Angestellte,직원(여),Die Angestellte hilft den Kunden.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+35b42c39-44b9-474f-b602-aa63c9045c5c,A2,das Erlebnis,"경험, 체험",Der Urlaub war ein tolles Erlebnis.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+07c97096-1a14-4639-bd05-6032bfe18328,A2,die Erinnerung,추억,Ich habe schöne Erinnerungen an meine Kindheit.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+2a573923-f9bb-469e-8d6e-b33c15f43977,A2,erleben,경험하다,Ich habe viele schöne Dinge erlebt.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,erlebte,erlebt,erlebst,erlebt
+294247dc-195f-4be1-97db-ef962b9db971,A2,damals,그 당시,Damals war alles einfacher.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+5d473e2f-c014-47ad-9e33-9fb9907cd075,A2,die Erfahrung,경험,Aus Fehlern gewinnt man Erfahrung.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+d6bb3114-d4f0-4f05-82bb-dfaf89d76187,A2,als ich ein Kind war,내가 어렸을 때,"Als ich ein Kind war, spielte ich viel draußen.",Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+0bb34cce-e8bd-4df5-bbeb-1c5b72979c56,A2,erzählen,이야기하다,Meine Oma erzählt oft Geschichten.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,erzählte,erzählt,erzählst,erzählt
+3553e24a-8e68-4dfa-a4a7-ce173f3aeee4,A2,zuhören,귀 기울이다,Die Kinder hören dem Lehrer zu.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,hörte zu,zugehört,hörst zu,hört zu
+07860123-6809-4549-9e4c-bb68a34123f7,A2,befreundet sein,친한 사이이다,Ich bin seit Jahren mit ihr befreundet.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+286b4cae-5630-4cda-ac82-3ef800008772,A2,Händchen halten,손을 잡다,Sie halten immer Händchen beim Spazierengehen.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,null,null,null,null
+e24de1cd-1e22-42c5-9465-a26c1d21b870,A2,eifersüchtig sein,질투하다,Ich bin manchmal eifersüchtig.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+e2136fb0-c9e3-4a1a-845b-2f909b32fef8,A2,fremdgehen,바람피우다,Er ist seiner Freundin fremdgegangen.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,ging fremd,fremdgegangen,gehst fremd,geht fremd
+26d08c11-d262-49f8-8640-4f8aad053363,A2,jmdm. einen Heiratsantrag machen,청혼하다,Er hat ihr einen Heiratsantrag gemacht.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+ce324177-c6ca-4900-ab59-2f0223ca818f,A2,sich trennen,헤어지다,Wir haben uns vor einem Monat getrennt.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,trennte sich,sich getrennt,trennst dich,trennt sich
+caa77911-25ec-4876-9ba5-ea399dba196c,A2,Freunde finden,친구를 사귀다,"Es ist manchmal schwer, neue Freunde zu finden.",Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,fand,gefunden,findest,findet
+53ace967-e714-4282-8513-05d1a25a1071,A2,sich scheiden lassen,이혼하다,Wir lassen uns scheiden.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,ließ sich scheiden,sich scheiden lassen,lässt dich scheiden,lässt sich scheiden
+79cf68fd-beaa-4645-82f6-acb1eb97f9f2,A2,sich versöhnen,화해하다,Nach dem Streit haben wir uns versöhnt.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,versöhnte sich,sich versöhnt,versöhnst dich,versöhnt sich
+ffc52d7e-3076-4d2d-a697-5ba0482b3de6,A2,die Trennung,이별,Die Trennung war nicht leicht.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+5bf4fe78-6591-4897-b331-83ba736135d3,A2,sich vertragen,사이좋게 지내다,Sie vertragen sich wieder.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,vertrug sich,sich vertragen,verträgst dich,verträgt sich
+80fba7bc-8511-445a-8d10-0fa8e104dc6f,A2,zusammenziehen,같이 살게 되다,Wir wollen bald zusammenziehen.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,true,zog zusammen,zusammengezogen,ziehst zusammen,zieht zusammen
+7b32d143-2a98-4e4f-8a4b-081ec1404931,A2,der Witwer,홀아비,Der Witwer lebt allein.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+0c44746d-a7c7-4cf7-acbb-6ab34d17e4fa,A2,der Schwiegervater,시아버지,Mein Schwiegervater ist pensioniert.,Beziehung,Soziale Kontakte,false,true,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+e1d4cf04-79e0-481b-8ea4-c82ea2791763,A2,die Freundschaft,우정,Unsere Freundschaft ist sehr stark.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+c2848006-7859-4fcd-ac44-9b04d5cb8e55,A2,Stief-,의붓~,Mein Stiefvater ist freundlich.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+2a147691-b83c-4ad6-aba9-4ca0d1a2f47f,A2,die Urgroßmutter,증조할머니,Meine Urgroßmutter war sehr stark.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+067029d9-f0f1-481c-a111-dd63084a3d35,A2,eine Freundin von mir,내 여자 친구 중 한 명,Eine Freundin von mir studiert Medizin.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+de0ea825-66c7-4462-b3ff-141937c11609,A2,die Schwiegereltern,시아버지와 시어머니,Meine Schwiegereltern wohnen in Bayern.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+49a7da41-3011-4d16-86c2-23993c9e4547,A2,die Beziehung,"연애, 관계",Unsere Beziehung ist sehr stabil.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+2c2b18a9-5a5a-474a-96b0-a33463b44507,A2,eine Affäre haben,불륜 관계이다,Er hatte eine Affäre mit einer Kollegin.,Beziehung,Soziale Kontakte,false,false,2025-05-20 15:49:02.064418+00,false,null,null,null,null
+50b2c256-3601-4665-9f50-639a9a7a2c6a,A2,sich etwas anziehen,무언가를 입다,Ich ziehe mir eine Jacke an.,Mode,Kleidung,false,false,2025-05-21 15:57:28.762772+00,true,zog sich an,sich angezogen,ziehst dich an,zieht sich an
+f04204e9-edd5-4f35-b7b2-7c311441d174,A2,das Zeugnis,성적표,Mein Zeugnis ist besser als letztes Jahr.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+208ebdc2-03fe-44ba-9bfd-f2955f4accf6,A2,das Kleinkind,유아,Das Kleinkind spielt mit Bauklötzen.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+a0d7f37f-ab54-4e3f-a1f6-9ca89c893321,A2,die Grundschule,초등학교,Die Kinder gehen in die Grundschule.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+a7a57db6-ea04-4062-9998-ee8529b7ab69,A2,ein Studium abschließen,대학을 졸업하다,Ich habe mein Studium abgeschlossen.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,schloss ab,abgeschlossen,schließt ab,schließt ab
+72eaa034-9f54-4fbd-880b-61eff5af23ed,A2,die Kindheit,유년기,Meine Kindheit war sehr schön.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+cad8e64a-c63c-485d-aba8-e3600c51897a,A2,der Säugling,영아,Der Säugling schläft ruhig.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,false,null,null,null,null
+a96e697c-f182-465d-82e2-d83aca1646bb,A2,zurückdenken an Akk.,~을 회상하다,Ich denke gern an meine Schulzeit zurück.,Bildung,Schule & Beruf,false,true,2025-05-21 16:14:43.622213+00,true,dachte zurück,zurückgedacht,denkst zurück,denkt zurück
+330aed8b-3a62-4b96-9494-95536c9f7125,A2,die E-Mail,이메일,Ich habe eine E-Mail geschrieben.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+2fd924c9-d56c-4445-a701-92073099b3b2,A2,die E-Mail-Adresse,이메일 주소,Wie lautet deine E-Mail-Adresse?,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+e28744a5-886e-4b08-8276-9dc3fe943b6a,A2,der Betreff,제목,Der Betreff der E-Mail ist wichtig.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+ca718b68-800f-482c-a68c-aa3fe3bb4120,A2,antworten (auf Akk.),대답하다,Ich antworte auf deine Nachricht.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,antwortete,geantwortet,antwortest,antwortet
+133ed265-64aa-4257-b28d-feca4d1e3687,A2,beantworten,답장하다,Ich beantworte die Frage später.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,antwortete,geantwortet,antwortest,antwortet
+8efc0d5c-db8d-4b6d-a4fc-b020ac0c8309,A2,das Telefonat,전화 통화,Das Telefonat war sehr lang.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+265fc73d-310b-4cee-8175-efceb00e4b2a,A2,jmdn. erreichen,누구와 연락이 닿다,Ich kann ihn nicht erreichen.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,erreichte,erreicht,erreichst,erreicht
+aa3f2bfb-47b5-4338-8b16-24fbc195c731,A2,ans Telefon gehen,전화를 받다,Ich gehe schnell ans Telefon.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+77a949a2-001e-49d6-8e6f-a248cc62dfd0,A2,auflegen,전화를 끊다,Er hat einfach aufgelegt.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,legte auf,aufgelegt,legst auf,legt auf
+13f3b8dc-f4d5-4fff-9504-bfde221a16fa,A2,besetzt,통화 중인,Die Leitung ist besetzt.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+3946a3ae-c789-4f08-9f64-b9bbe5684d9a,A2,verbinden,연결하다,Ich verbinde Sie mit der Kollegin.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,verband,verbunden,verbindest,verbindet
+83932afb-4881-42f9-9584-e811d4b12e53,A2,begrüßen,인사하다,Ich begrüße die neuen Gäste.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,begrüßte,begrüßt,begrüßt,begrüßt
+472a91e7-9f8d-42ed-8c89-aff0c50a8c32,A2,mit jmdm. schreiben,누구와 채팅하다,Ich schreibe mit meiner Freundin.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+fa974cca-5bcb-45bd-8e61-6d2baa27e9a6,A2,jmdm. schreiben,누구에게 쓰다,Ich schreibe ihm eine Nachricht.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,schrieb,geschrieben,schreibst,schreibt
+7e414155-1692-46a4-a10c-e7494cef6ab5,A2,jmdm. eine Nachricht schicken,메시지를 보내다,Ich schicke ihr eine Nachricht.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,schickte,geschickt,schickst,schickt
+490fd75c-f394-4aa3-b9a6-7ef7113f31ad,A2,ein Paket verschicken,소포를 보내다,Ich verschicke das Paket morgen.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,schickte,geschickt,schickst,schickt
+eb2a6ee7-1644-4af8-b189-a85e110f77ef,A2,einen Brief verschicken,편지를 보내다,Ich verschicke den Brief gleich.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,schickte,geschickt,schickst,schickt
+3874d1cc-a5f3-42c3-addf-83a985f051e5,A2,die Briefkasten,우편함,Ich werfe den Brief in den Briefkasten.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+3f7b5861-4ddb-4919-8aed-7cb9e2b063fd,A2,annehmen,"받다, 수령하다",Ich nehme das Paket an.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,nahm an,angenommen,nimmst an,nimmt an
+bc1d6675-c22f-4ef2-b735-eb6796f486af,A2,einen Termin machen,약속을 잡다,Ich mache einen Termin beim Arzt.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+54f3efa1-260f-4778-8db3-bffc2715583e,A2,einen Termin vereinbaren,약속을 정하다,Ich möchte einen Termin vereinbaren.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,vereinbarte,vereinbart,vereinbarst,vereinbart
+ca87b71b-b135-4749-9525-b850f62a546a,A2,beraten,상담하다,Der Arzt berät den Patienten.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,beriet,beraten,berätst,berät
+8dc6b5a7-3be3-402d-aca2-688cc6972260,A2,einen Termin verschieben,약속을 미루다,Ich muss den Termin verschieben.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,verschob,verschoben,verschiebst,verschiebt
+a82902b6-a08c-455a-aceb-be2b5be3e022,A2,einen Termin absagen,약속을 취소하다,Sie sagt den Termin ab.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,sagte ab,abgesagt,sagst ab,sagt ab
+94ca0945-b662-47f5-bd59-e57c374d9b9d,A2,abmachen,약속하다,Wir haben einen Treffpunkt abgemacht.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,machte ab,abgemacht,machst ab,macht ab
+69a1fd05-f2fb-440d-bf9d-ebd1631bad5f,A2,beruhigen,진정시키다,Ich beruhige das Kind.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,beruhigte,beruhigt,beruhigst,beruhigt
+fa424918-994e-41fe-a3be-8476d68713bd,A2,duzzen,반말하다,In dieser Firma duzen sich alle.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,null,null,null,null
+ad3ce776-8989-469b-9634-0d9a3b2b0fdd,A2,siezen,존댓말하다,In Behörden wird gesiezt.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,siezte,gesiezt,siezt,siezt
+ddaf3e11-3470-41e5-8249-c1b6bb27f6cd,A2,das Amt,관청,Ich muss zum Amt gehen.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+38f84f40-7118-4ef3-a260-043b2fef49ce,A2,die Behörde,행정기관,Die Behörde bearbeitet den Antrag.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+b9500d05-bef9-42ac-9cd5-1a887a04017c,A2,der Beamte,공무원(남),Der Beamte hilft mir beim Antrag.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+1f11a9cf-aee4-4fb0-a9b9-5a887891d86e,A2,die Beamtin,공무원(여),Die Beamtin ist sehr nett.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+fed53a96-22a9-4e36-9708-bb8990ba49f2,A2,beantragen,신청하다,Ich beantrage einen neuen Ausweis.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,beantragte,beantragt,beantragst,beantragt
+9b751066-c6bf-4111-b5dc-14fddec49c14,A2,der Personalausweis,신분증,Ich habe meinen Personalausweis verloren.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+a807c8eb-6ecd-46ed-9fa2-bdc76560b950,A2,der Pass,여권,Mein Pass ist noch gültig.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+2c34a4db-4ad2-4dac-bbbc-d0d3d1d71f73,A2,das Dokument,서류,Ich brauche dieses Dokument.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+bf188e86-34a6-4eb0-bfc4-9a7a893dc173,A2,ausdrucken,출력하다,Ich drucke das Formular aus.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,druckte aus,ausgedruckt,druckst aus,druckt aus
+67b341c2-d9fd-4b9d-a36c-9191fd973ae4,A2,kopieren,복사하다,Bitte kopiere dieses Dokument.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,kopierte,kopiert,kopierst,kopiert
+f2a99a60-0788-488b-b13d-c8294b6cb0f8,A2,das Formular,양식,Füllen Sie bitte das Formular aus.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+9d4b76cb-4629-414d-a5f4-593fc14837e8,A2,ausfüllen,작성하다,Ich fülle das Formular aus.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,füllte aus,ausgefüllt,füllst aus,füllt aus
+78c0c24b-2700-4829-bc93-1387fde33c09,A2,eintragen,기입하다,Tragen Sie Ihren Namen ein.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,trug ein,eingetragen,trägst ein,trägt ein
+9999453e-a324-4710-989c-b0e805710dd0,A2,eilig,급한,Ich habe es eilig!,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+c7c50e9b-cfec-4a5c-8a37-de3c47ccef47,A2,sich erkundigen,문의하다,Ich erkundige mich nach dem Preis.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,erkundigte sich,sich erkundigt,erkundigst dich,erkundigt sich
+251ca7b9-1375-45c2-b201-40576ca64ede,A2,erhalten,받다,Ich habe eine E-Mail erhalten.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,erhielt,erhalten,erhältst,erhält
+8448221a-61c6-4879-b213-45cee8e9ec61,A2,das Einschreiben,등기우편,Ich sende das Dokument per Einschreiben.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+ec4dcea0-865e-4a17-8c92-9f744b46a456,A2,das Schreiben,"공문, 편지",Ich habe ein amtliches Schreiben bekommen.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+9e5a31c4-d410-434f-b2cb-95203e7081e3,A2,schriftlich,서면의,Bitte geben Sie das schriftlich ab.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+3913b2d1-dea3-474f-8172-5d908670ed20,A2,das Konto,계좌,Ich habe ein neues Konto eröffnet.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+ad6d1c52-e159-4ddc-ac5f-189ce7ff9e0a,A2,ein Konto eröffnen,계좌를 개설하다,Ich möchte ein Konto eröffnen.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,eröffnete,eröffnet,eröffnest,eröffnet
+9539c690-079f-4805-990b-253d60b43b23,A2,der Geldautomat,ATM,Ich hebe Geld am Geldautomaten ab.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+e573ef4b-34a3-410a-88d2-3c62339e7df5,A2,(Geld) abheben,돈을 인출하다,Ich hebe 100 Euro ab.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,hob ab,abgehoben,hebst ab,hebt ab
+1991ee39-5190-43e3-8ac1-8d5fbe7e89eb,A2,(Geld) einzahlen,돈을 입금하다,Ich zahle Geld auf mein Konto ein.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,zahlte ein,eingezahlt,zahlst ein,zahlt ein
+4503fbc5-b837-496a-924d-3520accc458e,A2,(Geld) ausgeben,돈을 쓰다,Ich gebe zu viel Geld aus.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,gab aus,ausgegeben,gibst aus,gibt aus
+39217c52-79b3-44ef-9c0d-36281f86cd7d,A2,(Geld) verdienen,돈을 벌다,Ich verdiene mein eigenes Geld.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,verdiente,verdient,verdienst,verdient
+39569aef-d642-4227-a020-dae00f490025,A2,(Geld) sparen,돈을 절약하다,Ich spare für den Urlaub.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,sparte,gespart,sparst,spart
+901f1ac5-e5e7-4856-bd3f-02539147f5ca,A2,(Geld) überweisen,송금하다,Ich überweise die Miete.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,überwies,überwiesen,überweist,überweist
+89fec0fc-7a08-4a70-9e6b-205b035f7077,A2,die Überweisung,송금,Ich mache eine Überweisung online.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+d6dde210-17eb-4f7a-83e5-45f6d8bd0ad8,A2,die EC-Karte,직불카드,Ich zahle mit der EC-Karte.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+83b6c188-6008-438e-a064-9ba612f6e876,A2,die Kreditkarte,신용카드,Ich habe meine Kreditkarte vergessen.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+50f4d2b3-7304-41fa-8282-e0e597562da7,A2,mit Karte zahlen,카드로 계산하다,Ich zahle mit Karte.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+3479a50d-a962-40e5-8ec6-cd0bf3248eb1,A2,das Bargeld,현금,Ich habe kein Bargeld dabei.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+bdd60d27-755f-4092-9605-991ac33dd567,A2,bar zahlen,현금으로 계산하다,Ich zahle bar.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+1bd6be15-d082-472f-8f98-91e91bf8d86e,A2,die Bankleitzahl,은행 코드,Wie lautet Ihre Bankleitzahl?,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+7d664789-3e5f-4cb8-bdb9-e464fad152d2,A2,der Betrag,금액,Der Betrag ist zu hoch.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+64a88003-09b6-4d7d-85f3-b1e904bb9f82,A2,die Schulden,빚,Ich habe keine Schulden.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+58626b46-5804-49da-accf-3c6847d7adda,A2,einen Termin bekommen,예약을 잡다,Ich habe einen Termin beim Zahnarzt bekommen.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+4abe3247-12da-4429-8b88-a9b197617b80,A2,bestätigen,확인하다,Ich bestätige den Termin per E-Mail.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,bestätigte,bestätigt,bestätigst,bestätigt
+64231a2e-16b0-44a9-91df-c9ff39d5cc1b,A2,dringend,긴급한,Ich habe einen dringenden Termin.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+af287c05-a88a-4be0-ada4-bfe4e13e3f74,A2,die Sprechstunde,진료시간,Wann ist die Sprechstunde?,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+f56e8302-2278-4242-9f92-f4aadc605853,A2,die Versichertenkarte,보험 카드,Zeigen Sie Ihre Versichertenkarte.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+12a5f7ad-9a76-438b-9902-ac4b96f16d68,A2,das Behandlungszimmer,진료실,Der Arzt wartet im Behandlungszimmer.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+48721b6e-47b2-43eb-a50c-25406a0c16be,A2,frei machen,"벗다, 비우다",Bitte machen Sie den Arm frei.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+a6c09778-d01d-4c45-a15d-e3630cdabeb2,A2,Blut abnehmen,혈액을 채취하다,Die Ärztin nimmt Blut ab.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+916b0713-ab0e-4375-8985-eab6513449a4,A2,verschreiben,처방하다,Der Arzt verschreibt Medikamente.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,schrieb,geschrieben,schreibst,schreibt
+8d378490-364e-40a6-aec0-fe08cdd6c85e,A2,eine Tablette einnehmen,약을 복용하다,Ich nehme die Tablette am Abend ein.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,true,nahm ein,eingenommen,nimmst ein,nimmt ein
+283feffb-f303-4be9-95ac-4d6cc0413d82,A2,besser werden,나아지다,"Ich hoffe, es wird besser.",Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+56bd8906-18f7-4b6f-8aed-6f498268ec24,A2,besonders,특히,Dieses Medikament ist besonders wirksam.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+ab413f33-2441-4510-8e92-009d3f655b99,A2,bluten,피나다,Die Wunde blutet stark.,Alltag,Behörde & Service,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+30cbd2e2-ca95-49c0-83fa-bff084c614f2,A2,die Party,파티,Die Party war richtig cool.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+2fb96b99-20dc-4b3a-9e00-55f3cf76e93e,A2,das Jubiläum,기념일,Wir feiern unser 10-jähriges Jubiläum.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+08c3873f-707c-47fa-bc3d-05384e2a9b59,A2,die Dekoration,장식,Die Dekoration war wunderschön.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+ffdaa5fb-1c69-4e8e-a0a8-42b9018970db,A2,die Deko,장식 (구어),Ich liebe deine Deko!,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+0cb925e5-5ce3-4d5f-bdcf-6b740ae7f39e,A2,dekorieren,장식하다,Wir dekorieren den Saal bunt.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,dekorierte,dekoriert,dekorierst,dekoriert
+fcea8ab2-9e9b-47b0-b7c2-45a749b761ce,A2,vorbereiten,준비하다,Ich bereite die Feier vor.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,bereitete vor,vorbereitet,bereitest vor,bereitet vor
+b0b137d0-c9f9-4291-b722-efb76d5b6bb4,A2,besorgen,"구입하다, 준비하다",Ich besorge Getränke für die Party.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,besorgte,besorgt,besorgst,besorgt
+4f227c7f-56e6-41e7-8c3d-19c285c3914b,A2,sich kümmern um Akk.,~을 돌보다,Ich kümmere mich um die Musik.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,kümmerte sich,sich gekümmert,kümmerst dich,kümmert sich
+d7dfcb3e-d384-4998-9a28-bf3273ae1a71,A2,übernehmen,맡다,Er übernimmt den Grill.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,übernahm,übernommen,übernimmst,übernimmt
+fb48aaee-f6a4-4a62-a66d-60ef14bfd765,A2,die Vorbereitung,준비,Die Vorbereitung war stressig.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+70ff48ed-7420-4169-931d-0301c3d314d7,A2,stattfinden,열리다,Die Hochzeit findet im Juni statt.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,fand statt,stattgefunden,-,-
+e290b18e-50f9-4885-913f-aece848798e3,A2,die Einladung,초대장,Ich habe eine Einladung zur Feier bekommen.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+aa7b73ba-1f6f-490f-853a-ca0a6c9a65b1,A2,Bescheid geben,알리다,Bitte gib mir rechtzeitig Bescheid.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,gab,gegeben,gibst,gibt
+6155f532-da13-4d28-b800-db4a97f25887,A2,zusagen,승낙하다,Ich habe zur Hochzeit zugesagt.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,sagte zu,zugesagt,sagst zu,sagt zu
+3da46941-14ab-4234-ac46-43a521f9e706,A2,vorhaben,계획하다,Was hast du heute Abend vor?,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,hatte vor,vorgehabt,hast vor,hat vor
+ac676085-a3f8-4e53-8081-83bfc83c0138,A2,veranstalten,개최하다,Wir veranstalten ein Fest.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,veranstaltete,veranstaltet,veranstaltest,veranstaltet
+9b07fddf-63e6-49c8-b0e6-7c970b415167,A2,durchmachen,밤새다,Wir haben die ganze Nacht durchgemacht.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,machte durch,durchgemacht,machst durch,macht durch
+89ffc6b5-1250-49ec-99e5-0c3d06cf7573,A2,sich betrinken,술에 취하다,Er hat sich auf der Party betrunken.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,betrank sich,sich betrunken,betrinkst dich,betrinkt sich
+d67c2185-1ca9-41ab-804b-189392f085b2,A2,betrunken sein,취해 있다,Ich war gestern betrunken.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+dba201a0-37d5-4878-b272-8f8619808f15,A2,angetrunken sein,술에 약간 취하다,Er war schon angetrunken.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+c8605ec5-7f16-4549-b417-f29da42947e4,A2,anstoßen,건배하다,Wir stoßen auf das neue Jahr an.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,null,null,null,null
+017b9844-f0d9-4c06-a5a8-864c5c4d3fc1,A2,Prost!,건배!,Prost auf deinen Erfolg!,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+f7564b3b-79d5-4b59-aee7-474ec39532b3,A2,die Band,밴드,Die Band spielt live.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+48e8261c-9275-42a2-a3a5-489b5a835c2b,A2,die Bar,바,Wir treffen uns in der Bar.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+9e2d6e90-1826-4682-acd8-42366bea54b1,A2,der Club,클럽,Er geht gern in den Club.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+e5529e55-0d48-47da-aaf7-02a621f302cb,A2,sich etwas wünschen,~을 소망하다,Ich wünsche mir ein schönes Fest.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,wünschte,gewünscht,wünschst,wünscht
+90d4b1e8-a867-4ea4-a6b0-7042f3513670,A2,nachträglich,뒤늦은,Nachträglich alles Gute zum Geburtstag!,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+746857e9-5dc5-4f76-ac06-19c60e5cd6c9,A2,den 1. Geburtstag feiern,첫 생일을 축하하다,Wir feiern ihren 1. Geburtstag.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+216dc6a8-1ed4-4fff-96cb-7bf433c1212a,A2,ein Jahre alt werden,~살이 되다,Mein Kind wird bald ein Jahr alt.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,wurde,geworden,wirst,wird
+70635f97-71ae-44e1-ae04-d235f717b46f,A2,Herzlichen Glückwunsch!,축하합니다!,Herzlichen Glückwunsch zum Geburtstag!,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+454d2430-811a-4f9b-ab0c-5d6ec213d22f,A2,die Hochzeit,결혼식,Die Hochzeit war sehr romantisch.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+699ac146-d170-489d-8f1a-457251bb73dd,A2,die Trauung,혼인식,Die Trauung war sehr feierlich.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+2016c172-69f1-4f5b-94cb-4d356e9ea9d9,A2,die Hochzeitsfeier,결혼 피로연,Die Hochzeitsfeier war lang.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+751f6331-c463-4911-b60b-8ab1e575bbd3,A2,die Standesamt,등기소(결혼 등록소),Die Trauung fand im Standesamt statt.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+fb91ec4a-b5fc-45a5-86f6-cee9acd0abb6,A2,die Braut,신부,Die Braut trug ein schönes Kleid.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+a6c7c31e-3b07-4d2a-b26b-50ce4022e15e,A2,der Bräutigam,신랑,Der Bräutigam war nervös.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+b681cc5a-e384-40a2-b22a-4b83b3cad03c,A2,das Brautpaar,신랑 신부,Das Brautpaar sah glücklich aus.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+2fcf6816-d494-4971-830f-5356e1804ce6,A2,die Hochzeitstorte,웨딩 케이크,Die Hochzeitstorte war riesig.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+88c4f145-474b-4611-bb4b-2bda33509796,A2,das Hochzeitskleid,웨딩드레스,Ihr Hochzeitskleid war traumhaft.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+da91761b-786e-493b-bc6b-c3452970e61c,A2,der Trauzeuge,신랑 측 증인,Der Trauzeuge hielt eine Rede.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+55d8da4c-f45c-4b8a-abde-98e89db17ba4,A2,die Trauzeugin,신부 측 증인,Die Trauzeugin begleitete die Braut.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+7c20fcce-2e2d-49a4-be87-f07d0096df2f,A2,das Büfett,뷔페,Das Büfett war sehr lecker.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+7b481cc3-b0b3-4336-9e45-c2a09192fb79,A2,die Hochzeitsreise,신혼여행,Sie machen eine Hochzeitsreise nach Italien.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+2551d356-bfaf-46e1-bed4-7b9a1ea3b3cd,A2,der Feiertag,공휴일,Am Feiertag haben wir frei.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+cfbbeb74-0e19-402f-b88c-c25f79ecb26b,A2,die Tradition,전통,Das ist bei uns Tradition.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+6137e779-7236-4bda-830c-d05c8e00f466,A2,Tradition sein,전통이다,"Es ist Tradition, gemeinsam zu essen.",Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+d00674db-fca5-436b-ae19-0bb007e25517,A2,traditionell,전통적인,Wir tragen traditionelle Kleidung.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+7bab50db-df87-4024-9dd7-4b82de5854ff,A2,das Osten,부활절,Zu Ostern bemalen wir Eier.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+4276599d-bb09-48d3-adc0-6d644ff8538f,A2,das Silvester,연말(12/31),An Silvester feiern wir das Jahresende.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+015d1ef6-4f70-4e14-830b-8a0528b2a817,A2,das Neujahr,새해,Ich wünsche dir ein frohes Neujahr!,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+282fa9c2-119a-49ae-bc35-0f2528195e2a,A2,Guten Rutsch!,새해 복 많이 받으세요!,Guten Rutsch ins neue Jahr!,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+25fb34be-ad28-4df8-b7b8-41999bfb460e,A2,Frohes neues Jahr!,새해 복 많이 받으세요!,Frohes neues Jahr!,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+3e4d0741-2f10-4c7a-bead-8a59c47fde03,A2,das Weihnachten,크리스마스,Weihnachten feiern wir mit der Familie.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+4953d590-8874-4a33-b632-d4896bcae29b,A2,der Karneval,카니발,Der Karneval ist sehr bunt.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+db3198d6-df2d-42df-993e-f070eb0fc025,A2,der Heiligabend,성탄 전야,Heiligabend ist am 24. Dezember.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+c1b1add0-3594-42b9-9561-2923f75b5a2d,A2,der Advent,대림절,Im Advent zünden wir Kerzen an.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+709074fc-1a89-4d08-aaee-138a7aaa1880,A2,der Adventskalender,대림절 달력,Die Kinder öffnen jeden Tag ein Türchen.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+e514b133-003a-4fff-ba6d-690bf8085a81,A2,der Adventskranz,대림절 화환,Wir haben einen Adventskranz mit vier Kerzen.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+813bf889-2505-44f4-8018-565d310af4b7,A2,der Weihnachtsmarkt,크리스마스 마켓,Wir gehen auf den Weihnachtsmarkt.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+2b88ca0d-4afd-4bf8-b19a-3b26b5ce0ab7,A2,der Glühwein,글뤼바인,Ich trinke gern Glühwein im Winter.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+e1167011-625c-4dc7-b572-fea51b0f6cc0,A2,der Weihnachtsbaum,크리스마스트리,Der Weihnachtsbaum ist schön geschmückt.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+a64281b1-2671-4f0c-8292-8eb7e3235495,A2,schmücken,장식하다,Wir schmücken den Weihnachtsbaum.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,schmückte,geschmückt,schmückst,schmückt
+02be3873-182f-4d90-b6d7-4e9f97b6e86d,A2,das Geschenk,선물,Ich habe ein schönes Geschenk bekommen.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+cc9e85de-2fee-4827-9951-16357fbe111d,A2,der Gutschein,상품권,Ich verschenke einen Gutschein.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
+d9c308f8-d49c-4d22-bbc1-623d22786cec,A2,wichteln,비밀 산타하다,Wir wichteln in der Firma.,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,true,wichtelte,gewichtelt,wichtelst,wichtelt
+eca981c8-f55e-4202-ad93-339296b0d37c,A2,Frohe Weihnachten!,메리 크리스마스!,Frohe Weihnachten!,Feste,Feier & Tradition,false,false,2025-05-22 16:55:00.155276+00,false,null,null,null,null
