@@ -1,0 +1,63 @@
+id,level,word,meaning,example,topic,subtopic,is_wrong,is_favorite,created_at,is_verb,past_tense,past_participle,du_form,er_form
+8f86768d-f070-47b6-b0f9-20dfa0d52421,B1,äußerst,"매우, 극도로",Das ist äußerst interessant.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+faa7a5dc-3269-4b3d-9c53-05e5d887299b,B1,die Belohnung,"보상, 상",Die Belohnung war 100 Euro.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+b4aa1e53-26ae-4ad3-93e6-e7d271e21924,B1,zerkleinert,"잘게 썬, 다진",Das Gemüse ist zerkleinert.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+245afa03-b487-4909-8e77-543ef73b392a,B1,hierzulande,"이 나라에서는, 이 부분에서는",Hierzulande isst man viel Brot.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+d0374172-b282-4e9b-b2e2-51c9d0928787,B1,grob,"거친, 대략적인",Das war eine grobe Schätzung.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+42c6c02c-8f87-4fe0-8799-c6d9d5651d6f,B1,fein,"고운, 섬세한",Das Mehl ist sehr fein.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+147e0b97-87a0-4d2b-960b-de1ea3da48b4,B1,der Ursprung,"기원, 근원",Das ist der Ursprung der Idee.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+e94249fb-05e6-4763-82ac-67acfa22849c,B1,das Rezept,"요리법, 처방전",Ich habe ein neues Rezept ausprobiert.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+8a3777fe-e382-4472-bb77-ab7a4fc2c716,B1,verfasst,작성된,Der Text ist gut verfasst.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+87fee8b4-918f-4ea3-a254-91634f6b25c4,B1,gestattet,허용된,Rauchen ist hier nicht gestattet.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+0fc60048-7dd9-4bbe-a02d-898da6a4a740,B1,die Herstellung,"제조, 생산",Die Herstellung dauert zwei Tage.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+595fd1b0-44ee-4d93-9a11-156a72b91d7c,B1,hergestellt,제조된,Das Produkt wurde in Deutschland hergestellt.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+227970e5-2c91-409d-b35b-615a54d32e25,B1,verschiedenen,다양한,Ich habe Bücher aus verschiedenen Ländern.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+7c714631-4fcc-4804-b153-9ca2b55c7aec,B1,äußerst bekannt,매우 유명한,Er ist ein äußerst bekannter Künstler.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+fb1db560-2458-4a63-88aa-ca069614ae9e,B1,der Sternekoch,스타 셰프,Der Sternekoch hat ein neues Restaurant eröffnet.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+d34a6c8f-03a2-4fd5-97e5-ab86e430b21d,B1,in der Tat,"실제로, 사실상",In der Tat war es so passiert.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+ac4cf030-4eab-4205-bd4f-95e4ab77b51e,B1,der Sieger,승자,Der Sieger bekam eine Medaille.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+f0ef5b66-9f73-4fe0-9d19-a999b45e3709,B1,sich ergeben aus,~에서 비롯되다,Das Problem ergibt sich aus der Situation.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+61679a74-9b6f-457f-9ce9-5ac2aff828e4,B1,der Punkt,"점, 요점",Das ist ein wichtiger Punkt.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+03a4bbf7-a80a-4dcd-9589-f9538fc5b62b,B1,zu etw. zählen,~에 속하다,Er zählt zu den Besten.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+531f997f-c81b-4e9f-b6af-77e58df41dab,B1,im Gegensatz zu,~와는 반대로,Im Gegensatz zu dir mag ich Kaffee.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+c845ed43-7e84-4fc5-a5bb-d76c9c4b0fa0,B1,hervorragend,"우수한, 뛰어난",Das war eine hervorragende Leistung.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+805e755c-6ef9-4f18-8388-5d87df0a2da2,B1,es handelt sich um,~에 관한 것이다,Es handelt sich um ein Missverständnis.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+be0b3d01-c7a6-4cdd-a0bb-e99be49c2569,B1,stolz,자랑스러운,Ich bin stolz auf dich.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+9722480b-b7db-4cb0-8ef4-2aac6e76d211,B1,süchtig,중독된,Er ist süchtig nach Schokolade.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+429b035c-f016-41a6-909a-2734b49a65c9,B1,trocken,건조한,Die Luft ist sehr trocken.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+4d224b62-be14-4fcb-9fe5-d3a2d07aac82,B1,wohl,"아마도, 잘",Er fühlt sich wohl hier.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+2daedf04-ad85-487f-a63a-7a946fb3dd21,B1,übrigens,그건 그렇고,"Übrigens, hast du Zeit morgen?",시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+3c9af057-5cd9-4fe2-a9c0-1586dd3bbd1b,B1,Ganz meinerseits,저야말로 반갑습니다,Ganz meinerseits!,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+da439d1a-4ff7-461c-9d80-933b8b8fa40f,B1,Allgemein,일반적으로,Allgemein ist das bekannt.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+46d97236-bc45-4567-ba6d-54cdfc7d2c5d,B1,in Mode,유행 중인,Helle Farben sind in Mode.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+feb6e3cc-9dae-497f-a514-893f288ba357,B1,die Baukunst,건축 예술,Die Baukunst der Antike ist beeindruckend.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+eefb1009-0fda-4c2f-8151-8cfe0dafe5a1,B1,der Stil,"스타일, 양식",Der Stil des Gebäudes ist modern.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+233533ef-8447-4844-b495-16bca252a747,B1,sofort,즉시,Ich komme sofort.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+f382d4ff-9526-4256-ae24-35c6a87682e8,B1,die (Pl.) Unterschiede,차이점들,Es gibt viele Unterschiede.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+243c7f34-552f-4c0d-8b70-e91bab4b5dad,B1,die Gemeinsamkeit,공통점,Sie haben viele Gemeinsamkeiten.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+c2556f00-ffd2-44d4-8e1f-b6c2f948d8c1,B1,eingeführt,도입된,Das neue System wurde eingeführt.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+02d54176-8164-4a58-976a-9c4c9cce3367,B1,deswegen,그래서,"Ich habe Kopfschmerzen, deswegen bleibe ich zu Hause.",시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+8d972fc7-b26d-430f-bd54-210494f2c818,B1,dort auszuruhen,그곳에서 쉬다,"Ich plane, dort auszuruhen.",시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+9460c9d4-8de6-4fa0-8cd8-0b23829a337f,B1,das Merkmal,특징,Ein Merkmal von ihm ist seine Stimme.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+5888b81f-4591-41e3-b64c-68820c89729c,B1,damit,"~하기 위해서, 그것으로","Ich mache das, damit du glücklich bist.",시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+2e2e95b8-f575-48d9-96b0-15648488a1ec,B1,die Architektur,"건축학, 건축",Die Architektur des Gebäudes ist modern.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+5702658c-076b-4b59-991e-de5169adc662,B1,die Kathedrale,대성당,Die Kathedrale ist sehr alt.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+10427a3c-ad85-4f2b-b757-9143fc365fdd,B1,der Baustil,건축 양식,Der gotische Baustil ist beeindruckend.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+85d97b02-aa17-4986-9270-223bbf1f1532,B1,der Rundbogen,반원 아치,Die Kirche hat viele Rundbögen.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+89bb13e5-f204-4db2-96d8-1bd41a1744f7,B1,der Spitzbogen,뾰족 아치,Der Spitzbogen ist typisch für die Gotik.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+390b4fd2-569d-43c8-9567-db8f5cdcfe8c,B1,verraten,"배신하다, 누설하다",Er hat das Geheimnis verraten.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,verriet,verraten,verrätst,verrät
+05754504-3f5f-4b2a-8963-4a25236da4d9,B1,verknüpfen,"연결하다, 연관짓다",Er verknüpft Theorie mit Praxis.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,verknüpfte,verknüpft,verknüpfst,verknüpft
+9bca1349-d8bc-4594-bde3-cbe731a2c6f8,B1,schlachten,도살하다,Die Tiere wurden geschlachtet.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,schlachtete,geschlachtet,schlachtest,schlachtet
+dd19f80a-6e04-46f3-a723-a0bb5141be41,B1,zerfallen,"붕괴되다, 부서지다",Die alte Burg zerfällt langsam.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,zerfiel,zerfallen,zerfällst,zerfällt
+07da1fa4-575c-4a33-ba32-19c43543cf74,B1,töten,죽이다,Der Jäger tötete das Tier.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,tötete,getötet,tötest,tötet
+61ebc511-eb7d-4a58-a7a4-22f7eaeee5f2,B1,verfassen,"작성하다, 쓰다",Er hat den Artikel verfasst.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,verfasste,verfasst,verfasst,verfasst
+a8a864fa-4866-4bcb-9fa9-ff74e2209e79,B1,bestehen,"존재하다, 합격하다",Ich habe die Prüfung bestanden.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,bestand,bestanden,bestehst,besteht
+1d8ff175-d37e-4b8a-a786-20650aeaa0b6,B1,heranzukommen,"접근하다, 다가가다","Es ist schwer, an ihn heranzukommen.",시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,,,,
+d40beceb-3c9b-4f2f-98f8-165b3e3449dc,B1,berichten,"보고하다, 전하다",Die Zeitung berichtet über den Unfall.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,berichtete,berichtet,berichtest,berichtet
+c796bd09-9285-480d-bef4-13dd1bcc0304,B1,verfeinern,"정제하다, 개선하다",Er will das Rezept verfeinern.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,verfeinerte,verfeinert,verfeinerst,verfeinert
+fe48860e-1520-4b96-85f3-8b03ae3d677a,B1,gestalten,"형성하다, 꾸미다",Sie gestaltet das Zimmer neu.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,true,gestaltete,gestaltet,gestaltest,gestaltet
+4fa6618e-ad8e-4322-82a1-f983a4e7ffc1,B1,berühmt,유명한,Er ist weltweit berühmt.,시원스쿨,Day 1,false,false,2025-06-03T07:18:39.896952+00,false,,,,
+fd88eeff-3a83-431d-9a3d-6805a785aa85,B1,saniert,더미미,Das Haus wurde komplett saniert.,시원스쿨,Day 2,false,false,2025-06-03 06:54:53.344674+00,false,,,,
+8c41fdb2-f7b9-4f6d-a003-566bbb3da6ef,B1,besichtigt,"더미미, 관람한",Wir haben das Schloss besichtigt.,시원스쿨,Day 1,false,false,2025-06-03 06:55:08.074699+00,false,,,,
+4b816218-2b91-43cd-8258-d50759e2d7b4,B1,überraschende,더미미미,Das war eine überraschende Nachricht.,시원스쿨,Day 1,false,false,2025-06-03 06:55:21.559915+00,false,,,,
+3746cef0-7ec9-4cae-a770-dab3a27309de,B1,stimmts,"더미 데이터터?, 그렇지?","Du kommst heute, stimmts?	",시원스쿨,Day 1,false,false,2025-06-03 06:55:31.818704+00,false,,,,
