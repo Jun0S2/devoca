@@ -1,4 +1,3 @@
-```markdown
 # 📚 MergeTool for Vocab CSV
 
 자동 단어 병합 + 중복 확인 CLI 도구입니다.  
@@ -88,4 +87,3 @@ Which one do you want to keep? (1 : New, 2 : Existing)
 ---
 
 Happy Merging! 🧠📂
-```
