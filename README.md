@@ -1,6 +1,13 @@
 # devoca
 Web Application Service for learning German Words
 
+## Full Stack Web Development
+### German Vocabulary Learning Web Development
+
+- Built a responsive German vocabulary learning web app with CEFR-based categorization, verb conjugation practice, and bilingual modes (DE↔KR) with TTS and progress tracking.
+- 
+- Webpage : https://devoca.vercel.app/
+
 ### Branch Name Rules
 
 ```
